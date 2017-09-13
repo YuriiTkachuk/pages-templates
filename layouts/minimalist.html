@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ title }}</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../../assets/styles/minimalist.css">
+
+</head>
+<body>
+
+    <div class="page-header">
+
+      <div class="container">
+        <div class="logo">
+          <img class="img-fluid" src="{{ logo_path }}">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="page">
+        {{{ contents }}}
+
+        {{#if video_path}}
+        <div class="embed-responsive embed-responsive-4by3">
+          <iframe class="embed-responsive-item" src="{{ video_path }}" allowfullscreen>
+          </iframe>
+        </div>
+        {{/if}}
+
+      </div>
+    </div>
+
+</body>
+</html>
