@@ -1,6 +1,7 @@
 ---
 layout: minimalist.html
 title: Caledoniancrow
+content-align: left
 logo_path: ../../assets/images/minimalist-logo.png
 ---
 ## Brief outline of current research into the tool use of New Caledonian crows
