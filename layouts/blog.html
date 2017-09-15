@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>{{ title }}</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="../../assets/styles/blog.css">
+
+</head>
+<body>
+
+	{{#if banner_text}}
+	<div id="banner"><em>{{ banner_text }}</em></div>
+	{{/if}}
+
+	{{#if banner_path}}
+
+		<img  src="{{ banner_path }}" class="size"  width="800" >
+
+	{{/if}}
+
+
+	{{#if navbar}}
+		<div class="nav"><ul>
+		
+			{{#each navbar}}
+				<li>{{ buttons }}</li>
+			{{/each}}
+		</ul></div>
+	{{/if}}
+
+
+	<div class="maincol">
+		{{{ contents }}}
+
+	{{#if comments}}
+		  <div class="comments">
+		   <h2>{{ title_comment }}</h2>	    
+			{{#each comments}}
+			  <p>{{ comment }}<br>
+    				{{ author }}<br>
+			  </p>
+		        {{/each}}
+
+	           </div>		
+	{{/if}}
+
+	{{#if button}}
+		<p class="button">{{ button }}</p>
+	{{/if}}
+
+	{{#if button1}}
+		<p class="prev">{{ button1 }}</p>
+	{{/if}}
+
+	{{#if button2}}
+		<p class="next">{{ button2 }}</p>
+	{{/if}}
+
+
+	{{#if footer}}
+		<div class="footer">&copy; {{ footer }}</div>
+	{{/if}}
+	</div>
+
+</body>
+</html>
