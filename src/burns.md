@@ -2,7 +2,7 @@
 layout: minimalist.html
 title: To A Haggis by Robert Burns (translation)
 content-align: center
-logo_path: ../../assets/images/thistle.png
+logo-path: ../../assets/images/burns-thistle.png
 ---
 # Poems by Robert Burns, Scotland's national bard
 
