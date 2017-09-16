@@ -4,12 +4,18 @@
   "scripts": {
     "build": "node index.js"
   },
+  "engines": {
+    "node": "^8.4.0"
+  },
   "dependencies": {
     "bootstrap": "4.0.0-beta",
     "handlebars": "^4.0.5",
+    "jquery": "^3.2.1",
     "metalsmith": "^2.1.0",
     "metalsmith-layouts": "^1.4.1",
     "metalsmith-markdown": "^0.2.1",
-    "metalsmith-permalinks": "^0.5.0"
+    "metalsmith-permalinks": "^0.5.0",
+    "popper.js": "^1.12.5",
+    "express": "^4.15.4"
   }
 }
