@@ -6,7 +6,7 @@ logo-path: ../../assets/images/burns-thistle.png
 ---
 # Poems by Robert Burns, Scotland's national bard
 
-![Robert Burns](../../assets/images/RobertBurns.png)
+![Robert Burns](../../assets/images/burns-robert-burns.png)
 
 ## To A Haggis
 
