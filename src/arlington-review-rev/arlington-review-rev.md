@@ -3,7 +3,7 @@ layout: minimalist.html
 title: The Arlington Review - Coming Soon Films
 content-align: left
 logo-path: ../../assets/images/arlington-title.jpg
-video-path: http://www.youtube.com/embed/YOavDSErmak
+video-path: https://www.youtube.com/embed/YOavDSErmak
 ---
 # Big Eyes, Big Hit
 
