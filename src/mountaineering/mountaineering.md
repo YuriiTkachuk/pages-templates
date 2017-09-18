@@ -2,8 +2,7 @@
 layout: blog.html
 title: The Cretan Diet Snail Stew by Aristea
 banner_text: Life is an adventure
-button1: Previous
-button2: Next
+button: [ Previous, Next ]
 ---
 
 # Why climb mountains?

@@ -3,6 +3,7 @@ layout: blog.html
 title: The Into Africa Blog posts about environmental and development issues in Africa
 banner_path: ../../assets/images/banner-IntoAfrica.jpg
 ---
+
 ![](../../assets/images/blog-IntoAfrica-share.jpg)
 
 _15 February_

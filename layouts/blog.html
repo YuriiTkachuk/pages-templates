@@ -6,67 +6,110 @@
 
 	<title>{{ title }}</title>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" href="../../assets/styles/blog.css">
 
 </head>
+{{#if rightcol_title}}
+<body_rightcol>
+{{else}}
 <body>
+{{/if}}
 
-	{{#if banner_text}}
-	<div id="banner"><em>{{ banner_text }}</em></div>
+	{{#if rightcol_title}}
+		<div class="rightcolhidden">
+			<div class="rightcol">
+			  <h3>{{ rightcol_title }}</h3>
+			  {{#if rightcol_image_path}}
+				<img  src="{{ rightcol_image_path }}" class="size width="200" height="114">
+			  {{/if}}
+			  <p>{{ rightcol_text }}</p>
+			{{#if rightcol_list_name}}
+			  <h3>{{ rightcol_list_name }}</h3>
+			  {{#each rightcol_list_row}}
+				  <ul>
+				    <li>{{ this }}</li>
+				  </ul>
+			  {{/each}}
+			{{/if}}
+			</div>
+		</div>
 	{{/if}}
 
-	{{#if banner_path}}
+	<main>
+		{{#if banner_text}}
+			<div id="banner"><em>{{ banner_text }}</em></div>
+		{{/if}}
 
-		<img  src="{{ banner_path }}" class="size"  width="800" >
+		{{#if banner_path}}
+			<img  src="{{ banner_path }}" class="size"  width="800" >
+		{{/if}}
 
-	{{/if}}
+		{{#if navbar}}
+			<div id="navbar">
+			  <nav class="navbar navbar-expand-lg navbar-dark" role="navigation">
+			    <div class="container no-override">
+
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="navbar-toggler-icon"></span>
+				      </button>
+
+			      <div class="collapse navbar-collapse justify-content" id="navbar-collapse">
+				<ul class="navbar-nav">
+				  {{#each navbar}}
+					  <li class="nav-item dropdown">
+					     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+						  {{ this }}
+						 <i class="ion-chevron-down"></i>
+					     </a>
+				    {{/each}}
+			      </div>
+			   </nav>
+			 </div>
+		{{/if}}
+
+		{{#if banner_path2}}
+			<img  src="{{ banner_path2 }}" class="size"  width="800" >
+		{{/if}}
 
 
-	{{#if navbar}}
-		<div class="nav"><ul>
-		
-			{{#each navbar}}
-				<li>{{ buttons }}</li>
+		<div class="maincol">
+			{{{ contents }}}
+		</div>
+
+
+		{{#if comments}}
+			  <div class="comments">
+			   <h2>{{ title_comment }}</h2>
+				{{#each comments}}
+				  <p>{{ comment }}<br>
+            {{ author }}<br>
+				  </p>
+				{{/each}}
+
+			   </div>
+		{{/if}}
+
+		{{#if button}}
+			{{#each button}}
+				<p class="button">{{ this }}</p>
 			{{/each}}
-		</ul></div>
-	{{/if}}
+		{{/if}}
 
 
-	<div class="maincol">
-		{{{ contents }}}
 
-	{{#if comments}}
-		  <div class="comments">
-		   <h2>{{ title_comment }}</h2>	    
-			{{#each comments}}
-			  <p>{{ comment }}<br>
-    				{{ author }}<br>
-			  </p>
-		        {{/each}}
+		{{#if footer}}
+			<div class="footer">&copy; {{ footer }}</div>
+		{{/if}}
+	</main>
 
-	           </div>		
-	{{/if}}
-
-	{{#if button}}
-		<p class="button">{{ button }}</p>
-	{{/if}}
-
-	{{#if button1}}
-		<p class="prev">{{ button1 }}</p>
-	{{/if}}
-
-	{{#if button2}}
-		<p class="next">{{ button2 }}</p>
-	{{/if}}
-
-
-	{{#if footer}}
-		<div class="footer">&copy; {{ footer }}</div>
-	{{/if}}
-	</div>
+	<div class="footer"></div>
 
 </body>
+</body_rightcol>
 </html>

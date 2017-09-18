@@ -2,34 +2,34 @@
 layout: blog.html
 title: The Cretan Diet Snail Stew by Aristea
 banner_path: ../../assets/images/blog-banner-snailstew.jpg
-comments: [ 
+comments: [
 	{
-	comment: "This post is interesting, but I wonder if it's safe to eat all types of snails. Do you know if English garden snails are OK to prepare and eat the same way?", 
-	author: "Janet B"
-	},
-	{
-	comment: "Hi, I've been enjoying your posts on foraging for and preparing snails. Not something I thought about before, but I may try it!", 
-	author: "backwoodsboy"
-	},
-	{
-	comment: "I like the idea of traditional ingredients and finding your own food, but this recipe looks really time-consuming. Not for a housewife who also holds down a job.", 
-	author: "Janine McD"
-	},	
-	{
-	comment: "I LOVE snails! Back home we cook them with coconut milk and shrimp paste. Your recipe sounds delicious too!", 
-	author: "poonambalamK"
-	},	
-	{
-	comment: "OMG – you have got to be joking! All that slime and stuff. Just thinking about it makes me feel ill!", 
-	author: "Pattie969"
-	},	
-	{
-	comment: "This reminds me of summers in Crete - my grandmother made a dish like this. But I can't see my kids going for it – burgers are more their thing!", 
-	author: "dimitrisdoukakis"
-	},
+  comment: "This post is interesting, but I wonder if it's safe to eat all types of snails. Do you know if English garden snails are OK to prepare and eat the same way?",
+  author: "Janet B"
+  },
+  {
+  comment: "Hi, I've been enjoying your posts on foraging for and preparing snails. Not something I thought about before, but I may try it!",
+  author: "backwoodsboy"
+  },
+  {
+  comment: "I like the idea of traditional ingredients and finding your own food, but this recipe looks really time-consuming. Not for a housewife who also holds down a job.",
+  author: "Janine McD"
+  },
+  {
+  comment: "I LOVE snails! Back home we cook them with coconut milk and shrimp paste. Your recipe sounds delicious too!",
+  author: "poonambalamK"
+  },
+  {
+  comment: "OMG – you have got to be joking! All that slime and stuff. Just thinking about it makes me feel ill!",
+  author: "Pattie969"
+  },
+  {
+  comment: "This reminds me of summers in Crete - my grandmother made a dish like this. But I can't see my kids going for it – burgers are more their thing!",
+  author: "dimitrisdoukakis"
+  },
 ]
 title_comment: Reader comments
-button: Add a comment
+button: [ Add a comment ]
 footer: Aristea
 ---
 
@@ -39,9 +39,9 @@ _In Crete snails are eaten as a main meal, so a normal serving is about 15-20 sn
 
 ---
 
-![](../../assets/images/blog-image-snailstew.png)
-
 ### Preparing snails
+
+![](../../assets/images/blog-image-snailstew.png)
 
 Here in Crete we find snails in the wild (see my April 2011 post). Make sure the snails are alive before you cook them – put them in cold water and wait for signs of movement. Take each live snail out of the cold water and throw it immediately into a pot of boiling water. This kills it.
 
