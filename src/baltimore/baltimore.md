@@ -2,6 +2,8 @@
 layout: blog.html
 title: Baltimore's First Television
 banner_text: Baltimore's First Television
+button: [ Add comment ]
+footer: All right reserved
 ---
 
 ![](../../assets/images/blog-image-baltimore.jpg)
