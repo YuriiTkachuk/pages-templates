@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ title  }}</title>
+    <meta name="description" content="pageMetaDescription" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link href="../../assets/styles/placeguide.css" rel="stylesheet">
+  </head>
+  <body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark" role="navigation">
+
+      <a class="navbar-brand" href="index.html" style="background-color: red">
+        <img src="{{ logo }}" class="d-none d-lg-inline"/>
+      </a>
+      <div id="HeaderOuter">
+
+        <div id="navbar">
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#">About us</a></li>
+            </ul>
+          </div>
+        </div>
+
+    </nav>
+
+    <div id="page">
+      {{{ contents }}}
+      {{#each block}}
+      <div class="row">
+        <div class="text-centered half">
+          <div class="menu">
+            <h2>{{ title1 }}</h2>
+            <p class="small" style="text-align: center">
+            {{#if number1}}
+            {{ number1 }}<br>
+            {{/if}}
+            {{#if adress1}}
+            {{ adress1 }}<br>
+            {{/if}}
+            </p>
+            <hr>
+            <p class="small">{{ text1 }}</p>
+          </div>
+        </div>
+        {{#if title2}}
+        <div class="text-centered half">
+          <div class="menu">
+            <h2>{{ title2 }}</h2>
+            <p class="small" style="text-align:center">
+            {{#if number2}}
+            {{ number2 }}<br>
+            {{/if}}
+            {{#if adress2}}
+            {{ adress2 }}<br>
+            {{/if}}
+            </p>
+            <hr>
+            <p class="small">{{ text2 }}</p>
+          </div>
+        </div>
+        {{/if}}
+      </div>
+      {{/each}}
+    </div>
+  </body>
+</html>
