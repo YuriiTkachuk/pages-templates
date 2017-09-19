@@ -19,7 +19,9 @@
 
     <nav class="navbar navbar-expand-lg" role="navigation">
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
-        <a class="btn btn-default" href="#"><i class="fa fa-bars"></i></a>
+        <a class="btn btn-default" href="#">
+          <i class="fa fa-bars"></i>
+        </a>
       </button>
 
       <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
@@ -37,16 +39,16 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-12 col-md-7">
+      <div class="col-md-8">
         <div class="padding">
           <p class="breadcrumb">Home / News / {{ text_path }}</p>
           {{{ contents }}}
         </div>
       </div>
 
-      <div class="padding-sidebar">
+      <div class="padding-sidebar col-md-4">
         {{#if comments}}
-        <div class="col-md-12">
+        <div>
           <h3>{{ title_comment }}</h3>
           {{#each comments}}
           <ul class="list">
@@ -57,7 +59,7 @@
         {{/if}}
 
         {{#if sidebar}}
-        <div class="col-md-12">
+        <div>
           <img src="{{ sidebar }}">
         </div>
         {{/if}}
