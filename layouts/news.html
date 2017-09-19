@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+
+  <link rel="stylesheet" type="text/css" href="../../assets/styles/news.css">
+  <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../../node_modules/font-awesome/css/font-awesome.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div id="header">
+    <h1>Borders and County News</h1>
+
+    <nav class="navbar navbar-expand-lg" role="navigation">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+        <a class="btn btn-default" href="#"><i class="fa fa-bars"></i></a>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+
+          {{#each button}}
+          <li><button type="button" class="btn btn-default"><a href="{{ link }}">{{ type_button }}</a></button></li>
+          {{/each}}
+
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12 col-md-7">
+        <div class="padding">
+          <p class="breadcrumb">Home / News / {{ text_path }}</p>
+          {{{ contents }}}
+        </div>
+      </div>
+
+      <div class="padding-sidebar">
+        {{#if comments}}
+        <div class="col-md-12">
+          <h3>{{ title_comment }}</h3>
+          {{#each comments}}
+          <ul class="list">
+            <li><p><h6>{{ comment }}</h6></p></li>
+          </ul>
+          {{/each}}
+        </div>
+        {{/if}}
+
+        {{#if sidebar}}
+        <div class="col-md-12">
+          <img src="{{ sidebar }}">
+        </div>
+        {{/if}}
+
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <p>{{ footer }}</p>
+  </div>
+</body>
+
+</html>

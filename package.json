@@ -10,6 +10,7 @@
   "dependencies": {
     "bootstrap": "4.0.0-beta",
     "express": "^4.15.4",
+    "font-awesome": "^4.7.0",
     "glob": "^7.1.2",
     "handlebars": "^4.0.5",
     "jquery": "^3.2.1",

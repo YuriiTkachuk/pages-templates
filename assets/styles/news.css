@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  width: auto;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 0.9em;
+  color: #333;
+}
+
+h1 {
+  font-weight: normal;
+  line-height: 1.4em;
+  font-size: 2.4em;
+  margin: 10px 0 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+p {
+  margin-bottom: 15px;
+  line-height: 1.4em;
+  text-align: justify;
+}
+
+.breadcrumb {
+  font-size: 0.8em;
+  margin-top: -40px;
+}
+
+a {
+  color: white !important;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  border: 3px #CCCCCC solid;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.padding {
+  padding-top: 60px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+}
+
+.padding-sidebar {
+  float: right;
+  padding-top: 25px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+}
+
+.btn-default{
+  background: #0D3555 !important;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  font-family: "Trebuchet MS", "Lucida Sans";
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-left: 10px solid #0D3555;
+  box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+  -2px -2px 5px 0 rgba(0,0,0,.1),
+  2px 2px 5px 0 rgba(0,0,0,.1),
+  -2px 2px 5px 0 rgba(0,0,0,.1);
+  letter-spacing: 1px;
+}
+
+#header {
+  background: #02173b;
+  color: #fff;
+  padding: 20px;
+}
+
+#footer {
+  clear: both;
+  background: #02173b;
+  color: #fff;
+  padding: 40px;
+}
+
+#footer p {
+  max-width: 980px;
+  margin: auto;
+}
