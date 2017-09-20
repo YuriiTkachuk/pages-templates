@@ -3,6 +3,8 @@
 var Metalsmith  = require('metalsmith')
 var layouts     = require('metalsmith-layouts')
 var markdown    = require('metalsmith-markdown')
+var helpers = require('handlebars-helpers')
+var math = helpers.math()
 
 var dir = {
   base:   __dirname + '/',
