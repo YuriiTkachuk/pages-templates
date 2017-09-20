@@ -7,11 +7,11 @@ var app = express();
 app.use("/assets", express.static(__dirname + '/assets'));
 app.use("/node_modules", express.static(__dirname + '/node_modules'));
 
-glob.sync('./build/*/*.html').forEach( function(file) {
-
+glob.sync('./build/*/*.html').forEach(function(file) {
   let folder = path.dirname(file);
-  let base = '/' + path.basename(folder);
-  let pathToFile = path.join(__dirname, folder);
+  let name = path.basename(file);
+  let base = '/page/'  + path.basename(file, '.html');
+  let pathToFile = path.join(__dirname, folder, name);
 
   app.use(base, express.static(pathToFile));
 });

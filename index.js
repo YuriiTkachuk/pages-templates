@@ -3,7 +3,6 @@
 var Metalsmith  = require('metalsmith')
 var layouts     = require('metalsmith-layouts')
 var markdown    = require('metalsmith-markdown')
-var permalinks  = require('metalsmith-permalinks')
 
 var dir = {
   base:   __dirname + '/',
@@ -22,7 +21,6 @@ var ms = Metalsmith(dir.base)
   .destination(dir.dest)
   .clean(true)
   .use(markdown())
-  .use(permalinks())
   .use(layouts({
     engine: 'handlebars'
   }))
