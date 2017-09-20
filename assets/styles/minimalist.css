@@ -8,7 +8,7 @@ p {
 
 .page-header {
   background-color: white;
-  border-bottom: 2px solid #d9d19d;
+  border-bottom: 10px solid #d9d19d;
   padding: 1em 0 1em 0;
 }
 
@@ -46,6 +46,16 @@ blockquote {
   margin: 5px;
   text-align: center;
   font-weight: bold;
+}
+
+.person-info {
+  color: gray;
+  font-size: 13px;
+  margin: 0;
+  padding: 3px;
+}
+.person-info:last-of-type {
+  padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 800px) {

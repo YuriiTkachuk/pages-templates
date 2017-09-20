@@ -29,6 +29,27 @@
     <div class="container">
 
       <div class="page" style="text-align: {{ content-align }};">
+
+				{{#if person-photo-path}}
+				<img class="img-fluid" src="{{ person-photo-path }}">
+				{{/if}}
+
+				{{#if person-about}}
+				<div class="person-about">
+					{{#if person-about-header}}
+					<p class="person-info"><i>{{ person-about-header }}</i></p>
+					{{/if}}
+
+					{{#each person-info}}
+          <p class="person-info"><i>{{ this.info }}</i></p>
+          {{/each}}
+
+					{{#if person-about-footer}}
+					<p class="person-info"><i>{{ person-about-footer }}</i></p>
+					{{/if}}
+				</div>
+				{{/if}}
+
         {{{ contents }}}
 
         {{#if video-path}}
