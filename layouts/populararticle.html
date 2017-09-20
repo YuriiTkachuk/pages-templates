@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title }}</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../assets/styles/populararticle.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 header">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-faded backrgound-nav navbar-header-margin">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            {{#if nav-brand}}
+            <a class="navbar-brand" href="#">{{ nav-brand }}</a>
+            {{/if}}
+            {{#if if-logo}}
+              <a class="navbar-brand" href="#">
+                <img src="{{ images.img_logo }}">
+              </a>
+            {{/if}}
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                {{#if navbar-nav-item}}
+                {{#each navbar-nav-item}}
+                <li class="nav-item">
+                  <a class="nav-link" href="#">{{ this }}</a>
+                </li>
+                {{/each}}
+                {{/if}}
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {{ nav-item-lectures }}
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    {{#if dropdown-menu-active-item}}
+                    <a class="dropdown-item active-link" href="#">{{ dropdown-menu-active-item }}</a>
+                    {{/if}}
+
+                    {{#if is_divide}}
+                    <hr />
+                    {{/if}}
+
+                    {{#if dropdown-menu}}
+                    {{#each dropdown-menu}}
+                    <a class="dropdown-item" href="#">{{ this }}</a>
+                    {{/each}}
+                    {{/if}}
+
+                    {{#if dropdown-menu-divider}}
+                    {{#each dropdown-menu-divider}}
+                    <hr />
+                    <a class="dropdown-item" href="#">{{ this }}</a>
+                    {{/each}}
+                    {{/if}}
+                  </div>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0 ml-lg-auto">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-default my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4 col-md-3 d-none d-md-block left-col">
+            <div class="list-group">
+              {{#if list-group-items-1}}
+              {{#each list-group-items-1}}
+              <a href="#" class="list-group-item dropdown-item">{{ this }}</a>
+              {{/each}}
+              {{/if}}
+
+              {{#if list-group-item-active}}
+              <a href="#" class="list-group-item dropdown-item active-link">{{ list-group-item-active }}<span class="sr-only"> (current)</span></a>
+              {{/if}}
+
+              {{#if list-group-items-2}}
+              {{#each list-group-items-2}}
+              <a href="#" class="list-group-item dropdown-item">{{ this }}</a>
+              {{/each}}
+              {{/if}}
+
+              {{#if item17}}
+              <a href="#" class="list-group-item dropdown-item">{{ item17.item1 }}<br />{{ item17.item2 }}</a>
+              {{/if}}
+
+              {{#if list-group-items-3}}
+              {{#each list-group-items-3}}
+              <a href="#" class="list-group-item dropdown-item">{{ this }}</a>
+              {{/each}}
+              {{/if}}
+            </div>
+        </div>
+
+        <div class="col-sm-8 col-md-9 col-12 main-col">
+          <header id="{{ background-id }}">
+
+          <a class="sr-only" href="#" title="Diwali Lanterns by Dhinal Chheda, on Flickr"><img src="https://farm4.staticflickr.com/3730/8856023001_a567e226bc_b.jpg" width="1024" height="353" alt="Diwali Lanterns"></a>
+          {{#if jumbotron}}
+          <div class="jumbotron">
+          {{/if}}
+            <h1 class="{{ big-font-size }}">{{ main-title }}</h1>
+            {{#if main-description}}
+            <p class="{{ middle-font-size }}">{{main-description}}</p>
+            {{/if}}
+            {{#if main-image}}
+              <picture>
+                <source media="(min-width: 1200px)" srcset="{{ main-image.img_large }}">
+                <source media="(min-width: 992px)" srcset="{{ main-image.img }}">
+                <source media="(min-width: 768px)" srcset="{{ main-image.img_small }}">
+                <source srcset="{{ main-image.img_small }}">
+                <img class="img-thumbnail img-center" src="{{ main-image.img}}" alt="{{ main-image.alt }}" />
+              </picture>
+            {{/if}}
+          {{#if jumbotron}}
+          </div>
+          {{/if}}
+          </header>
+
+          {{#if fairytail}}
+            <div class="col-sm-8 col-md-9 col-12 main-col">
+
+            <img src="{{ images.img_fairy1 }}" class="pull-right humb d-none d-md-block" style="float: right"/>
+
+            <p>{{ text.text_fairy1 }}</p>
+
+            <p>{{ text.text_fairy2 }}</p>
+
+            <blockquote>{{ blackquotes.item1 }}<span>{{ blackquotes_span.item1 }}</span></blockquote>
+            <blockquote>{{ blackquotes.item2 }}<span>{{ blackquotes_span.item2 }}</span></blockquote>
+
+            <p>{{ text.text_fairy3 }}</p>
+
+            <p>{{ text.text_fairy4 }}</p>
+
+            <img src="{{ images.img_fairy2 }}" class="pull-left thumb d-none d-md-block" style="float: left"/></a>
+
+            <blockquote>{{ blackquotes.item3 }}<span>{{ blackquotes_span.item3 }}</span></blockquote>
+            <blockquote>{{ blackquotes.item4 }}<span>{{ blackquotes_span.item4 }}</span></blockquote>
+            <blockquote>{{ blackquotes.item5 }}<span>{{ blackquotes_span.item5 }}</span></blockquote>
+            <blockquote>{{ blackquotes.item6 }}<span>{{ blackquotes_span.item6 }}</span></blockquote>
+            <blockquote>{{ blackquotes.item7 }}<span>{{ blackquotes_span.item7 }}</span></blockquote>
+            <blockquote>{{ blackquotes.item8 }}<span>{{ blackquotes_span.item8 }}</span></blockquote>
+
+
+            <p>{{ text.text_fairy5 }}</p>
+            <p>{{ text.text_fairy6 }}</p>
+            <div class="text-center">
+              <img src="{{ images.img-divider }}"/>
+            </div>
+          </div>
+
+          {{/if}}
+
+          {{#if second-main-title}}
+            <h2>{{ second-main-title }}</h2>
+          {{/if}}
+          <p>{{ text.text11 }}</p>
+          <p>{{ text.text12 }}</p>
+
+          {{#if text.block-title1}}
+          <h2>{{ text.block-title1 }}</h2>
+          <a href="#" data-toggle="modal" data-target="#myModal" data-slide-to="0" title="Diwali by Simon Fraser University -  University Communications, on Flickr">
+            <picture>
+            <source media="(min-width: 768px)" srcset="{{ images.img1_small}}" style="float: left;">
+            <source srcset="{{ images.img1_thumb}}" style="float: left;">
+                <img class="img-thumbnail img-margin-left" src="{{ images.img1 }}" alt="Diwali" style="float: left;">
+            </picture>
+            <span class="glyphicon glyphicon-camera"></span>
+          </a>
+          {{/if}}
+
+          <p>{{ text.text21 }}</p>
+          <p>{{ text.text22 }}</p>
+
+          {{#if second-image}}
+          <a href="#" data-toggle="modal" data-target="#myModal" data-slide-to="1" title="Happy Diwali by sowrirajan s, on Flickr">
+            <picture>
+            <source media="(min-width: 768px)" srcset="{{ images.img2_small}}" style="float: right;">
+              <source srcset="{{ images.img2_thumb}}" style="float: right;">
+                <img class="img-thumbnail img-margin-right" src="{{ images.img2 }}" alt="Happy Diwali" style="float: right;">
+            </picture>
+            <span class="glyphicon glyphicon-camera"></span>
+          </a>
+          {{/if}}
+
+          <p>{{ text.text31 }}</p>
+          <p>{{ text.text32 }}</p>
+          <p>{{ text.text33 }}</p>
+
+          {{#if text.block-title2}}
+          <h2>{{ text.block-title2 }}</h2>
+          <a href="#" data-toggle="modal" data-target="#myModal" data-slide-to="2" title="307/365: 11/03/2013. Diwali (Festival of lights)! by peddhapati, on Flickr">
+            <picture>
+            <source media="(min-width: 768px)" srcset="{{ images.img3_small}}" style="float: right;">
+              <source srcset="{{ images.img3_thumb}}" style="float: right;">
+                <img class="img-thumbnail img-margin-right" src="{{ images.img3 }}" alt="307/365: 11/03/2013. Diwali (Festival of lights)!" style="float: right;">
+            </picture>
+            <span class="glyphicon glyphicon-camera"></span>
+          </a>
+          {{/if}}
+          <p>{{ text.text41 }}</p>
+          <p>{{ text.text42 }}</p>
+          <p>{{ text.text43 }}</p>
+
+          {{#if text.block-title3}}
+          <h2>{{ text.block-title3 }}</h2>
+          <a href="#" data-toggle="modal" data-target="#myModal" data-slide-to="3" title="Diwali_031 by sporadic, on Flickr">
+            <picture>
+            <source media="(min-width: 768px)" srcset="{{ images.img4_small}}" style="float: left;">
+              <source srcset="{{ images.img4_thumb}}" style="float: left;">
+                <img class="img-thumbnail img-margin-left" src="{{ images.img4 }}" alt="Diwali_031" style="float: left;">
+            </picture>
+            <span class="glyphicon glyphicon-camera"></span>
+          </a>
+          {{/if}}
+          <p style="margin-bottom: 5rem">{{ text.text5 }}</p>
+
+          {{#if text.block-title4}}
+            <h2>{{ text.block-title4 }}</h2>
+            <a href="#" data-toggle="modal" data-target="#myModal" data-slide-to="2" title="307/365: 11/03/2013. Diwali (Festival of lights)! by peddhapati, on Flickr">
+              <picture>
+              <source media="(min-width: 768px)" srcset="{{ images.img5_small}}" style="float: right;">
+                <source srcset="{{ images.img5_thumb}}" style="float: right;">
+                  <img class="img-thumbnail img-margin-right" src="{{ images.img5 }}" alt="307/365: 11/03/2013. Diwali (Festival of lights)!" style="float: right;">
+              </picture>
+              <span class="glyphicon glyphicon-camera"></span>
+            </a>
+            <p>{{ text.text6 }}</p>
+          {{/if}}
+
+          {{#if text.block-title5}}
+            <h2>{{ text.block-title5 }}</h2>
+            <a href="#" data-toggle="modal" data-target="#myModal" data-slide-to="3" title="Diwali_031 by sporadic, on Flickr">
+              <picture>
+              <source media="(min-width: 768px)" srcset="{{ images.img6_small}}" style="float: left;">
+                <source srcset="{{ images.img6_thumb}}" style="float: left;">
+                  <img class="img-thumbnail img-margin-left" src="{{ images.img6 }}" alt="Diwali_031" style="float: left;">
+              </picture>
+              <span class="glyphicon glyphicon-camera"></span>
+            </a>
+            <p style="margin-bottom: 3rem">{{ text.text7 }}</p>
+          {{/if}}
+
+          {{#if text.block-title6}}
+            <h2>{{ text.block-title6 }}</h2>
+              <a href="#" data-toggle="modal" data-target="#myModal" data-slide-to="2" title="307/365: 11/03/2013. Diwali (Festival of lights)! by peddhapati, on Flickr">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="{{ images.img7_small}}" style="float: right;">
+                  <source srcset="{{ images.img7_thumb}}" style="float: right;">
+                  <img class="img-thumbnail img-margin-right" src="{{ images.img7 }}" style="float: right;">
+                </picture>
+                <span class="glyphicon glyphicon-camera"></span>
+              </a>
+            <p>{{ text.text8 }}</p>
+          {{/if}}
+
+          {{#if text.block-title7}}
+            <h2>{{ text.block-title7 }}</h2>
+              <a href="#" data-toggle="modal" data-target="#myModal" data-slide-to="3" title="Diwali_031 by sporadic, on Flickr">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="{{ images.img8_small}}" style="float: left;">
+                  <source srcset="{{ images.img8_thumb}}" style="float: left;">
+                  <img class="img-thumbnail img-margin-left" src="{{ images.img8 }}" style="float: left;">
+                </picture>
+                <span class="glyphicon glyphicon-camera"></span>
+              </a>
+            <p>{{ text.text9 }}</p>
+          {{/if}}
+
+
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+              <div class="carousel-inner" role="listbox">
+                {{#if slide_image_1}}
+                <div class="carousel-item active">
+                  <picture>
+                  <source media="(min-width: 768px)" srcset="{{ slide_image_1.img_large }}">
+                    <source srcset="{{ slide_image_1.img }}">
+                      <img class="d-block img-fluid img-responsive img-thumbnail" src="{{ slide_image_1.img }}" alt="{{ slide_image_1.alt }}">
+                  </picture>
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>{{ slide_image_1.title }}</p>
+                  </div>
+                </div>
+                {{/if}}
+                {{#if slide_images}}
+                {{#each slide_images}}
+                <div class="carousel-item">
+                  <picture>
+                  <source media="(min-width: 768px)" srcset="{{ img_large }}">
+                    <source srcset="{{ img }}">
+                    <img class="img-thumbnail" src="{{ img }}" alt="{{ alt }}">
+                  </picture>
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>{{ title }}</p>
+                  </div>
+                </div>
+                {{/each}}
+                {{/if}}
+              </div>
+
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <footer class="footer-template backrgound-nav">
+      <div>
+        <a href="#" style="margin-right: 15%;">
+          <span class="glyphicon glyphicon-info-sign"></span>
+          Contact us
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          Privacy Policy
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          Terms &amp; Conditions
+        </a>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <script>
+      $('#myModal').on('show.bs.modal', function (event) {
+        var link = $(event.relatedTarget) // Button that triggered the modal
+        var slideTo = link.data('slide-to');
+        if ("undefined" !== typeof slideTo) {
+          $('#carousel-example-generic').carousel(slideTo);
+        }
+      })
+    </script>
+  </body>
+</html>
