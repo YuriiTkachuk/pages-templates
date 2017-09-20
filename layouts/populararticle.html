@@ -75,31 +75,31 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-4 col-md-3 d-none d-xl-block left-col">
+        <div class="col-sm-4 col-md-3 d-none d-md-block left-col">
             <div class="list-group">
               {{#if list-group-items-1}}
               {{#each list-group-items-1}}
-              <a href="#" class="list-group-item dropdown-item">{{ this }}</a>
+              <a href="#" class="list-group-item dropdown-item new_line">{{ this }}</a>
               {{/each}}
               {{/if}}
 
               {{#if list-group-item-active}}
-              <a href="#" class="list-group-item dropdown-item active-link">{{ list-group-item-active }}<span class="sr-only"> (current)</span></a>
+              <a href="#" class="list-group-item dropdown-item active-link new_line">{{ list-group-item-active }}<span class="sr-only"> (current)</span></a>
               {{/if}}
 
               {{#if list-group-items-2}}
               {{#each list-group-items-2}}
-              <a href="#" class="list-group-item dropdown-item">{{ this }}</a>
+              <a href="#" class="list-group-item dropdown-item new_line">{{ this }}</a>
               {{/each}}
               {{/if}}
 
               {{#if item17}}
-              <a href="#" class="list-group-item dropdown-item">{{ item17.item1 }}<br />{{ item17.item2 }}</a>
+              <a href="#" class="list-group-item dropdown-item new_line">{{ item17.item1 }}<br />{{ item17.item2 }}</a>
               {{/if}}
 
               {{#if list-group-items-3}}
               {{#each list-group-items-3}}
-              <a href="#" class="list-group-item dropdown-item">{{ this }}</a>
+              <a href="#" class="list-group-item dropdown-item new_line">{{ this }}</a>
               {{/each}}
               {{/if}}
             </div>

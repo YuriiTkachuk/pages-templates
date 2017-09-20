@@ -45,8 +45,8 @@ middle-font-size: middle-font-size
 
 main-image: {
   img_large: "../../assets/images/allaboutsports_wimbledon_Centre_Court_large.jpg",
-  img_small: "../../assets/images/allaboutsports_wwimbledon_Centre_Court_small.jpg",
-  img: "../../assets/images/allaboutsports_wwimbledon_Centre_Court.jpg",
+  img_small: "../../assets/images/allaboutsports_wimbledon_Centre_Court_small.jpg",
+  img: "../../assets/images/allaboutsports_wimbledon_Centre_Court.jpg",
   alt: "Centre Court roof"
 }
 
