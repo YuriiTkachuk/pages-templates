@@ -1,0 +1,149 @@
+*{
+  margin:0px;
+  padding:0px;
+border:0px;}
+
+body {
+  background-color:#ffffff;
+  font-family:arial,helvetica;
+}
+
+h1 {
+  padding:0px 0px 10px 0px;
+  font-size:1.80em;
+  font-family:arial,helvetica;
+  color:#3f2845;
+  font-weight:bold;
+}
+
+h2 {
+  padding:0px 0px 10px 0px;
+  font-size:1.40em;
+  font-family:arial,helvetica;
+  color:#3f2845;
+  font-weight:bold;
+}
+
+h3 {
+  padding:0px 0px 10px 0px;
+  font-size:1.40em;
+  font-family:arial,helvetica;
+  color:#3f2845;
+  font-weight:bold;
+}
+
+p {
+  padding:0px 0px 10px 0px;
+  font-size:1.1em;
+  font-family:arial,helvetica;
+  color:#333333;
+  line-height:22px;
+}
+
+a {
+  color:#2405c6;
+  text-decoration:underline;
+  font-family:arial,helvetica;
+}
+
+a:hover {
+  color:#c60569;
+  text-decoration:underline;
+  font-family:arial,helvetica;
+}
+
+#NavInner p {
+  padding:20px 0px 0px 2px;
+  font-size:1.1em;
+  font-family:arial,helvetica;
+  color:#111111;
+  line-height:22px;
+  text-align:center;
+}
+
+#NavInner a {
+  color:#ffffff;
+  text-decoration:none;
+  font-family:arial,helvetica;
+}
+
+#NavInner a:hover {
+  color:#111111;
+  text-decoration:underline;
+  font-family:arial,helvetica;
+}
+
+ol {
+  margin:0 0 15px 25px;
+  font-family:arial,helvetica;
+}
+
+ul {
+  margin:0 0 15px 25px;
+  font-family:arial,helvetica;
+}
+
+li {
+  font-size:0.80em;
+  margin-bottom:8px;
+  color:#ffffff;
+  font-family:arial,helvetica;
+  line-height:20px;
+}
+
+::selection {
+  color:#000000;
+  background-color:#ffffff;
+}
+::-moz-selection {
+  color:#000000;
+  background-color:#ffffff;
+}
+
+
+#NavOuter {
+  max-width:100%;
+  position:relative;
+  background-color:#f1f1f1;
+}
+
+#NavInner {
+  max-width:980px;
+  position:relative;
+  margin:auto;
+  padding:20px 0px 20px 0px;
+}
+
+
+#MainOuter {
+  max-width:100%;
+  position:relative;
+}
+
+#MainInner {
+  max-width:980px;
+  position:relative;
+  margin:auto;
+  padding:30px 0px 30px 0px;
+  background-color:#ffffff;
+}
+
+#FooterOuter {
+  max-width:100%;
+  background-color:#f1f1f1;
+  position:relative;
+  height:100px;
+  margin-top:30px;
+  clear:both;
+}
+
+.Box {
+  padding:20px 20px 20px 20px;
+  margin-top:20px;
+  border-bottom:1px solid #c0c0c0;
+}
+
+.Green {
+  word-wrap: break-word;
+  color:#089605;
+}
