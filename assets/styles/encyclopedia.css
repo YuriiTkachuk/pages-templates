@@ -1,0 +1,52 @@
+/* Center carousel images */
+body {
+  font-family: inherit;
+  width: 80%;
+  margin-bottom: 50px;
+  margin-left: 10%;
+}
+
+.back {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #485563;
+}
+
+.text {
+  font-family: "Lato";
+  color: #ebebeb;
+}
+
+.list-group-item {
+  color: #ebebeb;
+  background-color: #485563;
+}
+
+.nav-pills .nav-link.active {
+  color: #ebebeb;
+  background-color: #485563;
+}
+
+.padd {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.col-md-5 {
+  padding-top: 20px;
+}
+
+.col-md-7 {
+  padding-top: 20px;
+}
+
+.left-col .thumbnail {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-form .form-control {
+    width: 170px;
+  }
+}

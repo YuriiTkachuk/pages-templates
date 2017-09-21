@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>PICASSO, Pablo</title>
+
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/javascripts/encyclopedia.js"></script>
+
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../assets/styles/encyclopedia.css">
+  </head>
+  <body class="bg-dark">
+
+    <nav class="navbar navbar-expand-lg navbar-dark back" role="navigation">
+      <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="navbar-brand text-white">Mini-Biographies</a>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="nav pad">
+      <li class="nav-item"><a class="nav-link text" href="#A">A</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#B">B</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#C">C</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#D">D</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#E">E</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#F">F</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#G">G</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#H">H</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#I">I</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#J">J</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#K">K</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#L">L</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#M">M</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#N">N</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#O">O</a></li>
+      <li class="nav-item"><a class="nav-link text active" href="#P">P</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#Q">Q</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#R">R</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#S">S</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#T">T</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#U">U</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#V">V</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#W">W</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#X">X</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#Y">Y</a></li>
+      <li class="nav-item"><a class="nav-link text" href="#Z">Z</a></li>
+    </ul>
+
+    <ul id="clothing-nav" class="nav nav-pills" role="tablist">
+      {{#each famous}}
+      {{#if @first}}
+      <li class="nav-item">
+        <a class="nav-link active" href="#{{ last_name }} "role="tab" id="{{ last_name }}-tab" data-toggle="tab" aria-controls="{{ last_name }}" aria-expanded="true">
+          <div class="text">{{ last_name }}</div>
+        </a>
+      </li>
+      {{else}}
+      <li class="nav-item">
+        <a class="nav-link" href="#{{ last_name }}" role="tab" id="{{ last_name }}-tab" data-toggle="tab" aria-controls="{{ last_name }}">
+          <div class="text">{{ last_name }}</div>
+        </a>
+      </li>
+      {{/if}}
+      {{/each}}
+    </ul>
+
+    <div id="clothing-nav-content" class="tab-content">
+      {{#each famous}}
+      {{#if @first}}
+      <div role="tabpanel" class="tab-pane fade show active" id="{{ last_name }}">
+        <div class="row">
+
+          <div class="col-md-5">
+            <ul class="list-group col">
+              <li class="list-group-item"><strong>Born: </strong>{{ born }}</li>
+              <li class="list-group-item"><strong>Birthplace: </strong>{{ birthplace }}</li>
+              <li class="list-group-item"><strong>Died: </strong>{{ died }}</li>
+            </ul>
+          </div>
+
+          <div class="col-md-7">
+            <h1 class="text">{{ last_name }}, {{ first_name }}</h1>
+            <p class="text">{{ bio }}</p>
+          </div>
+        </div>
+      </div>
+
+      {{else}}
+      <div role="tabpanel" class="tab-pane fade" id="{{ last_name }}" aria-labelledby="{{ last_name }}-tab">
+        <div class="row">
+          <div class="col-md-5">
+            <ul class="list-group">
+              <li class="list-group-item"><strong>Born: </strong>{{ born }}</li>
+              <li class="list-group-item"><strong>Birthplace: </strong>{{ birthplace }}</li>
+              <li class="list-group-item"><strong>Died: </strong>{{ died }}</li>
+            </ul>
+          </div>
+          <div class="col-md-7">
+            <h1 class="text">{{ last_name }}, {{ first_name }}</h1>
+            <p class="text">{{ bio }}</p>
+          </div>
+        </div>
+      </div>
+
+      {{/if}}
+      {{/each}}
+    </div>
+  </body>
+</html>
