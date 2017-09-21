@@ -28,6 +28,7 @@
 
     <div class="container">
 
+			{{#if contents}}
       <div class="page" style="text-align: {{ content-align }};">
 
 				{{#if person-photo-path}}
@@ -60,7 +61,23 @@
         {{/if}}
 
       </div>
-    </div>
+			{{/if}}
+
+			{{#if comments}}
+			<div class="page">
+				{{#each comments}}
+				<div class="card bg-light mb-3">
+				  <div class="card-header text-danger">{{this.person}}</div>
+				  <div class="card-body">
+				    <div class="card-text text-dark">{{this.content}}</div>
+				  </div>
+					<div class="card-footer text-muted">{{this.time}}</div>
+				</div>
+				{{/each}}
+			</div>
+			{{/if}}
+
+		</div>
 
 </body>
 </html>
