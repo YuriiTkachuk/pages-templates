@@ -13,71 +13,68 @@
 
 </head>
 <body>
-
-		{{#if logo-path}}
-    <div class="page-header">
-
-      <div class="container">
-        <div class="logo">
-          <img class="img-fluid" src="{{ logo-path }}">
-        </div>
-      </div>
-
-    </div>
-		{{/if}}
+  {{#if logo-path}}
+  <div class="page-header">
 
     <div class="container">
-
-			{{#if contents}}
-      <div class="page" style="text-align: {{ content-align }};">
-
-				{{#if person-photo-path}}
-				<img class="img-fluid" src="{{ person-photo-path }}">
-				{{/if}}
-
-				{{#if person-about}}
-				<div class="person-about">
-					{{#if person-about-header}}
-					<p class="person-info"><i>{{ person-about-header }}</i></p>
-					{{/if}}
-
-					{{#each person-info}}
-          <p class="person-info"><i>{{ this.info }}</i></p>
-          {{/each}}
-
-					{{#if person-about-footer}}
-					<p class="person-info"><i>{{ person-about-footer }}</i></p>
-					{{/if}}
-				</div>
-				{{/if}}
-
-        {{{ contents }}}
-
-        {{#if video-path}}
-        <div class="embed-responsive embed-responsive-4by3">
-          <iframe class="embed-responsive-item" src="{{ video-path }}" allowfullscreen>
-          </iframe>
-        </div>
-        {{/if}}
-
+      <div class="logo">
+        <img class="img-fluid" src="{{ logo-path }}">
       </div>
-			{{/if}}
+    </div>
 
-			{{#if comments}}
-			<div class="page">
-				{{#each comments}}
-				<div class="card bg-light mb-3">
-				  <div class="card-header text-danger">{{this.person}}</div>
-				  <div class="card-body">
-				    <div class="card-text text-dark">{{this.content}}</div>
-				  </div>
-					<div class="card-footer text-muted">{{this.time}}</div>
-				</div>
-				{{/each}}
+  </div>
+  {{/if}}
+
+  <div class="container">
+    {{#if contents}}
+    <div class="page" style="text-align: {{ content-align }};">
+      {{#if person-photo-path}}
+      <img class="img-fluid" src="{{ person-photo-path }}">
+      {{/if}}
+
+			{{#if person-about}}
+			<div class="person-about">
+				{{#if person-about-header}}
+				<p class="person-info"><i>{{ person-about-header }}</i></p>
+				{{/if}}
+
+				{{#each person-info}}
+        <p class="person-info"><i>{{ this.info }}</i></p>
+        {{/each}}
+
+				{{#if person-about-footer}}
+				<p class="person-info"><i>{{ person-about-footer }}</i></p>
+				{{/if}}
+
 			</div>
 			{{/if}}
 
+      {{{ contents }}}
+
+      {{#if video-path}}
+      <div class="embed-responsive embed-responsive-6by3">
+        <iframe class="embed-responsive-item" src="{{ video-path }}" allowfullscreen>
+        </iframe>
+      </div>
+      {{/if}}
+
+    </div>
+    {{/if}}
+
+    {{#if comments}}
+    <div class="page">
+			{{#each comments}}
+			<div class="card bg-light mb-3">
+			  <div class="card-header text-danger">{{this.person}}</div>
+			  <div class="card-body">
+			    <div class="card-text text-dark">{{this.content}}</div>
+			  </div>
+				<div class="card-footer text-muted">{{this.time}}</div>
+			</div>
+			{{/each}}
 		</div>
+		{{/if}}
+  </div>
 
 </body>
 </html>
