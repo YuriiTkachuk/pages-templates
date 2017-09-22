@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ title }}</title>
+
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/javascripts/popular-article.js"></script>
+
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../assets/styles/popular-article.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-background">
+        <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        {{#if navbar-logo-path}}
+        <a href="#" class="navbar-brand">
+          <img src="{{ navbar-logo-path }}">
+        </a>
+        {{/if}}
+
+        {{#if navbar-title}}
+        <a href="#" class="navbar-brand">{{ navbar-title }}</a>
+        {{/if}}
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="navbar-nav">
+
+            {{#each navbar-items}}
+            {{#if this.dropdown-items}}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown">
+                {{ this.name }}
+              </a>
+
+              <div class="dropdown-menu" role="menu">
+                {{#each this.dropdown-items}}
+                  <a class="dropdown-item" href="{{ this.link }}">{{ this.name }}</a>
+                {{/each}}
+              </div>
+            </li>
+            {{else}}
+            <li class="nav-item">
+              <a class="nav-link" href="#">{{ this.name }}</a>
+            </li>
+            {{/if}}
+            {{/each}}
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row">
+        <div class="col-md-3 py-3">
+          <div class="list-group">
+            {{#each sidebar-list}}
+            {{#if this.active}}
+            <a href="{{this.link}}" class="list-group-item dropdown-item active-item">{{this.name}}</a>
+            {{else}}
+            <a href="{{this.link}}" class="list-group-item dropdown-item">{{this.name}}</a>
+            {{/if}}
+            {{/each}}
+          </div>
+        </div>
+
+        <div class="col-md-9 py-3">
+          {{#if page-path}}
+          <p class="py-2 breadcrumb">{{ page-path }}</p>
+          {{/if}}
+
+          {{#if box-text}}
+          <div class="jumbotron">
+            {{#if box-title}}
+            <h2>{{ box-title }}</h2>
+            {{/if}}
+            <p>{{ box-text }}</p>
+            {{#if box-image-path}}
+            <center><img class="img-fluid" src="{{ box-image-path }}"></center>
+            {{/if}}
+          </div>
+          {{/if}}
+
+          {{{ contents }}}
+        </div>
+
+      </div>
+    </div>
+
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark navbar-background">
+      <div class="collapse navbar-collapse justify-content-end">
+        <ul class="nav navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Terms &amp; Conditions</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Privacy Policy</a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><span class="glyphicon glyphicon-info-sign"></span> Contact us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </body>
+</html>
