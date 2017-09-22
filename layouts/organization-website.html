@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ title }}</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="../../assets/styles/organization-website.css"/>
+  <link rel="stylesheet" type="text/css" href="../../node_modules/bootstrap/dist/css/bootstrap.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans' rel='stylesheet' type='text/css'>
+
+  <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../../node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="{{ image-path }}" class="logo" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse nv" id="navbarNav">
+      <ul class="navbar-nav">
+        {{#each nav}}
+        <li class="nav-item">
+          <a class="nav-link" href="#">{{ this }}</a>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 container-fluid-sm">
+        {{{ contents }}}
+        {{#if image}}
+          <div class="images row">
+            {{#each image}}
+              <div class="col-md-4 col-sm">
+                <img src="{{ this }}" class="img-thumbnail">
+              </div>
+            {{/each}}
+          </div>
+        {{/if}}
+      </div>
+
+      <div class="col-lg-3 sidebar">
+        {{#if button}}
+          <div class="buttons">
+            {{#each button}}
+              <input class="btn btn-primary btn-block" type="submit" value="{{ this }}">
+            {{/each}}
+          </div>
+        {{/if}}
+        {{#if sideimage}}
+          {{#each sideimage}}
+              <img class="img-container" src="{{ this }}">
+          {{/each}}
+        {{/if}}
+        {{#if sideform}}
+          <div class="sideform">
+            <h4>Stay in touch</h4>
+            <form>
+              <div class="form-row align-items-center">
+                <div class="form-group">
+                  <label class="sr-only" for="inlineFormInput">Email address</label>
+                  <input type="text" class="form-control mb-2 mb-sm-0" id="inlineFormInput" placeholder="Email address">
+                </div>
+                <div class="form-group">
+                  <label class="sr-only" for="inlineFormInputGroup">Zip code</label>
+                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Zip code(optional)">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+            <h4>Where else to find us</h4>
+            <p>DRD will be exhibiting at the Atlanta IT Fair this weekend! Find us in the Georgia World Congress Centre in downtown Atlanta. <a href="#">https://drd.org/r.a7m6</a></p>
+            <span>SEP 29 @ 5:13AM</span>
+          </div>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">&copy;All rights reserved.</span>
+    </div>
+  </footer>
+
+</body>
+</html>
