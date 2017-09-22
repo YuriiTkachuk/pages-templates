@@ -5,7 +5,7 @@ image-path: "../../assets/images/digitalrightsdefense-logo.png"
 nav: [ Home, About, Articles, Blog, Join us, Donate]
 image: [../../assets/images/digitalrightsdefense1.png, ../../assets/images/digitalrightsdefense2.png, ../../assets/images/digitalrightsdefense3.png]
 sidebar: true
-button: [Donate to DRD, Join DRD]
+button: [ btn: Donate to DRD, btn: Join DRD]
 sideform: true
 
 ---

@@ -36,8 +36,9 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 container-fluid-sm">
+      <div class="col-lg-8 container-fluid-sm main">
         {{{ contents }}}
+
         {{#if image}}
           <div class="images row">
             {{#each image}}
@@ -47,21 +48,40 @@
             {{/each}}
           </div>
         {{/if}}
+
       </div>
 
-      <div class="col-lg-3 sidebar">
+      <div class="col-md sidebar">
+
+        {{#if sidetable}}
+          <div class="sidetable">
+            <h5>{{ label }}</h5>
+            <table class="table table-bordered">
+              {{#each input}}
+                <tr>
+                  <td>{{ this }}</td>
+                </tr>
+              {{/each}}
+            </table>
+          </div>
+        {{/if}}
+
         {{#if button}}
+          <h5>{{ info }}</h5>
           <div class="buttons">
             {{#each button}}
-              <input class="btn btn-primary btn-block" type="submit" value="{{ this }}">
+            <p>{{ text }}</p>
+              <input class="btn btn-primary btn-block" type="submit" value="{{ btn }}">
             {{/each}}
           </div>
         {{/if}}
+
         {{#if sideimage}}
           {{#each sideimage}}
               <img class="img-container" src="{{ this }}">
           {{/each}}
         {{/if}}
+
         {{#if sideform}}
           <div class="sideform">
             <h4>Stay in touch</h4>
@@ -83,12 +103,13 @@
             <span>SEP 29 @ 5:13AM</span>
           </div>
         {{/if}}
+
       </div>
     </div>
   </div>
   <footer class="footer">
     <div class="container">
-      <span class="text-muted">&copy;All rights reserved.</span>
+      <span class="text-muted"> {{ title }} &copy;All rights reserved.</span>
     </div>
   </footer>
 

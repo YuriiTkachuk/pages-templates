@@ -7,10 +7,6 @@ html {
   min-height: 100%;
 }
 
-body {
-  margin: 60px 0;
-}
-
 form {
   margin-bottom: 1em;
 }
@@ -33,12 +29,6 @@ img {
   margin: 2em 0;
 }
 
-@media screen and (max-width: 800px) {
-    .sidebar {
-      display: none;
-    }
-}
-
 .img-container {
    margin: 1em;
 }
@@ -49,4 +39,14 @@ img {
   height: 60px;
   line-height: 60px;
   background-color: #f5f5f5;
+}
+
+.main {
+  margin: 2em;
+}
+
+.sidetable {
+  margin: 4em 1em;
+  line-height: 2em;
+  padding-right: 1em;
 }
