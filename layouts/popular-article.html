@@ -64,9 +64,9 @@
           <div class="list-group">
             {{#each sidebar-list}}
             {{#if this.active}}
-            <a href="{{this.link}}" class="list-group-item dropdown-item active-item">{{this.name}}</a>
+            <a href="{{this.link}}" class="list-group-item active-item">{{this.name}}</a>
             {{else}}
-            <a href="{{this.link}}" class="list-group-item dropdown-item">{{this.name}}</a>
+            <a href="{{this.link}}" class="list-group-item">{{this.name}}</a>
             {{/if}}
             {{/each}}
           </div>
@@ -94,6 +94,8 @@
 
       </div>
     </div>
+
+    <div class="space"></div>
 
     <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark navbar-background">
       <div class="collapse navbar-collapse justify-content-end">
