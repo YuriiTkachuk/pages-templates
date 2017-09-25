@@ -25,6 +25,8 @@ title_comment: Comments
 button: [ Write a comment ]
 footer: Aramita
 ---
+_23.07.2017_
+
 Superdrug, the well-known high street chemist's, is branching out from selling make up, skincare products and toiletries to offering in-store beauty treatments. Among these will be anti-wrinkle injections, teeth whitening and broken vein removal.
 
 From next week customers will be able to walk into the store for a 'lunch break' treatment. It will cost £145 for one area of the face – less than a third of the amount charged by top cosmetic surgery practitioners. The consultation will take about 15 minutes and the treatment as little as ten minutes. Superdrug will be the only high street chain where you will find top-of-the-range treatments like these available at budget prices.
