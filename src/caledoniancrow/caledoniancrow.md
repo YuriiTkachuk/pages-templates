@@ -1,6 +1,7 @@
 ---
 layout: minimalist.html
 title: Caledoniancrow
+logo-center: true
 content-align: left
 logo-path: ../../assets/images/caledoniancrow-logo.png
 ---
