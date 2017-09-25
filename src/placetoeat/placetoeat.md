@@ -1,6 +1,6 @@
 ---
 layout: placeguide.html
-title: place to eat
+title: placetoeat
 logo: "../../assets/images/londonguide.png"
 block: [
   {
