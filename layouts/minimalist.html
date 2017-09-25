@@ -53,6 +53,10 @@
 
       {{{ contents }}}
 
+			{{#if subtext}}
+				<sub>{{ subtext-content }}</sub>
+			{{/if}}
+
       {{#if video-path}}
       <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="{{ video-path }}" allowfullscreen>
