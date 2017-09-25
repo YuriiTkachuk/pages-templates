@@ -34,6 +34,10 @@
       <img class="img-fluid" src="{{ person-photo-path }}">
       {{/if}}
 
+			{{#if main-title}}
+				<h1>{{ main-title }}</h1>
+			{{/if}}
+
 			{{#if person-about}}
 			<div class="person-about">
 				{{#if person-about-header}}

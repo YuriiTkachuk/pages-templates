@@ -2,10 +2,14 @@
 layout: minimalist.html
 title: The pagan elements of Easter
 content-align: left
+person-about: true
+person-info: [
+  {
+    info: "by Austin Cline"
+  }
+]
+main-title: The pagan elements of Easter
 ---
-# The pagan elements of Easter
-
-by Austin Cline
 
 ![image-1](../../assets/images/religionrite-v2-1.jpg)
 
