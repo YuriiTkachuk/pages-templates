@@ -5,8 +5,22 @@ banner_text: Lindsay's Film Plots Blog
 rightcol_title: About Lindsay
 rightcol_text: I'm not an expert on the cinema, just a housewife who loves films, and always has! Since I was ten years old I've kept a diary of every film I've ever seen on TV, at the cinema or on video or DVD. Now that my children have moved away from home, I thought it would be fun to share my ideas through this blog. I hope you like it!
 rightcol_list_name: Latest posts
-rightcol_list_row: [ Romantic films, Films set in Paris, My top ten sci-fi films, Films about pirates ]
+rightcol_list_row: [ 
+	{link: romanticfilms.html, 
+	text: Romantic films
+	},
+	 { text: Films set in Paris,
+	   link: romanticfilms.html
+	},
+	{ text: My top ten sci-fi films,
+	  link: 
+	},
+	{ text: Films about pirates,
+	  link: romanticfilms.html
+	}
+]
 ---
+_05.07.2005_
 
 ## Romantic films
 
@@ -61,21 +75,3 @@ This is another classic story that has been adapted many times for both the big 
 Jane Eyre is poor and plain and, as an orphan, forced to make her own way in the world. She is hired to work at Thornfield Hall as a governess for Adele, the daughter of Mr. Rochester, a mysterious and moody man who is tormented by secrets in his past. Rochester and Jane fall in love and a date is set for their wedding. Jane does not know that Rochester is already married and that Bertha, his mentally ill wife, lives locked up on the top floor of Thornfield Hall where she is looked after by a nurse. The marriage is stopped by Bertha's brother Richard Mason and Jane runs away.
 
 Later Jane discovers she is now a wealthy woman, having inherited a fortune from a long-lost uncle in Madeira. She gets a proposal of marriage from a clergyman but is still in love with Rochester. She goes back to look for him and finds Thornfield Hall has been burnt down. Bertha had started the fire and Rochester tried to in vain save her, becoming crippled and blinded in the process. Jane nurses Rochester back to health, he recovers his eyesight and they marry.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
