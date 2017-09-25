@@ -6,7 +6,10 @@ button: [ Add comment ]
 footer: All right reserved
 ---
 
+_13.05.2017_
+
 ![](../../assets/images/blog-image-baltimore.jpg)
+
 My father, who grew up during the emergence of radio, was (like many at the time) utterly fascinated by the new technology, which opened horizons for many Americans. Radio could send free music, entertainment, and informative programming directly into the living room – and this was as revolutionary in its time as the Internet seems to us today.
 
 He was so fascinated with this new thing that he spent much of his life with it. For thirty years or more, he was the owner of John's Radio & TV Repairs, which was located at 301-303 on Main St. It was the oldest radio and television repair business, though the building in which the shop used to be is now a jewellery store.
