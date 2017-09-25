@@ -1,10 +1,11 @@
 ---
 layout: placeguide.html
-title: holiday rentals
+title: holiday-rentals
+second: "holiday-reviews.html"
 logo: "../../assets/images/londonguide.png"
 ---
 
-## ![](../../assets/images/pic1.jpg)
+## ![](../../assets/images/holiday-rentals1.jpg)
 
 # Overview
 House Description
@@ -42,4 +43,4 @@ Essaouira is a charming ancient medina (walled town), with a 3 mile-long beach a
 
 There are plenty of activities on offer including windsurfing, walking, cycling, quad biking and camel or horse riding. Fishing day trips can be arranged from the busy little harbour. Car hire or coach trips are available if you want to explore the mountains further inland.
 
-![](../../assets/images/pic2.jpg)![](../../assets/images/pic3.jpg)![](../../assets/images/pic4.jpg)![](../../assets/images/pic5.jpg)![](../../assets/images/pic6.jpg) ![](../../assets/images/pic7.jpg)![](../../assets/images/pic8.jpg)![](../../assets/images/pic9.jpg)![](../../assets/images/pic10.jpg)![](../../assets/images/pic11.jpg)
+![](../../assets/images/holiday-rentals2.jpg)![](../../assets/images/holiday-rentals3.jpg)![](../../assets/images/holiday-rentals4.jpg)![](../../assets/images/holiday-rentals5.jpg)![](../../assets/images/holiday-rentals6.jpg) ![](../../assets/images/holiday-rentals7.jpg)![](../../assets/images/holiday-rentals8.jpg)![](../../assets/images/holiday-rentals9.jpg)![](../../assets/images/holiday-rentals10.jpg)![](../../assets/images/holiday-rentals11.jpg)
