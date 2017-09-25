@@ -122,6 +122,19 @@
     font-size:12px;
   }
 
+  .map {
+    padding-top: 20px;
+  }
+
+  .padd {
+    padding-left: 10px;
+  }
+
+  #map {
+        height: 400px;
+        width: 100%;
+   }
+
   .menu {
     padding: 10px 20px;
     background:#f8f8f8;
@@ -368,4 +381,3 @@
   #HeaderOuter {
     width:100%;
   }
-

@@ -1,21 +1,32 @@
 ---
 layout: placeguide.html
-title: the ministrel cafe
+title: the-ministrel-cafe
 logo: "../../assets/images/londonguide.png"
+map: true
+x: 51.488903
+y: -0.191597
 block: [
   {
     title1: "Mark",
+    img: "../../assets/images/cafe1.jpg",
     text1: "I love, love, LOVE this place! I've gone twice for breakfast and once for lunch, and I plan to return! The atmosphere is interesting and fun, the staff are friendly, the music is a great selection (and loud enough to be heard but quiet enough not to interfere with conversation), and the food is very tasty! It's especially nice if you're a vegetarian, or someone who doesn't want to eat meat all the time. They have a bunch of vegetarian options, including a vegetarian version of the English breakfast that is delicious...",
-    title2: "Jose",
-    text2: "It was a very nice surprise at dinner time. Even with a 4-year old daughter we found this to be very warm and enjoyable to pass some time. The steak was very good, the music was even better. Will come back, for sure.",
-    },
-    {
-      title1: "Alex",
-      text1: "My wife and I were on vacation in England for two weeks. When we were in London we came here and had a really good time. It's a very happy, quirky place. The music playing in the restaurant was really great too. They seemed to be playing a lot of the music of famous artists who have performed there. The food was very good. I wouldn't go here for the food specifically, but the combination of good food, drink and atmosphere is well worth it. I hope we can come back sometime for dinner and then listen to the live music in the basement.",
-      title2: "Sharon",
-      text2: "Ambience and service were lovely!  We sat in the garden in the back for lunch and had the whole place to ourselves.  We ordered some cocktails and, being that this was our first meal in London, the fish and chips.  The cocktails were well priced and generous.  The fish and chips were OK but according to other reviews, they have other dishes that are much better and probably less touristy.  I would have loved to see live music here!  The decor at this place is awesome.",
-    }
-  ]
+  },
+  {
+    title1: "Jose",
+    img: "../../assets/images/cafe2.jpg",
+    text1: "It was a very nice surprise at dinner time. Even with a 4-year old daughter we found this to be very warm and enjoyable to pass some time. The steak was very good, the music was even better. Will come back, for sure.",
+  },
+  {
+    title1: "Alex",
+    img: "../../assets/images/cafe3.jpg",
+    text1: "My wife and I were on vacation in England for two weeks. When we were in London we came here and had a really good time. It's a very happy, quirky place. The music playing in the restaurant was really great too. They seemed to be playing a lot of the music of famous artists who have performed there. The food was very good. I wouldn't go here for the food specifically, but the combination of good food, drink and atmosphere is well worth it. I hope we can come back sometime for dinner and then listen to the live music in the basement.",
+  },
+  {
+    title1: "Sharon",
+    img: "../../assets/images/cafe4.jpg",
+    text1: "Ambience and service were lovely!  We sat in the garden in the back for lunch and had the whole place to ourselves.  We ordered some cocktails and, being that this was our first meal in London, the fish and chips.  The cocktails were well priced and generous.  The fish and chips were OK but according to other reviews, they have other dishes that are much better and probably less touristy.  I would have loved to see live music here!  The decor at this place is awesome.",
+  }
+]
 ---
 
 
