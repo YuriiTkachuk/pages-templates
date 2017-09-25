@@ -15,13 +15,15 @@
 <body>
   {{#if logo-path}}
   <div class="page-header">
-
     <div class="container">
       <div class="logo">
-        <img class="img-fluid" src="{{ logo-path }}">
+			{{#if logo-center}}
+        <center><img class="img-fluid logo-center"  src="{{ logo-path }}"></center>
+			{{else}}
+				<img class="img-fluid logo-center"  src="{{ logo-path }}">
+			{{/if}}
       </div>
     </div>
-
   </div>
   {{/if}}
 
@@ -52,7 +54,7 @@
       {{{ contents }}}
 
       {{#if video-path}}
-      <div class="embed-responsive embed-responsive-6by3">
+      <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="{{ video-path }}" allowfullscreen>
         </iframe>
       </div>
