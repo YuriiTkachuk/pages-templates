@@ -15,13 +15,15 @@
 <body>
   {{#if logo-path}}
   <div class="page-header">
-
     <div class="container">
       <div class="logo">
-        <img class="img-fluid" src="{{ logo-path }}">
+			{{#if logo-center}}
+        <center><img class="img-fluid logo-center"  src="{{ logo-path }}"></center>
+			{{else}}
+				<img class="img-fluid logo-center"  src="{{ logo-path }}">
+			{{/if}}
       </div>
     </div>
-
   </div>
   {{/if}}
 
@@ -31,6 +33,10 @@
       {{#if person-photo-path}}
       <img class="img-fluid" src="{{ person-photo-path }}">
       {{/if}}
+
+			{{#if main-title}}
+				<h1>{{ main-title }}</h1>
+			{{/if}}
 
 			{{#if person-about}}
 			<div class="person-about">
@@ -51,8 +57,12 @@
 
       {{{ contents }}}
 
+			{{#if subtext}}
+				<sub>{{ subtext-content }}</sub>
+			{{/if}}
+
       {{#if video-path}}
-      <div class="embed-responsive embed-responsive-6by3">
+      <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="{{ video-path }}" allowfullscreen>
         </iframe>
       </div>
@@ -62,7 +72,7 @@
     {{/if}}
 
     {{#if comments}}
-    <div class="page">
+    <div class="page" style="text-align: {{ content-align }};">
 			{{#each comments}}
 			<div class="card bg-light mb-3">
 			  <div class="card-header text-danger">{{this.person}}</div>

@@ -2,6 +2,8 @@
 layout: minimalist.html
 title: Hysteria
 content-align: left
+logo-center: true
+subtext: true
 logo-path: ../../assets/images/hysteria-logo.png
 person-about: true
 person-photo-path: ../../assets/images/hysteria-sarah.png
@@ -17,6 +19,7 @@ person-info: [
     info: "Ext: 4032"
   }
 ]
+subtext-content: "From 'Hysteria: How women were controlled by medical myth', Sarah King, Oxted University Press 2009."
 ---
 Postgraduate seminar series 'A history of women's mental illness' Second term. Wednesdays and Fridays at 10.00 am.
 
@@ -35,5 +38,3 @@ But they didn't label just about anyone. They labelled women. Mental ill-health 
 However, on Dr Beard's catalogue, the most telling symptom of all was the “general tendency to cause trouble". Women's roles were changing as quickly as society itself changed, and many women themselves were less willing to stay in their proper place than their mothers and grandmothers had done. The newly-formed male medical world was quick to respond to any tentative increase in individual female assertiveness: the diagnosis of hysteria was part and parcel of the political control of women, in all fields. "Hysteria" and its variants nervousness and neurasthenia rapidly became a standard part of the vocabulary not only of obstetrics and gynecology, but also of psychiatry, neurology- and of politics. Many men pontificated about the dangers of cities, or of the education of women, or of allowing women to work or to vote. the freedom of women would cause hysteria on a scale hardly to be imagined, and certainly not to be tolerated.
 
 But oddly enough, for some reason hysteria did not affect all women equally: the lower classes, and those who worked in the fields, were somehow immune. Perhaps it was because their (sic) 'animal spirits' protected them just as their lack of 'culture' prevented them from gentility. Throughout the Victorian period, the prevailing opinion amongst physicians was that the stresses associated with modern life would necessarily cause civilized women to be both more susceptible to nervous disorders and to develop faulty reproductive tracts. How sick your women were, became a measure of your degree of civilisation. Even in the republican United States, the increase in hysterical disorders in women reaffirmed that the U.S. was on par with Europe, and no longer a backward or undeveloped place. American physicians expressed pleasure that the country was ”catching up” to Europe in the prevalence of hysteria. Civilised women, it would seem, would be by definition hysterical wherever they were.
-
-From 'Hysteria: How women were controlled by medical myth', Sarah King, Oxted University Press 2009.

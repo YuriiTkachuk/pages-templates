@@ -73,3 +73,13 @@ blockquote {
     background-color: skyblue;
   }
 }
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}

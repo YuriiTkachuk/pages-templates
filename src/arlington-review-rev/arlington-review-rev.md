@@ -1,7 +1,8 @@
 ---
 layout: minimalist.html
 title: The Arlington Review - Coming Soon Films
-content-align: left
+content-align: justify
+logo-center: true
 logo-path: ../../assets/images/arlington-title.jpg
 video-path: https://www.youtube.com/embed/YOavDSErmak
 ---

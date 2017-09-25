@@ -1,13 +1,15 @@
 ---
 layout: minimalist.html
 title: Caledoniancrow
+logo-center: true
 content-align: left
 logo-path: ../../assets/images/bricky-logo.png
 ---
-# Irish Council of Enterprise Excellence
+# <big>Irish Council of Enterprise Excellence</big>
+# Fostering Enterprise....
 
-## Fostering Enterprise....
 **School of Business, University College, Killarney – May 15 at 14.30**
+
 **SPEAKER PROFILES**
 
 ## Noel Marshall

@@ -1,6 +1,7 @@
 ---
 layout: minimalist.html
 title: Progress Online
+logo-center: true
 content-align: left
 logo-path: ../../assets/images/progress-online-title.jpg
 ---
