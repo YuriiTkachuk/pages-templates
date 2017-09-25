@@ -9,6 +9,7 @@ navbar: [ Latest posts, About Crete, Helpful links ]
 rightcol_title: About
 rightcol_text: Despite what should be the great advantage of having a Cretan spouse, in my early days here I found myself frequently plunged into situations where I made embarrassing mistakes through my ignorance of various local customs. I like to think this was not due to any malice on my spouse's part, but more to the fact that Cretans don't explain things (unless you specifically ask) as they assume you know them already. This blog is therefore intended to help you avoid making a fool of yourself with Cretan friends or neighbours.
 ---
+_17.11.2015_
 
 ## New Year in Crete
 
