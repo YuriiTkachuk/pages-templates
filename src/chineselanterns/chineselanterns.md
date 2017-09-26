@@ -1,10 +1,10 @@
 ---
 layout: news.html
 title: chineselanterns
-footer: © Borders and County News
+footer: © Tomorrow
 sidebar: ../../assets/images/sidebar-news.png
 text_path: Chinese Lanterns spark False Alarm
-logo_path: ../../assets/images/.png
+logo_path: ../../assets/images/chineselanterns-tomorrow.jpg
 button: [
   {
     type_button: "HOME",
