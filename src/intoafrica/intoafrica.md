@@ -29,10 +29,10 @@ Solutions like this, which deliver locally appropriate technology that the end u
 
 ### Previous posts
 
-*   [7 February](intoafrica.html)
+*   [7 February](#)
 
-*   [1 February](intoafrica.html)
+*   [1 February](#)
 
-*   [24 January](intoafrica.html)
+*   [24 January](#)
 
-*   [Older](intoafrica.html)
+*   [Older](#)
