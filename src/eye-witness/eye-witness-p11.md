@@ -12,5 +12,3 @@ footer: Used with permission from http://youramazingbrain.org.uk created by At-B
 You picked the wrong man. In fact the criminal wasn't there, but sometimes eye-witnesses feel under pressure to name someone - even if they're not sure. Your mistake could have convicted an innocent man.
 
 You have now completed the eyewitness test
-
-

@@ -11,12 +11,10 @@ Click on the correct answer.
 
 ### What colour hair did the woman have?
 
-[Blonde hair](page8.html)
+[**Blonde hair**](page8)
 
-[Dark hair](page9.html)
+[**Dark hair**](page9)
 
-[Red hair](page9.html)
+[**Red hair**](page9)
 
-[I'm not sure](page9.html)
-
-
+[**I'm not sure**](page9)
