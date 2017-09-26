@@ -1,8 +1,21 @@
 ---
 layout: placeguide.html
 title: holiday-rentals
-second: "holiday-reviews.html"
-logo: "../../assets/images/londonguide.png"
+logo: "../../assets/images/holiday-rentals-logo.jpg"
+navs: [
+  {
+    text: "Home",
+    link: "#",
+  },
+  {
+    text: "Contact us",
+    link: "#",
+  },
+  {
+    text: "Reviews",
+    link: "holiday-reviews.html",
+  },
+]
 ---
 
 ## ![](../../assets/images/holiday-rentals1.jpg)
