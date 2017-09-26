@@ -20,7 +20,8 @@
     <a class="navbar-brand" href="#">
       <img src="{{ image-path }}" class="logo" alt="">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse nv" id="navbarNav">
@@ -105,6 +106,60 @@
         {{/if}}
 
       </div>
+    </div>
+
+      <ul id="clothing-nav" class="nav nav-pills" role="tablist">
+        {{#each info}}
+        {{#if @first}}
+        <li class="nav-item">
+          <a class="nav-link active" href="#{{ @index }}" role="tab"
+          data-toggle="tab" aria-expanded="true">
+            <div class="text">{{ caption }}</div>
+          </a>
+        </li>
+        {{else}}
+        <li class="nav-item">
+          <a class="nav-link" href="#{{ @index }}" role="tab"
+          data-toggle="tab">
+            <div class="text">{{ caption }}</div>
+          </a>
+        </li>
+        {{/if}}
+        {{/each}}
+    </ul>
+
+    <div id="clothing-nav-content" class="tab-content">
+      {{#each info}}
+      {{#if @first}}
+      <div role="tabpanel" class="tab-pane fade show active" id="{{ @index }}">
+        <div class="row">
+          <div class="col-12">
+            <h2>{{ caption }}</h2>
+            <ul class="list-group col">
+              {{#each row}}
+              <li>{{ text }}</li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {{else}}
+      <div role="tabpanel" class="tab-pane fade" id="{{ @index }}">
+        <div class="row">
+          <div class="col-12">
+            <h2>{{ caption }}</h2>
+            <ul class="list-group col">
+              {{#each row}}
+              <li>{{ text }}</li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {{/if}}
+      {{/each}}
     </div>
   </div>
   <footer class="footer">
