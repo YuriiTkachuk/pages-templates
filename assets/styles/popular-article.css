@@ -15,22 +15,14 @@
   background-color: #2c3e50;
 }
 
-.row img {
-  width: 300px;
-  display: block;
-  margin: 0 auto;
-  padding: 10px;
+.jumbotron {
+  padding: 1rem;
 }
 
 .link {
   margin-bottom: 100px;
   line-height: 1.4em;
   color: #2e608c;
-}
-
-.space {
-  height: 50px;
-  width: 100%;
 }
 
 .carousel {
@@ -50,4 +42,53 @@
 .slide-image img{
   height: 25rem;
   weight: auto;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  p {
+    text-align: justify;
+    font-size: 1.5rem;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  p {
+    text-align: justify;
+    font-size: 1rem;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.image-left img{
+  display: block;
+  float: left;
+  margin-top: 0.2rem;
+  margin-right: 1rem;
+}
+
+.navbar {
+  margin-bottom: 0.25rem;
+}
+
+.img-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.img-rounded {
+  border-radius: 1rem;
+  margin-bottom: 0.25rem;
 }
