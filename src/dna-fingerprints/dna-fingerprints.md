@@ -1,10 +1,10 @@
 ---
 layout: news.html
 title: dna-fingerprints
-footer: © Borders and County News
+footer: © DNA
 sidebar: ../../assets/images/sidebar-news.png
 text_path: True crime stories
-logo_path: ../../assets/images/.png
+logo_path: ../../assets/images/fingerprints-logo.jpg
 button: [
   {
     type_button: "Sport",
@@ -41,13 +41,14 @@ button: [
 ### How science helps justice
 
 **DNA Profiling – the first use in a real criminal case**
+
 _The first time DNA profiling was used, it proved innocence - not guilt!_
 
 
 ![image-1](../../assets/images/dna-fingerprints-jail.png)
 ***
-
-Sir Alec Jeffreys, a genetic scientist at Leicester University in Great Britain, created a new technique in 1984 - a technique that would enable criminal forensics to take a giant step forwards in solving crime. He called this technique DNA Fingerprinting, but it is now better known as DNA Profiling. This technique quickly became an essential tool which redefined the boundaries of criminal prosecution - indeed, it was to get its very first test in the place where it was created, where a serial killer was on the loose....
+![](../../assets/images/fingerprints-alex.png)
+>Sir Alec Jeffreys, a genetic scientist at Leicester University in Great Britain, created a new technique in 1984 - a technique that would enable criminal forensics to take a giant step forwards in solving crime. He called this technique DNA Fingerprinting, but it is now better known as DNA Profiling. This technique quickly became an essential tool which redefined the boundaries of criminal prosecution - indeed, it was to get its very first test in the place where it was created, where a serial killer was on the loose....
 
 ***
 #### The first crime took place before DNA Profiling
