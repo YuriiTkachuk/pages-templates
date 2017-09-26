@@ -1,10 +1,10 @@
 ---
 layout: news.html
 title: deathsentence
-footer: © Borders and County News
+footer: © thewekly
 title_comment: Popular this week
 text_path: Deathsentence
-logo_path: ../../assets/images/.png
+logo_path: ../../assets/images/Deathsentence-Logo.gif
 comments: [
   {
      comment: "How free speech can get you fired"
