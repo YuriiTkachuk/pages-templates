@@ -1,10 +1,10 @@
 ---
 layout: news.html
 title: feedchat-megson
-footer: © Borders and County News
+footer: © FeedChat
 sidebar: ../../assets/images/sidebar-news.png
 text_path: Eyewitness Testimony
-logo_path: ../../assets/images/.png
+logo_path: ../../assets/images/feedchat-logo.jpg
 button: [
   {
     type_button: "Food",
@@ -36,9 +36,9 @@ button: [
   }
 ]
 ---
-![image-1](../../assets/images/feedchat-megson-head.png)
-
 # Eyewitness Testimony: The Case of Gary B Megson
+
+![image-1](../../assets/images/feedchat-megson-head.png)
 
 _by Cheryl Goldstein - Posted on June 17th, 2016_
 
@@ -65,7 +65,5 @@ Following his imprisonment, Megson's parents sold their house, hired a private i
 By 2010, the two real perpetrators had been tracked down and had confessed to the crime. In addition, Jackson Filch, who had claimed to be innocent at his trial, admitted that he had organized the robbery but not taken part in it, and that Megson had not been involved at all.
 
 Megson, who has managed to complete his high school degree while in prison, is still waiting for a decision on whether he will receive a new trial.
-
-
 
 ![](../../assets/images/feedchat-megson-murders-news.png)
