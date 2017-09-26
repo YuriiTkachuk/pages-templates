@@ -41,13 +41,13 @@
   }
   a {
     color:#ffffff;
-    text-decoration:underline;
     font-family:arial,helvetica;
   }
   a:hover {
-    color:#f13503;
-    text-decoration:underline;
-    font-family:arial,helvetica;
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-family: arial,helvetica;
+    font-size: 17px;
   }
 
   ol {
@@ -103,7 +103,7 @@
     font-family:Verdana, Geneva, sans-serif;
   }
   #page {
-    width: 80%;
+    width: 60%;
     padding: 20px;
     margin: 20px auto;
     background:#fff;
@@ -115,6 +115,7 @@
       width: 95%;
     }
   }
+
   .breadcrumb {
     position:absolute;
     top:-20px;
@@ -122,12 +123,16 @@
     font-size:12px;
   }
 
+  .texted {
+    font-size: 15px;
+  }
+
   .map {
     padding-top: 20px;
   }
 
   .padd {
-    padding-left: 10px;
+    padding-left: 25px;
   }
 
   #map {
@@ -136,6 +141,7 @@
    }
 
   .menu {
+    height: 100%;
     padding: 10px 20px;
     background:#f8f8f8;
     border: 1px solid #ddd;
@@ -254,10 +260,9 @@
   h5,
   h6 {
     margin: 0;
-    padding: 0;
+    padding: 5px;
     border: 0;
     outline: 0;
-    font-size: 100%;
     vertical-align: baseline;
     background: transparent;
     font-style: normal;
@@ -374,8 +379,15 @@
       padding: 0;
     }
   }
+
+  .form-group {
+    margin-bottom: 0rem;
+  }
+
   #navbar {
-    background-color:#f13503;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #339999;
     padding:5px 10px;
   }
   #HeaderOuter {
