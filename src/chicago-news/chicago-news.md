@@ -1,10 +1,10 @@
 ---
 layout: news.html
 title: chicago-news
-footer: © Borders and County News
+footer: © Chicago News
 sidebar: ../../assets/images/sidebar-news.png
 text_path: Skyrise Chicago
-logo_path: ../../assets/images/.png
+logo_path: ../../assets/images/Chicago-header.jpg
 button: [
   {
     type_button: "Home",
