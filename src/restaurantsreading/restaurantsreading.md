@@ -1,7 +1,21 @@
 ---
 layout: placeguide.html
 title: restaurant reading
-logo: "../../assets/images/londonguide.png"
+logo: "../../assets/images/restaurantreading.png"
+navs: [
+  {
+    text: "Home",
+    link: "#",
+  },
+  {
+    text: "Contact us",
+    link: "#",
+  },
+  {
+    text: "About us",
+    link: "#",
+  }
+]
 block: [
   {
     title1: "Kei’s",
