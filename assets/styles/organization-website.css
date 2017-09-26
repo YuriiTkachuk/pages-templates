@@ -29,6 +29,15 @@ img {
   margin: 2em 0;
 }
 
+.tab-content {
+  padding-top: 15px;
+  padding-left: 50px;
+}
+
+.nav {
+  padding-left: 25px;
+}
+
 .img-container {
    margin: 1em;
 }
@@ -44,6 +53,7 @@ img {
 .main {
   margin: 2em;
 }
+
 
 .sidetable {
   margin: 4em 1em;
