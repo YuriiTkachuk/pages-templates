@@ -1,7 +1,7 @@
 ---
 layout: search_engine.html
 title: "Find it fast | Search Results for: celebrations"
-banner_path: ../../assets/images/find-it-fast-banner.png
+search_title: FindItFast.com
 search: celebrations
 search_result: [
   {

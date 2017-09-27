@@ -17,9 +17,9 @@ h1 {
 }
 
 h2 {
-  padding:0px 0px 10px 0px;
-  font-size:1.40em;
-  font-family:arial,helvetica;
+  padding:10px 10px 0px 10px;
+  font-size:2.40em;
+  font-family:'Josefin Slab';
   color:#3f2845;
   font-weight:bold;
 }
@@ -30,6 +30,14 @@ h3 {
   font-family:arial,helvetica;
   color:#3f2845;
   font-weight:bold;
+}
+
+.justify {
+  text-align: justify;
+  font-size:1.1em;
+  font-family:arial,helvetica;
+  color:#333333;
+  line-height:22px;
 }
 
 p {

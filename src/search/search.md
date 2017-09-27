@@ -1,7 +1,7 @@
 ---
 layout: search_engine.html
 title: Search results
-banner_path: ../../assets/images/Search-banner.gif
+search_title: Search
 search: meet up
 search_result: [
   {

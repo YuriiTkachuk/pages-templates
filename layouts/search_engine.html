@@ -9,6 +9,7 @@
     <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
 
     <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="../../assets/styles/search_engine.css">
@@ -21,8 +22,14 @@
 
 
     <div id="NavOuter">
-      <div id="NavInner"><img src="{{ banner_path }}" style="max-width: 100%" />
 
+      <div id="NavInner">
+	 <nav class="navbar " role="navigation">
+		<h2> {{ search_title }} </h2>
+		<form  role="search" style="max-width:200px;">
+		<input type="text" class="form-control" placeholder="Search">
+		</form>
+	</nav>
       </div>
     </div>
 
@@ -35,7 +42,7 @@
         {{#each search_result}}
         <div class="Box"><p>
           {{add @index 1}}. <a href="#">{{ link }}</a><br/>
-          {{ text }}
+          <div class="justify" >{{ text }}</div>
           <br/><span class="Green" >{{ site }}</span>
         </div>
         {{/each}}
