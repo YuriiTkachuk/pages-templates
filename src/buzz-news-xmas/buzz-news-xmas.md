@@ -7,6 +7,8 @@ navbar: [ Home, News, Sport, Food, Travel, Watch  ]
 ---
 # Christmas variations
 
+_28.01.2017_
+
 **by Ian Glenn**
 
 Wales is one of the four countries that make up the United Kingdom of Great Britain and Northern Ireland and the Christmas celebrations here are similar to those in the rest of the UK. Christmas is celebrated on December 25.
