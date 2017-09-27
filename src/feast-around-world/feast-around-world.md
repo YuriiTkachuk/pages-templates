@@ -2,6 +2,7 @@
 layout: popular-article.html
 title: Feast Around the World
 page-path: Home > Articles > Wang
+large-width-image: ../../assets/images/feast-around-world-head.jpg
 navbar-items: [
   {
     name: HOME,
@@ -21,6 +22,40 @@ navbar-items: [
   },
   {
     name: EVENTS,
+    link: "#"
+  }
+]
+
+sidebar-list-left: [
+  {
+    name: Healthy food,
+    link: "#"
+  },
+  {
+    name: National dishes,
+    link: "#",
+    active: true
+  },
+  {
+    name: Vegan,
+    link: "#"
+  },
+  {
+    name: Try to avoid,
+    link: "#"
+  }
+]
+sidebar-list-right: [
+  {
+    name: "How a 3-Day Fast Resets Your Immune System",
+    link: "#"
+  },
+  {
+    name: "Everything You Need to Know About Ketosis",
+    link: "#"
+  },
+  {
+    name: "Bloated Stomach: What Causes Bloating?",
     link: "#"
   }
 ]
