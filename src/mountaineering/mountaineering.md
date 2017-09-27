@@ -1,6 +1,6 @@
 ---
 layout: blog.html
-title: The Cretan Diet Snail Stew by Aristea
+title: Mountaneering
 banner_text: Life is an adventure
 button: [ Previous, Next ]
 ---
