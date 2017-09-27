@@ -1,7 +1,21 @@
 ---
 layout: placeguide.html
 title: placetoeat
-logo: "../../assets/images/londonguide.png"
+logo: "../../assets/images/londonguide.jpg"
+navs: [
+  {
+    text: "Home",
+    link: "#",
+  },
+  {
+    text: "Contact us",
+    link: "#",
+  },
+  {
+    text: "About us",
+    link: "#",
+  }
+]
 block: [
   {
     title1: "La Stella del Mare",
