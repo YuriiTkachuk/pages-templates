@@ -24,9 +24,9 @@ _05.07.2005_
 
 ## Romantic films
 
-![Roses](../../assets/images/blog-romanticfilmes-roses.jpg)
+###### With Valentine' s Day coming up soon, here are five of my favourite romantic movies.
 
-**With Valentine' s Day coming up soon, here are five of my favourite romantic movies.**
+![Roses](../../assets/images/blog-romanticfilmes-roses.jpg)
 
 ### Titanic (1997)
 
