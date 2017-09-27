@@ -1,10 +1,10 @@
 ---
 layout: news.html
 title: ufo
-footer: © Borders and County News
+footer: © Radio Chester
 sidebar: ../../assets/images/sidebar-news.png
 text_path: August 2008
-logo_path: ../../assets/images/.png
+logo_path: ../../assets/images/ufo-logo.gif
 button: [
   {
     type_button: "Home",

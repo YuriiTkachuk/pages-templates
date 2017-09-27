@@ -3,9 +3,9 @@ layout: blog.html
 title: Araminta's beauty blog | High-end beauty treatments to be available on the high street
 rightcol_title: Product of the month
 rightcol_image_path: ../../assets/images/blog-beautyblog-scarlet.jpg
-rightcol_text: Simply Scarlet by SSBS
+rightcol_text: "Simply Scarlet by SSBS
   It may look traditional, but scarlet never goes out of fashion and this nail polish is as red as they come! What's more it is super-easy to apply, the colour is intense after only one coat, and it doesn't chip easily. Available from all high street chemists at a special introductory price of £4.99.
-rightcol_list_name: Don't miss it!
+  Don't miss it!"
 comments: [
   {
   comment: "Cool! My Mum's been wanting botox for ages but can't afford it. With prices like these, I'll treat her to botox at Superdrug for her 50th birthday next month.",
@@ -21,10 +21,13 @@ comments: [
   },
 ]
 banner_text: High-end beauty treatments to be available on the high street
+banner_path: ../../assets/images/beauty-head.jpg
 title_comment: Comments
 button: [ Write a comment ]
-footer: Aramita
+footer: © Aramita
 ---
+_23.07.2017_
+
 Superdrug, the well-known high street chemist's, is branching out from selling make up, skincare products and toiletries to offering in-store beauty treatments. Among these will be anti-wrinkle injections, teeth whitening and broken vein removal.
 
 From next week customers will be able to walk into the store for a 'lunch break' treatment. It will cost £145 for one area of the face – less than a third of the amount charged by top cosmetic surgery practitioners. The consultation will take about 15 minutes and the treatment as little as ten minutes. Superdrug will be the only high street chain where you will find top-of-the-range treatments like these available at budget prices.

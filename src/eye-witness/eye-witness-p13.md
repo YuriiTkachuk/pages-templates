@@ -4,7 +4,6 @@ title: Eye Witness
 banner_path: ../../assets/images/eye-witness-header.jpg
 footer: Used with permission from http://youramazingbrain.org.uk created by At-Bristol Science centre
 ---
-
 ## Answer 4
 
 ### Well done!

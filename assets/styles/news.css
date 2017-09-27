@@ -16,6 +16,10 @@ h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+h3 {
+  padding: 20px 0 20px;
+}
+
 p {
   margin-bottom: 15px;
   line-height: 1.4em;
@@ -28,7 +32,7 @@ p {
 }
 
 a {
-  color: white !important;
+  color: blue;
   font-weight: bold;
 }
 
@@ -102,4 +106,16 @@ img {
 #footer p {
   max-width: 980px;
   margin: auto;
+}
+
+blockquote {
+  color: grey;
+  padding: 10px;
+  padding-left: 30px;
+  font-size: 0.8em;
+}
+
+blockquote h2 {
+  color: grey;
+  font-size: 1em;
 }

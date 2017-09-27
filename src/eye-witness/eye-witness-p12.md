@@ -12,5 +12,3 @@ footer: Used with permission from http://youramazingbrain.org.uk created by At-B
 Sometimes eye-witnesses feel under pressure to name someone - even if they're not sure. In fact, the criminal wasn't there.
 
 You have now completed the eyewitness test
-
-

@@ -19,7 +19,7 @@
 
     <nav class="navbar navbar-expand-lg" role="navigation">
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
-        <a class="btn btn-default" href="#">
+        <a class="btn btn-default" href="#" style="color: white">
           <i class="fa fa-bars"></i>
         </a>
       </button>
@@ -28,7 +28,7 @@
         <ul class="nav navbar-nav">
 
           {{#each button}}
-          <li><button type="button" class="btn btn-default"><a href="{{ link }}">{{ type_button }}</a></button></li>
+          <li><button type="button" class="btn btn-default"><a href="{{ link }}" style="color: white">{{ type_button }}</a></button></li>
           {{/each}}
 
         </ul>
@@ -42,6 +42,7 @@
       <div class="col-md-8">
         <div class="padding">
           <p class="breadcrumb">Home / News / {{ text_path }}</p>
+	  	<p><img src="{{ logo_path }}"></p>
           {{{ contents }}}
         </div>
       </div>

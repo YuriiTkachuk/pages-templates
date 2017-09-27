@@ -29,11 +29,10 @@ Solutions like this, which deliver locally appropriate technology that the end u
 
 ### Previous posts
 
-*   [7 February](index.html)
+*   [7 February](#)
 
-*   [1 February](index.html)
+*   [1 February](#)
 
-*   [24 January](index.html)
+*   [24 January](#)
 
-*   [Older](index.html)
-
+*   [Older](#)

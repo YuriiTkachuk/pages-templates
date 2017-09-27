@@ -30,10 +30,12 @@ comments: [
 ]
 title_comment: Reader comments
 button: [ Add a comment ]
-footer: Aristea
+footer: © Aristea
 ---
 
 ## Snail Stew by Aristea
+
+_03.05.2016_
 
 _In Crete snails are eaten as a main meal, so a normal serving is about 15-20 snails per person. There are many ways to cook and serve snails. This is a traditional recipe for them._
 

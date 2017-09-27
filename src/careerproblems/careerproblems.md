@@ -1,10 +1,10 @@
 ---
 layout: news.html
 title: careerproblems
-footer: © Borders and County News
+footer: © Daily
 sidebar: ../../assets/images/sidebar-news.png
 text_path: Career problems
-logo_path: ../../assets/images/.png
+logo_path: ../../assets/images/careerproblems-banner-the-daily.png
 button: [
   {
     type_button: "News",
@@ -36,7 +36,6 @@ button: [
   },
 ]
 ---
-![image-1](../../assets/images/careerproblems-banner-the-daily.png)
 # Career problems? Go abroad!
 
 **David Summerskill** investigates a new phenomenon: gap years for the over 35s
@@ -48,15 +47,17 @@ We all know about the gap year for young people: when young people take time out
 And now the gap year is becoming more and more popular with another group: adults in mid-career. Whilst 18 and 19 year olds ar still leaving in large numbers, more and more older people are also now turning to the gap year to augment their CV.
 
 ***
-## Case Studies
 
-A number of the professionals now venturing overseas did not have an opportunity to take a gap year when they were younger, but have seen others reap the benefits.
+> ## Case Studies
 
-"People who finished school or university and went straight into work are realising they haven't done anything like that. They are saying: 'If I don't do this now when am I going to do it?'," said Tracy Bromfield, the director of Vivisto, a gap year company. "They are looking to take a few months off to re-evaluate what has happened to them, and to decide what they are going to do."
+>A number of the professionals now venturing overseas did not have an opportunity to take a gap year when they were younger, but have seen others reap the benefits.
 
-Eimear, a 25-year-old investment banker from the Irish Republic, worked in finance for three years, most recently as a structured products analyst in the investment arm of a German bank in Dublin, before it was taken over last year. She decided to leave Ireland, and the prospect of redundancy, in August, and is travelling in Africa and Asia with her partner, also a former investment banker. She plans to seek a new job in Hong Kong early next year.
+>"People who finished school or university and went straight into work are realising they haven't done anything like that. They are saying: 'If I don't do this now when am I going to do it?'," said Tracy Bromfield, the director of Vivisto, a gap year company. "They are looking to take a few months off to re-evaluate what has happened to them, and to decide what they are going to do."
 
-Alltracks, which organises skiing instructor courses in Canada has seen a recent surge in bookings from "thirtysomething" professionals – some of whom have been made redundant. Bookings have risen by 50 per cent in the past three weeks.
+>Eimear, a 25-year-old investment banker from the Irish Republic, worked in finance for three years, most recently as a structured products analyst in the investment arm of a German bank in Dublin, before it was taken over last year. She decided to leave Ireland, and the prospect of redundancy, in August, and is travelling in Africa and Asia with her partner, also a former investment banker. She plans to seek a new job in Hong Kong early next year.
+
+>Alltracks, which organises skiing instructor courses in Canada has seen a recent surge in bookings from "thirtysomething" professionals – some of whom have been made redundant. Bookings have risen by 50 per cent in the past three weeks.
+
 ***
 
 Is the economy difficult, and have you lost your job? Or are you bored, and do you need a change? Is your job dull, and not leading anywhere? Or have your children finally finished their education, and can you take some time for yourself at last? Then why not work for free in a poor country for six months.

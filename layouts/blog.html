@@ -9,17 +9,13 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet"> 
 
 	<link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" href="../../assets/styles/blog.css">
 
 </head>
-{{#if rightcol_title}}
-<body_rightcol>
-{{else}}
-<body>
-{{/if}}
 
 	{{#if rightcol_title}}
 		<div class="rightcolhidden">
@@ -33,21 +29,25 @@
 			  <h3>{{ rightcol_list_name }}</h3>
 			  {{#each rightcol_list_row}}
 				  <ul>
-				    <li>{{ this }}</li>
-				  </ul>
+					<li><p><a href="{{ link }}">{{ text }}</a></p></li>
+				 </ul>
 			  {{/each}}
 			{{/if}}
 			</div>
 		</div>
 	{{/if}}
 
-	<main>
+<body>
+
+
+
+
 		{{#if banner_text}}
 			<div id="banner"><em>{{ banner_text }}</em></div>
 		{{/if}}
 
 		{{#if banner_path}}
-			<img  src="{{ banner_path }}" class="size"  width="800" >
+			<img  src="{{ banner_path }}" class="size"  width="800"  style="margin-bottom:20px;">
 		{{/if}}
 
 		{{#if navbar}}
@@ -63,13 +63,16 @@
 				<ul class="navbar-nav">
 				  {{#each navbar}}
 					  <li class="nav-item dropdown">
-					     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+					     <a href="#" class="nav-link" data-toggle="dropdown">
 						  {{ this }}
-						 <i class="ion-chevron-down"></i>
-					     </a>
+					     </a> </li>
 				    {{/each}}
+			     	</ul>
 			      </div>
-			   </nav>
+				<form class="navbar-collapse justify-content-end" role="search">
+				<input type="text" class="form-control" placeholder="Search">
+				</form>
+		 	   </nav>
 			 </div>
 		{{/if}}
 
@@ -79,37 +82,54 @@
 
 
 		<div class="maincol">
-			{{{ contents }}}
-		</div>
 
+		{{{ contents }}}
 
 		{{#if comments}}
 			  <div class="comments">
 			   <h2>{{ title_comment }}</h2>
 				{{#each comments}}
 				  <p>{{ comment }}<br>
-            {{ author }}<br>
+            				{{ author }}</br>
 				  </p>
 				{{/each}}
 
 			   </div>
 		{{/if}}
 
+		{{#if rightcol_title}}
+			<div class="rightcoltrue" style="padding:10px 10px">
+				  <h3>{{ rightcol_title }}</h3>
+				  {{#if rightcol_image_path}}
+					<img src="{{ rightcol_image_path }}">
+				  {{/if}}
+				  <p>{{ rightcol_text }}</p>
+				{{#if rightcol_list_name}}
+				  <h3>{{ rightcol_list_name }}</h3>
+				  {{#each rightcol_list_row}}
+					  <ul>
+					    <li><p><a href="{{ link }}">{{ text }}</a></p></li>
+					  </ul>
+				  {{/each}}
+				{{/if}}
+			</div>
+		{{/if}}
+
+
 		{{#if button}}
 			{{#each button}}
 				<p class="button">{{ this }}</p>
 			{{/each}}
 		{{/if}}
-
+</div>
 
 
 		{{#if footer}}
-			<div class="footer">&copy; {{ footer }}</div>
+			<div class="footer"> {{ footer }}</div>
 		{{/if}}
-	</main>
+	</div>
 
 	<div class="footer"></div>
 
 </body>
-</body_rightcol>
 </html>

@@ -7,12 +7,9 @@ navbar: [ Amy, Dave, Zoe, Jason ]
 button: [ Add a comment ]
 banner_path2: ../../assets/images/blog-worldworld-v2-headamy.jpg
 ---
-
-![](../../assets/images/blog-worldworld-v2-search.png)
-
-
 # Fun in the sun – August 2015
 
+_15 August_
 
 It already seems like ages since we set off to Spain for our summer holiday. The feeling of excitement and that early morning flight are a distant memory.
 
@@ -31,10 +28,3 @@ Zoe and Jason both improved a lot with their swimming and Dave helped with some 
 One night there was a huge storm and I was amazed by the dramatic lightning. I've never seen anything like that before. I sat there and watched it for quite a while everyone else was sleeping. The next morning it was like it had never happened as everything was sunny and dry again.
 
 I just want to say thanks to Mum and Dad again for looking after us and having us to stay in their beautiful home.
-
-
-
-
-
-
-
