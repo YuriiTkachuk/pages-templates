@@ -1,7 +1,8 @@
 ---
 layout: popular-article.html
 title: FeedChat.com
-navbar-title: Jack the Ripper
+navbar-title: FeedChat.com
+large-width-image: ../../assets/images/jack-the-ripper-head.png
 navbar-items: [
   {
     name: About us
@@ -39,10 +40,15 @@ navbar-items: [
     ]
   }
 ]
-sidebar-list: [
+sidebar-list-left: [
   {
     name: Food,
     link: "#"
+  },
+  {
+    name: Stories,
+    link: "#",
+    active: true
   },
   {
     name: Health,
@@ -66,14 +72,35 @@ sidebar-list: [
   }
 ]
 
-
+sidebar-list-right: [
+  {
+    name: Green River Killer,
+    link: "#"
+  },
+  {
+    name: The Arctic Marauder,
+    link: "#"
+  },
+  {
+    name: The Ultimate Jack the Ripper Companion,
+    link: "#"
+  },
+  {
+    name: To the Heart of the Storm,
+    link: "#",
+  },
+  {
+    name: The Bug Boy,
+    link: "#"
+  }
+]
 
 ---
 
-# The Top Five 5 Jack the Ripper Theories
+# The Top 5 Jack the Ripper Theories
 
 _by Cynthia Johnson - Posted on March 22th, 2015 at 7:26pm_
-![](../../assets/images/jack-the-ripper-head.png)
+
 More than 100 suspects were investigated for the grisly 'Jack the Ripper' murders which took place in Whitechapel between 1888 and 1891\. Among them were a number of unlikely candidates and others who are more difficult to ignore.
 
 Read our five favourite theories and decide for yourself the real identity of the mysterious maniac.
@@ -117,8 +144,6 @@ Read our five favourite theories and decide for yourself the real identity of th
 **Why?** The artist took great interest in the killings and famously painted a picture of an atmospheric room he rented, which he believed had been used by Jack the Ripper. Modern theories suggest that an unsuccessful operation left the artist impotent and led him to take his frustration out on Whitechapel's most vulnerable inhabitants. The poses of some women in his paintings seem to reflect those seen in police photographs of the Ripper's victims.
 
 **Read:** Portrait of a Killer: Jack the Ripper, Case Closed - Patricia Cornwell
-
-<div class="Box">
 
 ## 5\. Femme Fatale
 
