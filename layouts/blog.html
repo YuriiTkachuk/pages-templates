@@ -9,8 +9,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Great+Vibes:300,700|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet"> 
 
 	<link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" href="../../assets/styles/blog.css">
@@ -63,13 +63,16 @@
 				<ul class="navbar-nav">
 				  {{#each navbar}}
 					  <li class="nav-item dropdown">
-					     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+					     <a href="#" class="nav-link" data-toggle="dropdown">
 						  {{ this }}
-						 <i class="ion-chevron-down"></i>
-					     </a>
+					     </a> </li>
 				    {{/each}}
+			     	</ul>
 			      </div>
-			   </nav>
+				<form class="navbar-collapse justify-content-end" role="search">
+				<input type="text" class="form-control" placeholder="Search">
+				</form>
+		 	   </nav>
 			 </div>
 		{{/if}}
 
@@ -98,7 +101,7 @@
 			<div class="rightcoltrue" style="padding:10px 10px">
 				  <h3>{{ rightcol_title }}</h3>
 				  {{#if rightcol_image_path}}
-					<img  src="{{ rightcol_image_path }}" class="size width="200" height="114">
+					<img src="{{ rightcol_image_path }}">
 				  {{/if}}
 				  <p>{{ rightcol_text }}</p>
 				{{#if rightcol_list_name}}
@@ -122,7 +125,7 @@
 
 
 		{{#if footer}}
-			<div class="footer">&copy; {{ footer }}</div>
+			<div class="footer"> {{ footer }}</div>
 		{{/if}}
 	</div>
 

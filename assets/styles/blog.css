@@ -12,7 +12,7 @@ body {
 	max-width:800px;
 	background:#fff;
 	margin:0 auto;
-	font-family:Georgia, "Times New Roman", Times, serif;
+	font-family:'Lato';
 	line-height:1.4em;
 	color:#3d1c17;
 	position:relative;
@@ -33,6 +33,7 @@ h2 {
 h3 {
 	font-size:1.6em;
 	color:#c05817;
+	margin-bottom:20px;
 }
 h4 {
 	margin-bottom:10px;
@@ -41,6 +42,8 @@ h4 {
 h5 {
 	font-size:0.8em;
 }
+
+h6 {  font-weight: bold; }
 
 p {
 	margin-bottom:20px;
@@ -56,6 +59,8 @@ hr {
 }
 .maincol {
 	padding:10px 25px;
+}
+.maincol p {
 	text-align:Justify;
 }
 @media screen and (max-width: 1600px) {
@@ -101,7 +106,7 @@ img {
 	float:right;
 	max-width: 45%;
 	margin:0 0 25px 25px;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 }
 .size {
 	max-width: 100%;
@@ -117,17 +122,19 @@ img {
 	padding:50px 50px;
 }
 #banner {
-	background:#006;
+	background:#4B0082;
 	color:#FFF;
-	padding:5px 40px;
-	margin-bottom:50px;
+	padding-top:20px;
+	padding-left:40px;
+	margin-bottom:20px;
+	padding-right: 20px;
 }
 #banner em {
-	font-style:italic;
-	padding:5px 40px;
-	font-size:2.5em;
+	font-size:calc(1em + 1.5vw);
 	line-height:1.4em;
-	font-family: 'Great Vibes', cursive;
+	text-align:left;
+	font-family: 'Josefin Slab';
+	font-style: normal;
 }
 
 #navbar {
