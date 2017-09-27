@@ -53,8 +53,7 @@ sidebar-list-right: [
   },
   {
     name: Basketball,
-    link: "#",
-    active: true
+    link: "#"
   }
 ]
 ---

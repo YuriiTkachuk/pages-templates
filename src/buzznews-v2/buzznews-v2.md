@@ -23,7 +23,8 @@ sidebar-list-left: [
   },
   {
     name: News,
-    link: "#"
+    link: "#",
+    active: true
   },
   {
     name: Sport,

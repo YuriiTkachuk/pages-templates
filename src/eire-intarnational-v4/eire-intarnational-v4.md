@@ -35,6 +35,7 @@ sidebar-list-left: [
   {
     name: Articles,
     link: "#",
+    active: true
   },
   {
     name: News,
