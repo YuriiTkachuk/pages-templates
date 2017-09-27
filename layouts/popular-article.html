@@ -145,6 +145,10 @@
           </div>
           {{/if}}
 
+          {{#if fairy}}
+          <div class="fairy">
+          {{/if}}
+
           {{#if article}}
             <div class="image-left">
               {{{ contents }}}
@@ -152,6 +156,11 @@
           {{else}}
             {{{ contents }}}
           {{/if}}
+
+          {{#if fairy}}
+            </div>
+          {{/if}}
+
 
           {{#if numeric-links}}
           <ol>

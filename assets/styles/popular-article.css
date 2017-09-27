@@ -72,6 +72,10 @@ img {
   margin: 0.5rem auto;
 }
 
+p {
+  text-align: justify;
+}
+
 .image-left img{
   display: block;
   float: left;
@@ -81,7 +85,7 @@ img {
 }
 
 .navbar {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.25rem; span
 }
 
 .img-center {
@@ -97,3 +101,12 @@ img {
 .img-large-width {
   height: auto;
 }
+
+.fairy strong {
+   float: left;
+   font-size: 3.0em;
+   line-height: 0.8em;
+   font-weight: bold;
+   font-family: "Monotype Corsiva", "Apple Chancery", fantasy;
+   margin: 5px 10px 0px 0;
+ }
