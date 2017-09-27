@@ -2,6 +2,7 @@
 layout: popular-article.html
 title: Learn about Britain
 navbar-title: Learn about Britain
+large-image: ../../assets/images/learnaboutbritain-unionjack.jpg
 navbar-items: [
   {
     name: About us
@@ -13,38 +14,44 @@ navbar-items: [
     name: Contacts
   }
 ]
-sidebar-list: [
+sidebar-list-left: [
   {
-    name: British food,
-    link: "#"
-  },
-  {
-    name: Cornish pasty,
-    link: "#"
-  },
-  {
-    name: Welsh rarebit,
+    name: Food,
     link: "#",
     active: true
   },
   {
-    name: Yorkshire pudding,
+    name: Health,
     link: "#"
   },
   {
-    name: Mince pies,
+    name: Travel ,
     link: "#"
   },
   {
-    name: Lancashire hotpot,
+    name: Style,
     link: "#"
   },
   {
-    name: Shepherd's pie,
+    name: Tech,
     link: "#"
   },
   {
-    name: Toad in the hole,
+    name: Money,
+    link: "#",
+  }
+]
+sidebar-list-right: [
+  {
+    name: "Ukrainian Food",
+    link: "#"
+  },
+  {
+    name: "Fast Food",
+    link: "#"
+  },
+  {
+    name: "Franch Food",
     link: "#"
   }
 ]
