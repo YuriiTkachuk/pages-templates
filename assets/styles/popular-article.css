@@ -43,19 +43,7 @@
   height: 25rem;
   weight: auto;
 }
-/*
-@media (max-width: 1199px) {
-  img {
-    max-width: 500px;
-  }
-}
 
-@media (max-width: 991px) {
-  img {
-    max-width: 430px;
-  }
-}
-*/
 @media (max-width: 768px) {
   h1 {
     font-size: 3.6rem;
@@ -64,9 +52,6 @@
   p {
     text-align: justify;
     font-size: 1.5rem;
-  }
-  img {
-    width: 100%;
   }
 }
 
@@ -79,11 +64,13 @@
     text-align: justify;
     font-size: 1rem;
   }
-  img {
-    width: 100%;
-  }
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0.5rem auto;
+}
 
 .image-left img{
   display: block;
