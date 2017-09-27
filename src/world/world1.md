@@ -7,12 +7,9 @@ navbar: [ Amy, Dave, Zoe, Jason ]
 button: [ Add a comment ]
 banner_path2: ../../assets/images/blog-worldworld-v2-head.jpg
 ---
-
-![](../../assets/images/blog-worldworld-v2-search.png)
-
 # Holiday – Summer 2015
 
-_29 Juny_
+_29 July_
 
 Wow! What an amazing holiday in Spain! I really want to go back!! It was the first time on a plane for me and I was a bit scared because I didn't know what to do. But Mummy kept telling me it was OK and that soon we would be with Granny and Grandad.
 

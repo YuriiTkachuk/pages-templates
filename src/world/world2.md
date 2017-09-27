@@ -7,10 +7,6 @@ navbar: [ Amy, Dave, Zoe, Jason ]
 button: [ Add a comment ]
 banner_path2: ../../assets/images/blog-worldworld-v2-headamy.jpg
 ---
-
-![](../../assets/images/blog-worldworld-v2-search.png)
-
-
 # Fun in the sun – August 2015
 
 _15 August_
