@@ -83,3 +83,7 @@ blockquote {
     font-size: 0.8rem;
   }
 }
+.img-center {
+  display: block;
+  margin: 0 auto;
+}

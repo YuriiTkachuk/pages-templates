@@ -2,6 +2,8 @@
 layout: minimalist.html
 title: The pagan elements of Easter
 content-align: left
+logo-center: true
+logo-path: ../../assets/images/religion.png
 person-about: true
 person-info: [
   {
