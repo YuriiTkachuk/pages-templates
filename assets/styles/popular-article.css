@@ -43,7 +43,19 @@
   height: 25rem;
   weight: auto;
 }
+/*
+@media (max-width: 1199px) {
+  img {
+    max-width: 500px;
+  }
+}
 
+@media (max-width: 991px) {
+  img {
+    max-width: 430px;
+  }
+}
+*/
 @media (max-width: 768px) {
   h1 {
     font-size: 3.6rem;
@@ -72,11 +84,13 @@
   }
 }
 
+
 .image-left img{
   display: block;
   float: left;
   margin-top: 0.2rem;
   margin-right: 1rem;
+  margin-bottom: 0.2rem;
 }
 
 .navbar {
@@ -91,4 +105,8 @@
 .img-rounded {
   border-radius: 1rem;
   margin-bottom: 0.25rem;
+}
+
+.img-large-width {
+  height: auto;
 }
