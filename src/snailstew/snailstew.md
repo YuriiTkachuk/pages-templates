@@ -30,7 +30,7 @@ comments: [
 ]
 title_comment: Reader comments
 button: [ Add a comment ]
-footer: Aristea
+footer: © Aristea
 ---
 
 ## Snail Stew by Aristea
