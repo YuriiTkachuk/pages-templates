@@ -11,33 +11,7 @@ navbar-items: [
     name: Programmes
   },
   {
-    name: Lectures,
-    dropdown-items: [
-      {
-        name: fairytaledigest.com,
-        link: "#"
-      },
-      {
-        name: feedchat.com,
-        link: "#"
-      },
-      {
-        name: art_notes.com,
-        link: "#"
-      },
-      {
-        name: www.traditionalfestivals.com,
-        link: "#"
-      },
-      {
-        name: minibiog.com,
-        link: "#"
-      },
-      {
-        name: allaboutsports.net,
-        link: "#"
-      }
-    ]
+    name: Lectures
   }
 ]
 sidebar-list-left: [
