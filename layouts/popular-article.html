@@ -53,7 +53,7 @@
                 </li>
                 {{else}}
                 <li class="nav-item">
-                  <a class="nav-link" href="{{ this.link }}">{{ this.name }}</a>
+                  <a class="nav-link" href={{ this.link }}>{{ this.name }}</a>
                 </li>
                 {{/if}}
                 {{/each}}
@@ -66,7 +66,7 @@
       {{#if large-width-image}}
       <div class="row">
         <div class="col-12">
-          <img class="img-fluid img-center img-rounded" src="{{ large-width-image }}">
+          <img class="img-fluid img-center img-rounded img-large-width" src="{{ large-width-image }}">
         </div>
       </div>
       {{/if}}
@@ -88,6 +88,7 @@
         {{/if}}
 
         <div class="col-sm-6 col-md-6 col-12 py-3">
+          <div class="container">
           {{#if large-image}}
               <img class="img-fluid img-center img-rounded" src="{{ large-image }}">
           {{/if}}
@@ -170,12 +171,13 @@
           </div>
           {{/if}}
         </div>
+      </div>
 
 
       {{#if sidebar-list-right}}
       <div class="col-sm-3 col-md-3">
         <div class="list-group">
-          <a href="#" class="list-group-item active-item">Popular articles</a>
+          <a href="#" class="list-group-item active-item" style="background-color: grey"><h4><strong>Popular articles</strong></h4></a>
           {{#each sidebar-list-right}}
           <a href="{{this.link}}" class="list-group-item">{{this.name}}</a>
           {{/each}}
