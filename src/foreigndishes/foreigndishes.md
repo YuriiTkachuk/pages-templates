@@ -2,6 +2,7 @@
 layout: popular-article.html
 title: Foreign dishes
 navbar-title: Foreign dishes
+large-image: ../../assets/images/foreigndishes.png
 navbar-items: [
   {
     name: Home
