@@ -69,9 +69,9 @@ sidebar-list-right: [
 
 One day, Little Red Riding Hood’s mother said to her, “Take this basket of food to your grandma’s cottage, but be careful - don’t talk to strangers on the way!” Promising not to, Little Red Riding Hood skipped off. On her way through the forest she met the Big Bad Wolf.
 
- “Where are you going, little girl?” he asked.
+ <b>“Where are you going, little girl?”</b> he asked.
 
- “To my grandma’s house, Mr. Wolf! She lives in the cottage on the other side of the forest” she answered.
+ <b>“To my grandma’s house, Mr. Wolf! She lives in the cottage on the other side of the forest”</b> she answered.
 
 **T**he Big Bad Wolf then ran very fast to her grandmother’s cottage and knocked on the door. When Grandma opened the door, he rushed in and locked her up in the cupboard. The wicked wolf then put on Grandma’s clothes and lay in her bed, waiting for Little Red Riding Hood to arrive.
 
@@ -80,22 +80,22 @@ When Little Red Riding Hood reached the cottage, she entered and went to Grandma
 <center>[![Black Wolf by HunterxColleen](../../assets/images/fairytaledigest_wolf.png)](http://www.deviantart.com/art/Black-Wolf-160415263)
 </center>
 
- “My! What big eyes you have, Grandma!” she said in surprise.
+  <b>“My! What big eyes you have, Grandma!”</b> she said in surprise.
 
 
- “All the better to see you with, my dear!” replied the wolf.
+ <b>“All the better to see you with, my dear!”</b> replied the wolf.
 
 
- “My! What big ears you have, Grandma!” said Little Red Riding Hood.
+ <b>“My! What big ears you have, Grandma!”</b> said Little Red Riding Hood.
 
 
- “All the better to hear you with, my dear!” said the wolf.
+ <b>“All the better to hear you with, my dear!”</b> said the wolf.
 
 
- “What big teeth you have, Grandma!” said Little Red Riding Hood.
+ <b>“What big teeth you have, Grandma!”</b> said Little Red Riding Hood.
 
 
- “All the better to eat you with!” growled the wolf and pounced on her.
+ <b>“All the better to eat you with!”</b> growled the wolf and pounced on her.
 
 
 **L**ittle Red Riding Hood screamed and the woodcutters in the forest came running to the cottage. They beat the Big Bad Wolf and rescued Grandma from the cupboard. Grandma hugged Little Red Riding Hood with joy.
