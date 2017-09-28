@@ -1,59 +1,68 @@
 ---
 layout: popular-article.html
 title: Foreign dishes
-navbar-title: Foreign dishes
+navbar-title: Foreign Food
 large-image: ../../assets/images/foreigndishes.png
 navbar-items: [
   {
-    name: Home
+    name: Home,
+    link: "#"
   },
   {
-    name: Recipes
+    name: Recipes,
+    link: "#"
   },
   {
-    name: Blog
+    name: Blog,
+    link: "#"
   },
   {
-    name: Healthy
+    name: Healthy,
+    link: "#"
   },
   {
-    name: Seasonal
+    name: Seasonal,
+    link: "#"
   },
   {
-    name: How to cook
+    name: How to cook,
+    link: "#"
   },
   {
-    name: Shop
+    name: Shop,
+    link: "#"
   },
   {
-    name: More...
+    name: More...,
+    link: "#"
   }
 ]
 sidebar-list-left: [
   {
-    name: Food,
+    name: French Сuisine,
+    link: "#"
+  },
+  {
+    name: Mixed Сuisine,
     link: "#",
     active: true
   },
   {
-    name: Health,
+    name: Ukrainian Сuisine,
     link: "#"
   },
   {
-    name: Travel ,
+    name: German Сuisine,
     link: "#"
   },
   {
-    name: Style,
+    name: Italian Cuisine
+,
     link: "#"
   },
   {
-    name: Tech,
+    name: Japanese Cuisine,
     link: "#"
-  },
-  {
-    name: Money,
-    link: "#",
   }
 ]
 
@@ -74,7 +83,7 @@ sidebar-list-right: [
 ---
 ## Those foreign dishes that have become British
 
-#### Many dishes we now consider essentially British were originally imported from abroad, and though today they are in everyday use, once they were considered rich and strange. Let's look at the origins of some.
+##### <div style="color: grey">Many dishes we now consider essentially British were originally imported from abroad, and though today they are in everyday use, once they were considered rich and strange. Let's look at the origins of some.</div>
 
 * * *
 
