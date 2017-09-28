@@ -3,7 +3,7 @@ layout: blog.html
 title: Baltimore's First Television
 banner_text: Baltimore's First Television
 button: [ Add comment ]
-footer: All right reserved
+footer: All rights reserved
 ---
 
 _13.05.2017_
