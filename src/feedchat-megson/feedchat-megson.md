@@ -1,6 +1,6 @@
 ---
 layout: news.html
-title: feedchat-megson
+title: FeedChat
 footer: © FeedChat
 title_name: Inspired by real life
 text_path: News / Eyewitness Testimony
