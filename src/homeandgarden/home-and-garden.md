@@ -3,15 +3,19 @@ layout: popular-article.html
 title: Home and garden
 navbar-title: Home & garden
 large-width-image: ../../assets/images/homeandgarden-img.jpg
+article: true
 navbar-items: [
   {
-    name: ABOUT US
+    name: ABOUT US,
+    link: "#"
   },
   {
-    name: LIFESTYLE
+    name: LIFESTYLE,
+    link: "#"
   },
   {
-    name: DESIGN
+    name: DESIGN,
+    link: "#"
   },
   {
     name: DIY,
@@ -64,28 +68,20 @@ navbar-items: [
 
 sidebar-list-left: [
   {
-    name: Food,
+    name: Building,
     link: "#"
   },
   {
-    name: Health,
-    link: "#"
-  },
-  {
-    name: Travel ,
-    link: "#"
-  },
-  {
-    name: Style,
+    name: Repairs,
     link: "#",
     active: true
   },
   {
-    name: Tech,
+    name: Construction Materials,
     link: "#"
   },
   {
-    name: Money,
+    name: Home design,
     link: "#",
   }
 ]
@@ -113,7 +109,7 @@ Before you start your DIY adventure, it's important to step back and consider th
 
 ## Budget
 
-<center>![](../../assets/images/home-and-garden-1.jpg)</center>
+![](../../assets/images/home-and-garden-1.jpg)
 
 If you want to redecorate a bedroom, think about what exactly you plan to do and not do. If you decide to paint the room, will you include the ceiling and woodwork or will you just focus on the walls? Or perhaps you would prefer to use wallpaper? And how about more specific details – will you change the carpet, curtains, upholstery and lighting? All of these decisions depend upon how much money you are able to spend on the project.
 
@@ -121,7 +117,7 @@ A quick repaint of the walls may cost you around £50, but the price can double 
 
 ## Start a file
 
-<center>![](../../assets/images/home-and-garden-2.jpg)</center>
+![](../../assets/images/home-and-garden-2.jpg)
 
 Unless you're a fan of plain white walls, you'll definitely need to get some colour charts, wallpaper samples and possibly fabric samples to help you make decisions about which products to use.
 
@@ -133,7 +129,7 @@ We recommend you buy a cardboard folder or file to keep your charts and samples 
 
 ## Plan your time
 
-<center>![](../../assets/images/home-and-garden-3.jpg)</center>
+![](../../assets/images/home-and-garden-3.jpg)
 
 Provided you're not hiring professionals, the work involved in the project will cost you nothing. However, you will still need to work out exactly how much time you will need to spend.
 
@@ -145,7 +141,7 @@ You will probably need a whole weekend to repaint one room, and two will be need
 
 ## Get organised
 
-<center>![](../../assets/images/home-and-garden-4.jpg)</center>
+![](../../assets/images/home-and-garden-4.jpg)
 
 Finally, make sure you understand all the details of the job as well as any possible problems you may run into. To redecorate a bathroom, for example, you should first do the tiling, then the painting and finally the flooring. But, remember, before you can begin any of the work, you should estimate what materials you need (and how much of them).
 
