@@ -46,17 +46,6 @@ sidebar-list-left: [
 
 sidebar-list-right: [
   {
-    name: New Year,
-    link: "#"
-  },
-  {
-    name: Chinese New Year,
-    link: "#"
-  }
-]
-
-links: [
-  {
     name: "Top 10 Christmas Recipes",
     link: "#"
   },
@@ -80,8 +69,6 @@ links: [
 
 ---
 <center>![logo](../../assets/images/buzznews-logo.png "logo")</center>
-
-# PROVOCATIVE PROPOSAL: Citizenship education should be abandoned
 
 ## Christmas around the world
 
@@ -116,6 +103,3 @@ In Venezuela, people have a late supper after returning from midnight Mass on Ch
 ## Africa and Asia
 
 In Africa, as in Asia, the celebration of Christmas is not widespread because most of the countries have a small Christian population. Missionaries brought Christmas customs to Africa and so people in the Christian communities generally follow Western traditions. However, Africans sing carols and hymns in their own languages.
-
-
-## Links

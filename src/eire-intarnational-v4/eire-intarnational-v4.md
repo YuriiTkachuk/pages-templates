@@ -2,7 +2,7 @@
 layout: popular-article.html
 title: Eire Intarnational
 navbar-title: Eire Intarnational
-page-path: "Home  >  Articles  >  Unusual St. Patrick's Day celebrations"
+page-path: "Home  >  Articles  >  Unusual St. Patrick's Day"
 large-width-image: ../../assets/images/eireinternational-img.jpg
 article: true
 navbar-items: [

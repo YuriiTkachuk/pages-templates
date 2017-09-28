@@ -2,30 +2,50 @@
 layout: popular-article.html
 title: Nottinghilltips
 navbar-title: Nottinghilltips
+article: true
 navbar-items: [
   {
-    name: About us
+    name: About us,
+    link: "#"
   },
   {
-    name: Programmes
+    name: Programmes,
+    link: "#"
   },
   {
-    name: Contacts
+    name: Lectures,
+    link: "#"
   }
 ]
-sidebar-list: [
+
+sidebar-list-left: [
   {
-    name: Home,
+    name: "London sights",
     link: "#"
   },
   {
-    name: Events in London,
+    name: "Events in London",
     link: "#"
   },
   {
-    name: Top tips for staying safe in London,
+    name: "Top tips for staying safe in London",
     link: "#",
     active: true
+  }
+]
+
+sidebar-list-right: [
+  {
+    name: "Santa Cruz de Tenerife Carnaval",
+    link: "#"
+  },
+  {
+    name: "Carnevale di Venezia",
+    link: "#"
+  },
+  {
+    name: "Quebec Winter Carniva",
+    link: "#"
   }
 ]
 ---

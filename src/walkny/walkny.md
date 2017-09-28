@@ -1,8 +1,8 @@
 ---
 layout: popular-article.html
 title: Walkny
-navbar-logo-path: ../../assets/images/walkny_Banner-City_Guide.gif
-
+navbar-logo-path: ../../assets/images/walkny-Banner-City_Guide.gif
+article: true
 navbar-items: [
   {
     name: About us
@@ -14,7 +14,7 @@ navbar-items: [
     name: Contacts
   }
 ]
-sidebar-list: [
+sidebar-list-left: [
   {
     name: THINGS TO DO,
     link: "#",
@@ -34,6 +34,21 @@ sidebar-list: [
   },
   {
     name: LONDON,
+    link: "#"
+  }
+]
+sidebar-list-right: [
+  {
+    name: "Walking Tour of Manhattan",
+    link: "#",
+    active: true
+  },
+  {
+    name: "Walking Tour of Paris",
+    link: "#"
+  },
+  {
+    name: "Walking Tour of London",
     link: "#"
   }
 ]

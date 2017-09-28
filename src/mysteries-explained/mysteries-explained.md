@@ -2,48 +2,26 @@
 layout: popular-article.html
 title: Mysteries Explained
 navbar-title:  Mysteries Explained
+large-width-image: ../../assets/images/mysteriesexplaines.jpg
 navbar-items: [
   {
-    name: About us
+    name: About us,
+    link: "#"
   },
   {
-    name: Programmes
+    name: Programmes,
+    link: "#"
   },
   {
     name: Lectures,
-    dropdown-items: [
-      {
-        name: fairytaledigest.com,
-        link: "#"
-      },
-      {
-        name: feedchat.com,
-        link: "#"
-      },
-      {
-        name: art_notes.com,
-        link: "#"
-      },
-      {
-        name: www.traditionalfestivals.com,
-        link: "#"
-      },
-      {
-        name: minibiog.com,
-        link: "#"
-      },
-      {
-        name: allaboutsports.net,
-        link: "#"
-      }
-    ]
+    link: "#"
   }
 ]
-sidebar-list: [
+sidebar-list-left: [
   {
     name: Home,
     link: "#",
-    active: true 
+    active: true
   },
   {
     name: Urban Legends,
@@ -63,13 +41,29 @@ sidebar-list: [
   }
 ]
 
+sidebar-list-right: [
+  {
+    name: "American Folk Culture in the Nineteenth Century",
+    link: "#"
+  },
+  {
+    name: "African American Folklore",
+    link: "#"
+  },
+  {
+    name: "Folklore, Mass Culture, and Multiculturalism",
+    link: "#"
+  }
+]
 ---
 
 # Modern mysteries explained
 
 In the past, before the days of digital media and television, people used to pass on stories as types of entertainment. This folklore (stories told by 'folk' - the common people) has expanded with the introduction of new technology and there are many modern examples like urban legends, hoaxes, chain letters and viral photos. Let's have a look at each of these here:
 
-## ![](../../assets/images/mysteries-explained-img07.jpg)Urban Legends
+## Urban Legends
+
+ ![](../../assets/images/mysteries-explained-img07.jpg)
 
 Have you heard the one about the crocodiles in the sewer? The killer clown? Or what about the fried mouse in the chicken restaurant? All of these are classic types of urban legends. They are always second hand, meaning that they happened to someone else, not the story teller and they are always alleged to be true! They are different to rumours because a rumour is just a fact or piece of information that is supposed to be true, while urban legends are a whole story with a beginning, middle and an end.
 
@@ -77,7 +71,8 @@ Have you heard the one about the crocodiles in the sewer? The killer clown? Or w
 
 A hoax is a document or act that is supposed to deceive or trick the public. Examples of hoaxes range from amusing false news stories published on April Fool's Day in some countries, to more serious criminal fraud. With the internet it is now much easier to make and spread hoaxes. This site will help you to spot them.
 
-## ![](../../assets/images/mysteries-explained-img02.jpg)Chain Letters
+## Chain Letters
+ ![](../../assets/images/mysteries-explained-img02.jpg)
 
 A chain letter (or email) is a written text which tries to persuade you to reproduce it or pass it on. It will have instructions in it like 'please copy this and send it to at least 10 people' or 'forward this to everyone in your contacts'! Often these messages promise good luck to those who pass them on, or threats of doom for those that break the chain!
 
