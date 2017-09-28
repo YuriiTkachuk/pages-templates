@@ -1,9 +1,9 @@
 ---
 layout: news.html
 title: chineselanterns
-footer: © Tomorrow
+footer: Borders and County News
 sidebar: ../../assets/images/sidebar-news.png
-text_path: Chinese Lanterns spark False Alarm
+text_path: Home / News / Chinese Lanterns spark False Alarm
 logo_path: ../../assets/images/chineselanterns-tomorrow.jpg
 button: [
   {
