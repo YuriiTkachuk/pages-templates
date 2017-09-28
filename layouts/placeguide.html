@@ -15,6 +15,10 @@
   </head>
   <body>
 
+    <div style="text-align: center">
+      <img src="{{ logo }}" class="logo img-fluid"/>
+    </div>
+
     <nav class="navbar navbar-expand-lg navbar-dark" role="navigation">
 
       <div id="HeaderOuter">
@@ -29,7 +33,6 @@
               <li class="padd"><a href="{{ link }}" class="texted">{{ text }}</a></li>
               {{/each}}
             </ul>
-              <img src="{{ logo }}" class="d-none d-lg-inline"/>
             <form class="navbar-collapse navbar-form navbar-right justify-content-end" role="search">
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search">
@@ -41,21 +44,31 @@
     </nav>
 
     <div id="page">
-      {{{ contents }}}
+      {{#if center}}
+      <div style="text-align: center">
+      {{else}}
+      <div>
+        {{/if}}
+        {{{ contents }}}
+      </div>
       {{#each block}}
       <div class="row">
+        {{#if title2}}
         <div class="text-centered half">
+        {{else}}
+        <div class="text-centered centered half">
+        {{/if}}
           <div class="menu">
             <h2>{{ title1 }}</h2>
             {{#if img1}}
               <img src="{{ img1 }}" alt="">
             {{/if}}
             <p class="small" style="text-align: center">
-            {{#if number1}}
-            {{ number1 }}<br>
-            {{/if}}
-            {{#if adress1}}
-            {{ adress1 }}<br>
+            {{#each her1}}
+            {{ this }}<br>
+            {{/each}}
+            {{#if site1}}
+            <div><a href="{{ site1 }}" class="black">{{ site1 }}</a></div>
             {{/if}}
             {{#each stars1}}
             <img src="../../assets/images/placeguide-star.png">
@@ -73,11 +86,11 @@
               <img src="{{ img2 }}" alt="">
             {{/if}}
             <p class="small" style="text-align:center">
-            {{#if number2}}
-            {{ number2 }}<br>
-            {{/if}}
-            {{#if adress2}}
-            {{ adress2 }}<br>
+            {{#each her2}}
+            {{ this }}<br>
+            {{/each}}
+            {{#if site2}}
+            <a href="{{ site2 }}" class="black">{{ site2 }}</a>
             {{/if}}
             {{#each stars2}}
             <img src="../../assets/images/placeguide-star.png">
@@ -90,24 +103,29 @@
         {{/if}}
       </div>
       {{/each}}
+      {{#if cont}}
+      <div >
+        {{{ cont }}}
+      </div>
+      {{/if}}
       {{#if map}}
       <div class="map">
         <div id="map"></div>
       </div>
-      <script>
-      function initMap() {
-        var uluru = {lat: {{ x }}, lng: {{ y }} };
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 16,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-      </script>
       {{/if}}
     </div>
   </body>
+  <script>
+  setTimeout(function initMap() {
+    var uluru = {lat: {{ x }}, lng: {{ y }} };
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 16,
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+  }, 500);
+  </script>
 </html>

@@ -2,7 +2,7 @@
 layout: placeguide.html
 title: holiday-rentals
 second: "holiday-reviews.html"
-logo: "../../assets/images/holiday-rentals-logo.jpg"
+logo: "../../assets/images/holidayrentalslogo.jpg"
 navs: [
   {
     text: "Home",
