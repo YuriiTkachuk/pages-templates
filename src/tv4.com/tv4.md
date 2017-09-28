@@ -43,7 +43,7 @@ navbar-items: [
     ]
   }
 ]
-sidebar-list: [
+sidebar-list-left: [
   {
     name: Herbal medicine,
     link: "#"
@@ -66,6 +66,20 @@ sidebar-list: [
     active: true
   }
 ]
+sidebar-list-right: [
+  {
+    name: "Top 10 tips for being a successful comedian",
+    link: "#"
+  },
+  {
+    name: "Top 10 tips for being a successful choreographer",
+    link: "#"
+  },
+  {
+    name: "Top 10 tips for being a successful poet",
+    link: "#"
+  }
+]
 ---
 # Top ten tips for becoming a successful forager
 
@@ -73,7 +87,7 @@ Even in winter, skilled foragers are able to find plenty of wild, delicious food
 
 However, when you do go collecting wild food, don’t forget to follow the rules. The TV4 team of expert foragers have put together a list of tips for the inexperienced forager.
 
-<center>  ![pot of blueberries](../../assets/images/tv4-pot.jpg) </center> 
+<center>  ![pot of blueberries](../../assets/images/tv4-pot.jpg) </center>
 
 1.  <span>Look after the countryside. Leave it as you found it and always follow the Country Code.</span>
 2.  <span>Don’t be greedy! If you are lucky enough to find a lot of food, it doesn’t mean you have to take it all! Leave some for other people and, more importantly, for any animals that need this food to survive.</span>
