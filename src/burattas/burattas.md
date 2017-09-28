@@ -3,6 +3,7 @@ layout: organization-website.html
 title: "Burattas Pub"
 image-path: "../../assets/images/burattas-logo.png"
 nav: [ Home, History, Eating, Drinking ]
+sidebar: true
 ---
 
 # Eating
@@ -29,4 +30,23 @@ All our meat, fish and produce are bought from local suppliers and we are well k
 ### Special occasions
 
 Please call us to ask about our Christmas menu. We are also happy to cater for weddings and business events. If you have any special requests don’t hesitate to call on 01199 00187
+
+---
+section: sidebar_section
+---
+
+**Call us now to make a reservation: 01199 00187**
+
+
+## Opening hours
+
+
+**Monday:** Noon - 3PM
+Food served until 2.30PM
+
+**Tuesday to Saturday:** Noon - 3PM & 6PM – 11PM
+Food served until 2.30 & 9.30PM
+
+**Sunday:** Noon – 4PM
+Food served until 3PM
 

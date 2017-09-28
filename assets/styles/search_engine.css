@@ -147,12 +147,16 @@ li {
 }
 
 .Box {
-  padding:20px 20px 20px 20px;
-  margin-top:20px;
+  padding: 0 20px 20px 20px;
+  margin-top: 0;
   border-bottom:1px solid #c0c0c0;
 }
 
 .Green {
   word-wrap: break-word;
   color:#089605;
+}
+
+.cursor_pointer {
+	cursor: pointer;
 }

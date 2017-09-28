@@ -47,11 +47,8 @@ img {
   margin: 20px;
 }
 
-
-.sidetable {
-  margin: 4em 1em;
-  line-height: 2em;
-  padding-right: 1em;
+.sidebar {
+text-align: left;
 }
 
 @media screen and (min-width: 500px) {
