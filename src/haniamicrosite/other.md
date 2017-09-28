@@ -13,14 +13,58 @@ navbar-items: [
     name: Other places to visit
   }
 ]
+sidebar-list-left: [
+  {
+    name: Hania,
+    link: "#",
+    active: true
+  },
+  {
+    name: Athens,
+    link: "#"
+  },
+  {
+    name: Thessaloniki,
+    link: "#"
+  },
+  {
+    name: Macedonia,
+    link: "#"
+  },
+  {
+    name: Katerini,
+    link: "#"
+  },
+  {
+    name: Heraklion,
+    link: "#",
+  }
+]
+sidebar-list-right: [
+  {
+    name: "Athens",
+    link: "#"
+  },
+  {
+    name: "Hania",
+    link: "#"
+  },
+  {
+    name: "Macedonia",
+    link: "#"
+  }
+]
 ---
 ## Other places to visit
 
 The high mountain range of the Lefka Ori (White Mountains) runs from west to east across Hania prefecture. For this reason, transport along the flat north coast is easy and fast, but there are only four major routes from the north coast to the south coast. Travelling along the south coast can only be done on foot or by boat. You can put your car on a small ferry, but this is an expensive and impractical way to see the south coast villages, especially since two of them - Agia Roumeli and Loutro – have no roads at all.
 
-[![](../../assets/images/haniamicrosite-Map-thumb.jpg)](images/Map.jpg)
+---
+<center>[![](../../assets/images/haniamicrosite-Map-thumb.jpg)](images/Map.jpg)</center>
 
 <center>[Click to open map of Crete](../../assets/images/haniamicrosite-Map.jpg)</center>
+
+---
 
 ### Nearby beaches
 
@@ -44,22 +88,22 @@ At the opposite end of the peninsula from Falasarna are two islands, one of whic
 
 The only villages on the south coast that are accessible by road are Paleohora, Sougia, Hora Sfakion and Frangokastello. All of these offer overnight accommodation and can be reached from the town of Hania in a day by car or bus. For the complete experience of the wild and beautiful south coast, put on your walking shoes and go down the [Samaria Gorge](gorge.html) to Agia Roumeli and take a boat east or west from there. Alternatively, you can go village-hopping by boat, starting at Paleohora and going east, or departing from Hora Sfakion and going west.
 
-![](../../assets/images/haniamicrosite-Kalivaki.jpg)
+<center>![](../../assets/images/haniamicrosite-Kalivaki.jpg)</center>
 
 <center>Kalivaki beach, near Georgioupoli</center>
 
-![](../../assets/images/haniamicrosite-Elafonissos.jpg)
+<center>![](../../assets/images/haniamicrosite-Elafonissos.jpg)</center>
 
 <center>The island and lagoon at Elafonisi</center>
 
-![](../../assets/images/haniamicrosite-Falasarna.jpg)
+<center>![](../../assets/images/haniamicrosite-Falasarna.jpg)</center>
 
 <center>Falasarna</center>
 
-![](../../assets/images/haniamicrosite-Gramvousa.jpg)
+<center>![](../../assets/images/haniamicrosite-Gramvousa.jpg)</center>
 
 <center>The lagoon at Balos with the ruined fort of Gramvousa in the background</center>
 
-![](../../assets/images/haniamicrosite-Church.jpg)
+<center>![](../../assets/images/haniamicrosite-Church.jpg)</center>
 
 <center>A church near Loutro, on the south coast</center>

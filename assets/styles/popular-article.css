@@ -110,3 +110,49 @@ p {
    font-family: "Monotype Corsiva", "Apple Chancery", fantasy;
    margin: 5px 10px 0px 0;
  }
+
+
+blockquote {
+  color: grey;
+  padding: 10px;
+  padding-left: 30px;
+  font-size: 0.8em;
+}
+
+blockquote h2 {
+  color: grey;
+  font-size: 1em;
+}
+blockquote {
+  color: grey;
+  padding: 10px;
+  padding-left: 30px;
+  font-size: 0.8em;
+}
+
+blockquote h2 {
+  color: grey;
+  font-size: 1em;
+}
+td {
+  font-family: 'Bookman Old Style', serif;
+  margin: 0;
+  padding: 2px;
+  border: 0;
+  font-size: calc(0.5em + 0.5vw);
+  vertical-align: baseline;
+  background: #708090;
+  border: 4px double white;
+  font-style: normal;
+}
+th {
+  font-family: 'Bookman Old Style', serif;
+  margin: 0;
+  padding: 2px;
+  border: 0;
+  font-size: calc(0.5em + 0.5vw);
+  vertical-align: baseline;
+  background: #697790;
+  border: 4px double white;
+  font-style: normal;
+}

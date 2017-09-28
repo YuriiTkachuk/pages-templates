@@ -13,10 +13,51 @@ navbar-items: [
     name: Other places to visit
   }
 ]
+sidebar-list-left: [
+  {
+    name: Hania,
+    link: "#",
+    active: true
+  },
+  {
+    name: Athens,
+    link: "#"
+  },
+  {
+    name: Thessaloniki,
+    link: "#"
+  },
+  {
+    name: Macedonia,
+    link: "#"
+  },
+  {
+    name: Katerini,
+    link: "#"
+  },
+  {
+    name: Heraklion,
+    link: "#",
+  }
+]
+sidebar-list-right: [
+  {
+    name: "Athens",
+    link: "#"
+  },
+  {
+    name: "Hania",
+    link: "#"
+  },
+  {
+    name: "Macedonia",
+    link: "#"
+  }
+]
 ---
-## Samaria Gorge
+# Samaria Gorge
 
-![](../../assets/images/haniamicrosite-Gorge1.jpg)
+<center>![](../../assets/images/haniamicrosite-Gorge1.jpg)</center>
 
 The Samaria Gorge is situated in the Samaria National Park in the _Lefka Ori_ (White Mountains) of Crete. The National Park was created 50 years ago, in 1962\. Since then the area has been under the protection of the Forestry Department of Hania. The Samaria National Park is home to the Cretan wild goat, known locally as the _kri-kri_, which is a protected species.
 
@@ -25,7 +66,7 @@ The classic walk through the gorge starts at the village of Omalos (1227 metres 
 ---
 ### Opening times of the gorge
 
-![](../../assets/images/haniamicrosite-Gorge2.jpg)
+<center>![](../../assets/images/haniamicrosite-Gorge2.jpg)</center>
 
 The gorge is open to visitors from the beginning of May until the end of October. It is closed in winter because of the danger of rock falls and flash floods. You must leave the park before nightfall; overnight camping is not allowed. There is an entry fee of €5.00 to enter the National Park. There are wardens in the park to help you if you get into difficulties.
 
@@ -56,4 +97,4 @@ If you want to go alone or with friends, you can take a public (KTEL) bus to Oma
 |Hania - Omalos            |06:15 or 07:45    |45 minutes  |Daily    |
 |Hora Sfakion - Hania      |11:00 or 18:30 (*)|2 hours     |Daily    |
 
-(*) = After the arrival of the boat from Agia Roumeli
+<small>(*) = After the arrival of the boat from Agia Roumeli</small>
