@@ -2,18 +2,22 @@
 layout: popular-article.html
 title: Great-arch-v2
 navbar-title: Great-arch-v2
+large-width-image: ../../assets/images/great-arch-v2.jpg
 navbar-items: [
   {
-    name: Architecture
+    name: Architecture,
+    link: "#"
   },
   {
-    name: Art
+    name: Art,
+    link: "#"
   },
   {
-    name: Forums
+    name: Forums,
+    link: "#"
   }
 ]
-sidebar-list: [
+sidebar-list-left: [
   {
     name: Fallingwater,
     link: "fallingwater.html"
@@ -26,6 +30,20 @@ sidebar-list: [
     name: Whale Beach House 2,
     link: "whalebeachhouse.html",
     active: true
+  }
+]
+sidebar-list-right: [
+  {
+    name: "The World’s 10 Tallest New Buildings of 2015",
+    link: "#"
+  },
+  {
+    name: "The 9 Most Controversial Buildings of All Time",
+    link: "#"
+  },
+  {
+    name: "Introducing 'Potty-Girl,' The Architect of the Future?",
+    link: "#"
   }
 ]
 ---
