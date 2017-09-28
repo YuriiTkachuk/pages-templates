@@ -5,42 +5,19 @@ navbar-title: Art Notes
 page-path: "Home / Picasso / Blue Period"
 navbar-items: [
   {
-    name: About us
+    name: About us,
+    link: "#"
   },
   {
-    name: Programmes
+    name: Programmes,
+    link: "#"
   },
   {
     name: Lectures,
-    dropdown-items: [
-      {
-        name: fairytaledigest.com,
-        link: "#"
-      },
-      {
-        name: feedchat.com,
-        link: "#"
-      },
-      {
-        name: art_notes.com,
-        link: "#"
-      },
-      {
-        name: www.traditionalfestivals.com,
-        link: "#"
-      },
-      {
-        name: minibiog.com,
-        link: "#"
-      },
-      {
-        name: allaboutsports.net,
-        link: "#"
-      }
-    ]
+    link: "#"
   }
 ]
-sidebar-list: [
+sidebar-list-left: [
   {
     name: Blue Period,
     link: "#",
@@ -63,9 +40,25 @@ sidebar-list: [
     link: "#"
   }
 ]
-
+sidebar-list-right: [
+  {
+    name: "How to Read a Painting",
+    link: "#"
+  },
+  {
+    name: "How to Be Mindful When Making Art",
+    link: "#"
+  },
+  {
+    name: "A Brief History of Color in Art",
+    link: "#"
+  },
+  {
+    name: "101 Greatest Painters",
+    link: "#"
+  }
+]
 main-title: An Introduction to Picasso’s Blue Period
-
 slider: true
 image: [
   {
