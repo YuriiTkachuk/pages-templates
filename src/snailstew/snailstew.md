@@ -39,7 +39,7 @@ _03.05.2016_
 
 _In Crete snails are eaten as a main meal, so a normal serving is about 15-20 snails per person. There are many ways to cook and serve snails. This is a traditional recipe for them._
 
----
+***
 
 ### Preparing snails
 
@@ -63,4 +63,4 @@ olive oil
 
 Sauté the onion and garlic in olive oil until soft. Add the chopped tomatoes and simmer for 10 minutes. Add 4 1/2 cups of water and when the mixture starts to boil, put in the cracked wheat and some salt. Stir well, then cover the pot and cook the mixture on low heat for 10-12 minutes, stirring frequently. Remove the pot from the heat, stir in the snails, cover the pot and leave the entire dish to settle for 20-30 minutes before serving.
 
----
+***

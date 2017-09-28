@@ -1,6 +1,6 @@
 var Metalsmith  = require("metalsmith");
 var layouts     = require("metalsmith-layouts");
-var markdown    = require("metalsmith-markdown");
+var markdown    = require("metalsmith-markdown-sections");
 var helpers     = require("handlebars-helpers");
 var math        = helpers.math();
 

@@ -7,7 +7,7 @@ nav: [ HOME, ABOUT, CLICK & COLLECT, DEALS & OFFERS, CURRENT, EXCHANGE RATES ]
 # Exchange Rates
 
 ## Top 30 Currencies
----
+***
 Exchange rates to GBP (British pound sterling) for our 30 most popular currencies.
 
 |                                           |       |                    |        |

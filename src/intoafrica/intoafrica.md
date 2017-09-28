@@ -25,7 +25,7 @@ The charity Pump Aid has come up with an innovative way to solve this problem. T
 
 Solutions like this, which deliver locally appropriate technology that the end users can build and maintain themselves, show development aid at its best.
 
----
+***
 
 ### Previous posts
 

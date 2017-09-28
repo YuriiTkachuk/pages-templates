@@ -15,11 +15,11 @@ Our function rooms are ideal for board meetings and conferences, corporate parti
 
 What distinguishes 76 Portland Place from its competitors is our close attention to detail, giving you the service and attention you need to make your event a great success.
 
----
+***
 
 ## Our Rooms
 
----
+***
 
 ![](../../assets/images/portlandplace-1.jpg)
 
@@ -27,7 +27,7 @@ What distinguishes 76 Portland Place from its competitors is our close attention
 
 The Rutherford Theatre can accommodate 170 in lecture theatre style and 120 in cabaret style. It is a contemporary purpose-built room with integrated audio-visual equipment.
 
----
+***
 
 ![](../../assets/images/portlandplace-2.jpg)
 
@@ -35,7 +35,7 @@ The Rutherford Theatre can accommodate 170 in lecture theatre style and 120 in c
 
 With a capacity of 90, this purpose-built theatre features the latest audio-visual equipment including a large screen (4.6 x 2.1m).
 
----
+***
 
 ![](../../assets/images/portlandplace-3.jpg)
 
@@ -51,7 +51,7 @@ The Hooke Room can seat up to 48 in cabaret style or 80 in lecture theatre style
 
 This stunning room has a capacity of 45 lecture theatre style, 18 boardroom, cabaret for 30 and dinner for 60 and also includes the latest audio-visual equipment.
 
----
+***
 
 ![](../../assets/images/portlandplace-5.jpg)
 
@@ -59,7 +59,7 @@ This stunning room has a capacity of 45 lecture theatre style, 18 boardroom, cab
 
 The Phillips room seats up to 45 people in lecture theatre style and 33 people in boardroom style. A sound proof moveable wall allows the room to be split into two.
 
----
+***
 
 ![](../../assets/images/portlandplace-6.jpg)
 
@@ -75,7 +75,7 @@ The Ada Lovelace room can seat 40 in lecture theatre style and 20 in a boardroom
 
 The Guthrie room seats up to 24 people in boardroom style. This is an ideal training room.
 
----
+***
 
 ![](../../assets/images/portlandplace-8.jpg)
 
@@ -83,7 +83,7 @@ The Guthrie room seats up to 24 people in boardroom style. This is an ideal trai
 
 The Eddington Room is suitable for 18 in boardroom style. A complimentary flipchart is placed in the room.
 
----
+***
 
 ## Where are we?
 

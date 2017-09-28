@@ -25,8 +25,8 @@ And until you've been there, until you've been in that exact position: at the ab
 
 If you're lucky.
 
----
+***
 
 ##### _This entry was posted on June 13 2011 and is filed under [courage](#), [limits](#), [2011](#), [June 2011](#), [thoughts](#), [travel](#)_
 
----
+***
