@@ -2,7 +2,6 @@
 layout: news.html
 title: careerproblems
 footer: © Daily
-sidebar: ../../assets/images/sidebar-news.png
 text_path: Career problems
 logo_path: ../../assets/images/careerproblems-banner-the-daily.png
 button: [
