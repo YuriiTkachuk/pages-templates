@@ -22,31 +22,19 @@ navbar-items: [
   }
 ]
 sidebar-list-left: [
-{
-  name: Food,
-  link: "#"
-},
-{
-  name: Health,
-  link: "#"
-},
-{
-  name: Travel ,
-  link: "#"
-},
-{
-  name: Style,
-  link: "#",
-  active: true
-},
-{
-  name: Tech,
-  link: "#"
-},
-{
-  name: Money,
-  link: "#",
-}
+  {
+    name: Strategy,
+    link: "#"
+  },
+  {
+    name: Development,
+    link: "#"
+  },
+  {
+    name: Business,
+    link: "#",
+    active: true
+  }
 ]
 sidebar-list-right: [
   {
