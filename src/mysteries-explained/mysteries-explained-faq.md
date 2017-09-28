@@ -2,44 +2,22 @@
 layout: popular-article.html
 title: Mysteries Explained
 navbar-title:  Mysteries Explained FAQ
+large-width-image: ../../assets/images/mysteriesexplaines.jpg
 navbar-items: [
   {
-    name: About us
+    name: About us,
+    link: "#"
   },
   {
-    name: Programmes
+    name: Programmes,
+    link: "#"
   },
   {
     name: Lectures,
-    dropdown-items: [
-      {
-        name: fairytaledigest.com,
-        link: "#"
-      },
-      {
-        name: feedchat.com,
-        link: "#"
-      },
-      {
-        name: art_notes.com,
-        link: "#"
-      },
-      {
-        name: www.traditionalfestivals.com,
-        link: "#"
-      },
-      {
-        name: minibiog.com,
-        link: "#"
-      },
-      {
-        name: allaboutsports.net,
-        link: "#"
-      }
-    ]
+    link: "#"
   }
 ]
-sidebar-list: [
+sidebar-list-left: [
   {
     name: Home,
     link: "#"
@@ -62,7 +40,20 @@ sidebar-list: [
     link: "#"
   }
 ]
-
+sidebar-list-right: [
+  {
+    name: "American Folk Culture in the Nineteenth Century",
+    link: "#"
+  },
+  {
+    name: "African American Folklore",
+    link: "#"
+  },
+  {
+    name: "Folklore, Mass Culture, and Multiculturalism",
+    link: "#"
+  }
+]
 numeric-links: [
   {
     name: "Think about the form of the information you are told. Is it a story with a beginning, a middle and an end? Does the ending have a shock or a surprise? If so, it might be an urban legend."
