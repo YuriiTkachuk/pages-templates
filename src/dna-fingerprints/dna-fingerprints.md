@@ -1,10 +1,10 @@
 ---
 layout: news.html
 title: dna-fingerprints
+title_name: Daily News and Analysis
 footer: © DNA
-sidebar: ../../assets/images/sidebar-news.png
-text_path: True crime stories
-logo_path: ../../assets/images/fingerprints-logo.jpg
+text_path: Science / True crime stories
+logo_path: ../../assets/images/DNA-logos.png
 button: [
   {
     type_button: "Sport",
@@ -47,7 +47,9 @@ _The first time DNA profiling was used, it proved innocence - not guilt!_
 
 ![image-1](../../assets/images/dna-fingerprints-jail.png)
 ***
-![](../../assets/images/fingerprints-alex.png)
+
+<left>![](../../assets/images/fingerprints-alex.png)</left>
+
 >Sir Alec Jeffreys, a genetic scientist at Leicester University in Great Britain, created a new technique in 1984 - a technique that would enable criminal forensics to take a giant step forwards in solving crime. He called this technique DNA Fingerprinting, but it is now better known as DNA Profiling. This technique quickly became an essential tool which redefined the boundaries of criminal prosecution - indeed, it was to get its very first test in the place where it was created, where a serial killer was on the loose....
 
 ***
@@ -74,4 +76,4 @@ However, one day the manager of a local bakery reported overhearing a conversati
 Pitchfork knew he was finished - he confessed to both murders before the test results came back. Results which confirmed his guilt in both murder cases.
 
 
-Photo: [Alec Jeffreys by Jane Gitshier, PloS.](http://en.wikipedia.org/wiki/File:Aleci-Jeffreys.jpg)
+Photo: [Alec Jeffreys by Jane Gitshier, PloS.](http://en.wikipedia.org/wiki/File:Alec-Jeffreys.jpg)

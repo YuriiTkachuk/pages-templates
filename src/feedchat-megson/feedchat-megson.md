@@ -2,9 +2,8 @@
 layout: news.html
 title: feedchat-megson
 footer: © FeedChat
-sidebar: ../../assets/images/sidebar-news.png
-text_path: Eyewitness Testimony
-logo_path: ../../assets/images/feedchat-logo.jpg
+title_name: Inspired by real life
+text_path: News / Eyewitness Testimony
 button: [
   {
     type_button: "Food",
@@ -36,9 +35,10 @@ button: [
   }
 ]
 ---
-# Eyewitness Testimony: The Case of Gary B Megson
 
 ![image-1](../../assets/images/feedchat-megson-head.png)
+
+# Eyewitness Testimony: The Case of Gary B Megson
 
 _by Cheryl Goldstein - Posted on June 17th, 2016_
 
