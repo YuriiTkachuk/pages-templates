@@ -19,7 +19,9 @@ var ms = Metalsmith(dir.base)
   .source(dir.source)
   .destination(dir.dest)
   .clean(true)
-  .use(markdown())
+  .use(markdown({smartypants: true,
+      gfm: true,
+      tables: true}))
   .use(layouts({
     engine: "handlebars"
   }))

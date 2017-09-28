@@ -11,7 +11,7 @@ nav: [ HOME, ABOUT, CLICK & COLLECT, DEALS & OFFERS, CURRENT, EXCHANGE RATES ]
 Exchange rates to GBP (British pound sterling) for our 30 most popular currencies.
 
 |                                           |       |                    |        |
-| ----------------------------------------- |:-----:|:-------------------|:-------|
+| :: |::|:|:|
 |![](../../assets/images/Australia.png)     |**AUD**|Australian Dollar   |1.96    |
 |![](../../assets/images/Brazil.png)        |**BRL**|Brazilian Real      |4.3	    |
 |![](../../assets/images/Canada.png)        |**CAD**|Canadian Dollar     |1.8532	|
