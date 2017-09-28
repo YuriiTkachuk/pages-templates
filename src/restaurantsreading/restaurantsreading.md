@@ -1,6 +1,6 @@
 ---
 layout: placeguide.html
-title: restaurant reading
+title: The Blue Book of the Best | Just the best businesses, area by area
 logo: "../../assets/images/restaurantreadinglogo.png"
 navs: [
   {
@@ -19,7 +19,7 @@ navs: [
 block: [
   {
     title1: "Kei’s",
-    her1: ["0118 926 3133", "Maiden Place, Kilnsea Drive, Lower Earley"],
+    her1: ["0118 926 3133", "Maiden Place, Kilnsea Drive, Lower Earley", "email-info@keis.co.uk"],
     site1: "http://www.keis.co.uk",
     text1: "One of the best Chinese restaurants in the whole Thames Valley area. It’s a very smart place to eat and is a good reason to go into Lower Earley. Delightful staff, attentive and child-friendly. The menu is very varied, with excellent hors d’oeuvres. Easy parking around the back, open seven days a week and one of the best places in the area for a family get-together.",
     title2: "Miah’s Garden on Gulab Restaurant",

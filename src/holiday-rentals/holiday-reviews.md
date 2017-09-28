@@ -2,11 +2,11 @@
 layout: placeguide.html
 title: holiday-rentals
 second: "holiday-reviews.html"
-logo: "../../assets/images/holidayrentalslogo.jpg"
+logo: "../../assets/images/holidayrentalslogo.png"
 navs: [
   {
     text: "Home",
-    link: "#",
+    link: "holiday-rentals",
   },
   {
     text: "Contact us",
@@ -14,7 +14,7 @@ navs: [
   },
   {
     text: "Reviews",
-    link: "holiday-reviews.html",
+    link: "#",
   },
 ]
 block: [
