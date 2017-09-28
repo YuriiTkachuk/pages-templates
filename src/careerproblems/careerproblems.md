@@ -1,8 +1,9 @@
 ---
 layout: news.html
 title: careerproblems
+title_name: Borders and County News
 footer: © Daily
-text_path: Career problems
+text_path: News / Career problems
 logo_path: ../../assets/images/careerproblems-banner-the-daily.png
 button: [
   {

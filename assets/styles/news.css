@@ -18,8 +18,13 @@ h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+h2 {
+  padding: 20px 0 20px;
+}
+
 h3 {
   padding: 20px 0 20px;
+  margin-left: 10px;
 }
 
 p {
@@ -44,7 +49,8 @@ img {
   width: auto;
   display: block;
   margin: 0 auto;
-  border: 3px #CCCCCC solid;
+  margin-bottom: 20px;
+  margin-top: 20px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   -khtml-border-radius: 10px;
@@ -59,7 +65,7 @@ img {
 }
 
 .padding-sidebar {
-  float: right;
+  float: left;
   padding-top: 25px;
   padding-right: 20px;
   padding-bottom: 25px;
@@ -95,7 +101,6 @@ img {
 #header {
   background: #02173b;
   color: #fff;
-  border-radius: 30px 30px 30px 30px;
 }
 
 #footer {
@@ -103,8 +108,6 @@ img {
   background: #02173b;
   color: #fff;
   padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 30px 30px 30px 30px;
 }
 
 #footer p {
@@ -113,8 +116,7 @@ img {
 
 blockquote {
   color: grey;
-  padding: 10px;
-  padding-left: 20px;
+  padding: 20px;
   font-size: 0.8em;
 }
 
@@ -133,7 +135,12 @@ blockquote h2 {
   font-weight: normal;
   line-height: 1.4em;
   font-size: calc(1.4em+1vw);
-  margin-top: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
   padding: 0 20px 0;
 }
+
+left {
+  float: left;
+  margin: 5px; 
+}
+
