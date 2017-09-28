@@ -5,8 +5,7 @@ image-path: "../../assets/images/notesfromabroad-header.jpg"
 nav: [ HOME, ABOUT, CLICK & COLLECT, DEALS & OFFERS, CURRENT, EXCHANGE RATES ]
 ---
 # About
-
----
+***
 
 ## How does the service work?
 
@@ -26,4 +25,3 @@ Our home delivery service has been going for over 15 years, with over 100,000 cu
 *   Regular deals & offers available to make your money go further
 *   Free delivery on all orders over £1,000 – delivery costs £3.50 for amounts between £500 and £1,000, and £5 for amounts under £500.
 *   Fee free payment options; the price you see is the price you pay
-

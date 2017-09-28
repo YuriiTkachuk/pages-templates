@@ -1,6 +1,6 @@
 ---
 layout: news.html
-title: chineselanterns
+title: Chinese Lanterns spark False Alarm | Borders and County News
 footer: © Borders and County News
 title_name: Borders and County News
 text_path: News / Chinese Lanterns spark False Alarm

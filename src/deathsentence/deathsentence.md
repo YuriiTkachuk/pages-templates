@@ -1,6 +1,6 @@
 ---
 layout: news.html
-title: deathsentence
+title: The Weekly | Capital Punishment
 footer: © theweekly
 title_name: Explore theweekly's board
 title_comment: Popular this week

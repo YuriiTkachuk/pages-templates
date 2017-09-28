@@ -16,10 +16,9 @@
 </head>
 
 <body>
+
+  <center><img src="{{ image-path }}"></center>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-      <img src="{{ image-path }}" class="logo" alt="">
-    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -35,78 +34,42 @@
     </div>
   </nav>
 
-  <div class="container">
+
+   {{#if sidebar}}
     <div class="row">
       <div class="col-lg-8 container-fluid-sm main">
-        {{{ contents }}}
+    {{/if}}
 
-        {{#if image}}
-          <div class="images row">
-            {{#each image}}
-              <div class="col-md-4 col-sm">
-                <img src="{{ this }}" class="img-thumbnail">
-              </div>
-            {{/each}}
-          </div>
-        {{/if}}
 
-      </div>
 
-      <div class="col-md sidebar">
+	<div style="margin: 20px">
+        	{{{ contents }}}
+	</div>
 
-        {{#if sidetable}}
-          <div class="sidetable">
-            <h5>{{ label }}</h5>
-            <table class="table table-bordered">
-              {{#each input}}
-                <tr>
-                  <td>{{ this }}</td>
-                </tr>
-              {{/each}}
-            </table>
-          </div>
-        {{/if}}
+	        	
+	
 
-        {{#if button}}
-          <h5>{{ info }}</h5>
-          <div class="buttons">
-            {{#each button}}
-            <p>{{ text }}</p>
-              <input class="btn btn-primary btn-block" type="submit" value="{{ btn }}">
-            {{/each}}
-          </div>
-        {{/if}}
 
-        {{#if sideimage}}
-          {{#each sideimage}}
-              <img class="img-container" src="{{ this }}">
-          {{/each}}
-        {{/if}}
 
-        {{#if sideform}}
-          <div class="sideform">
-            <h4>Stay in touch</h4>
-            <form>
-              <div class="form-row align-items-center">
-                <div class="form-group">
-                  <label class="sr-only" for="inlineFormInput">Email address</label>
-                  <input type="text" class="form-control mb-2 mb-sm-0" id="inlineFormInput" placeholder="Email address">
-                </div>
-                <div class="form-group">
-                  <label class="sr-only" for="inlineFormInputGroup">Zip code</label>
-                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Zip code(optional)">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </div>
-            </form>
-            <h4>Where else to find us</h4>
-            <p>DRD will be exhibiting at the Atlanta IT Fair this weekend! Find us in the Georgia World Congress Centre in downtown Atlanta. <a href="#">https://drd.org/r.a7m6</a></p>
-            <span>SEP 29 @ 5:13AM</span>
-          </div>
-        {{/if}}
+	{{#if sidebar}}
+		</div>
+		<div class="col-md full">
+<div style="margin-top: 3.5vw">
+			{{{ sidebar_section }}}
+		</div>
+		</div>
+		</div>
+	
+	{{/if}}
 
-      </div>
-    </div>
+
+
+
+
+
+
+
+
 
       <ul id="clothing-nav" class="nav nav-pills" role="tablist">
         {{#each info}}

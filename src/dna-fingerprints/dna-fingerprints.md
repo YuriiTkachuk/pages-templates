@@ -1,6 +1,6 @@
 ---
 layout: news.html
-title: dna-fingerprints
+title: DNA Fingerprints
 title_name: Daily News and Analysis
 footer: © DNA
 text_path: Science / True crime stories
