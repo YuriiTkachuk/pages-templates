@@ -3,9 +3,7 @@ layout: news.html
 title: chineselanterns
 footer: © Borders and County News
 title_name: Borders and County News
-sidebar: ../../assets/images/sidebar-news.png
-text_path: Home / News / Chinese Lanterns spark False Alarm
-logo_path: ../../assets/images/chineselanterns-tomorrow.jpg
+text_path: News / Chinese Lanterns spark False Alarm
 button: [
   {
     type_button: "HOME",
