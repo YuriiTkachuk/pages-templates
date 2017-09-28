@@ -6,7 +6,7 @@ navs: [
     link: "#",
   },
   {
-    text: "Programmers",
+    text: "Programmes",
     link: "#",
   },
   {

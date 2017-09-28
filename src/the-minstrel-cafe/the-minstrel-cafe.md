@@ -1,6 +1,6 @@
 ---
 layout: placeguide.html
-title: the-ministrel-cafe
+title: The London Guide
 logo: "../../assets/images/the-minstrel-cafe-logo.png"
 map: true
 x: 51.488903
@@ -43,9 +43,9 @@ block: [
 ]
 ---
 
-<center>![](../../assets/images/the-minstrel-cafe1.jpg)![](../../assets/images/the-minstrel-cafe2.jpg)![](../../assets/images/the-minstrel-cafe3.jpg)![](../../assets/images/the-minstrel-cafe4.jpg)</center>
+<center>![](../../assets/images/the-minstrel-cafe1.jpg)![](../../assets/images/the-minstrel-cafe2.jpg)![](../../assets/images/the-minstrel-cafe3.jpg)![](../../assets/images/the-minstrel-cafe4.jpg)<br><br></center>
 
-# Overview
+# Overview #
 
 Established in 1954, The Minstrel is one of London’s few remaining coffee houses of the beatnik era. The club was one of several London coffee house venues at which notable musicians of the 1960s played, including Dylan Robertson, The Gathering Moss, and Los Pajaros.
 
@@ -53,21 +53,26 @@ The Minstrel is now a thriving cafe-bar and restaurant with a club which continu
 
 Their menu is a mix of The Minstrel’s classics – crêpes, burgers, steaks, salads – with daily specials. They also offer daily soups dependent on what is available at the market and have a daily ‘one pot wonder’ and fresh soups, so do go in between midday and 4pm to make sure you don’t go hungry, no matter how short your lunch break!
 
-<center>![](../../assets/images/the-minstrel-cafe5.jpg)![](../../assets/images/the-minstrel-cafe6.jpg)![](../../assets/images/the-minstrel-cafe7.jpg)</center>
+<center>![](../../assets/images/the-minstrel-cafe5.jpg)![](../../assets/images/the-minstrel-cafe6.jpg)![](../../assets/images/the-minstrel-cafe7.jpg)![](../../assets/images/the-minstrel-cafe8.jpg)!</center>
 
-|   |   |   |
-|:---:|:---|:---|:---|
-|263-7 Old Brompton Road<br>Earls Court<br>Kensington and Chelsea<br>London SW5 9JA|Earls Court||
-|Transit information:| **District West Brompton** ||
-|Phone number:|020 7771 13234||
-|Price range:|£11-£25||
-|**Hours**|||
-|Mon|9:00 - 0:00||
-|Tue|9:00 - 0:00||
-|Wed|9:00 - 0:00| Open Now |
-|Thu|9:00 - 0:00||
-|Fri|9:00 - 0:00||
-|Sat|9:00 - 0:00||
-|Sun|9:00 - 0:00||
+<center><h1>Reviews</h1></center>
+---
+section: contents2
+---
 
-<center>![](../../assets/images/the-minstrel-cafe8.jpg)![](../../assets/images/the-minstrel-cafe9.jpg)![](../../assets/images/the-minstrel-cafe10.jpg)</center>
+**263-7 Old Brompton Road Earls Court Kensington and Chelsea London SW5 9JA:**
+<br>
+Earls Court<br>
+**Transit information:**<br>
+District West Brompton<br>
+**Phone number:**<br>
+020 7771 13234<br>
+**Price range:**<br>£11-£25<br>
+#### Hours
+Mon 9:00 - 0:00<br>
+Tue 9:00 - 0:00<br>
+Wed 9:00 - 0:00 Open Now<br>
+Thu 9:00 - 0:00<br>
+Fri 9:00 - 0:00<br>
+Sat 9:00 - 0:00<br>
+Sun 9:00 - 0:00<br>

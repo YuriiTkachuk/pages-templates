@@ -1,6 +1,6 @@
 ---
 layout: placeguide.html
-title: the london guide
+title: The London Guide
 logo: "../../assets/images/the-minstrel-cafe-logo.png"
 navs: [
   {
@@ -8,7 +8,7 @@ navs: [
     link: "#",
   },
   {
-    text: "Programmers",
+    text: "Programmes",
     link: "#",
   },
   {

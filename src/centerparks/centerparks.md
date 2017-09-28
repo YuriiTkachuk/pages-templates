@@ -31,13 +31,15 @@ block: [
   {
     title1: "Executive Style (original)",
     img1: "../../assets/images/centerparks3.jpg",
-    text1: "For customers who want a more luxurious style of holiday we have the Executive series of lodges. These lodges are decorated in a traditional style, but offer all the modern conveniences you need. They have all of the features of the Comfort lodges, with some extras to make your stay even more special. You will get a daily maid service to clean the lodge and bring you fresh towels, and all of the executive lodges have Wi-Fi, a television in every bedroom and ",
+    text1: "For customers who want a more luxurious style of holiday we have the Executive series of lodges. These lodges are decorated in a traditional style, but offer all the modern conveniences you need. They have all of the features of the Comfort lodges, with some extras to make your stay even more special. You will get a daily maid service to clean the lodge and bring you fresh towels, and all of the executive lodges have Wi-Fi, a television in every bedroom and en-suite bathrooms.",
     title2: "New Executive Style",
     img2: "../../assets/images/centerparks4.jpg",
     text2: "his lodge is our most luxurious option, combining modern style with a fantastic interior. Inside you will find all of the features that are in the old Executive Style lodge but even more extras including a wine cooler in the kitchen and a whirlpool bath in every bathroom.",
   },
 ]
 ---
+
+<center>![](../../assets/images/centerparks5.png)</center>
 
 ### Accommodation
 

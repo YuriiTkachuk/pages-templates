@@ -12,7 +12,7 @@ navs: [
     link: "#",
   },
   {
-    text: "About us",
+    text: "Book now",
     link: "#",
   }
 ]
@@ -36,6 +36,9 @@ block: [
   ]
 ---
 
+<center><h1>The best rental villas for your money!</h1></center><br>
+<center>**ARE YOU READY FOR THE HOLIDAY OF A LIFETIME?**</center>
+
 <center>![](../../assets/images/lastminuteholiday4.png)</center>
 
 #### Last minute offers! Are you ready for the holiday of a lifetime?
@@ -44,11 +47,20 @@ _Due to last minute cancellations, the following 3 villas are available for 1 we
 
 ### Lastest Deals
 
-|    |    |
-|:---|:---|
-|Seaside escapes at 34 parks |<small>https://holidayhomes.com/deal-1</small>|
-|Affordable dream from £11,995 |<small>https://holidayhomes.com/deal-2</small>|
-|A UK holiday home is the perfect seaside escape: hassle-free holidays right on your doorstep |<small>https://holidayhomes.com/deal-3</small>|
-|We know we have one that suits you to a tee. |<small>https://holidayhomes.com/deal-4</small>|
-|Fishing enthusiast? Here's one you're just going to snap at! |<small>https://holidayhomes.com/deal-5</small>|
-|Sherwood Forest just a few minutes away: great deals in Nottingham. |<small>https://holidayhomes.com/deal-6</small>|
+---
+section: contents2
+---
+
+
+Seaside escapes at 34 parks<br>
+[https://holidayhomes.com/deal-1](#)<br>
+Affordable dream from £11,995<br>
+[https://holidayhomes.com/deal-2](#)<br>
+A UK holiday home is the perfect seaside escape: hassle-free holidays right on your doorstep<br>
+[https://holidayhomes.com/deal-3](#)<br>
+We know we have one that suits you to a tee.<br>
+[https://holidayhomes.com/deal-4](#)<br>
+Fishing enthusiast? Here's one you're just going to snap at!<br>
+[https://holidayhomes.com/deal-5](#)<br>
+Sherwood Forest just a few minutes away: great deals in Nottingham.<br>
+[https://holidayhomes.com/deal-6](#)<br>

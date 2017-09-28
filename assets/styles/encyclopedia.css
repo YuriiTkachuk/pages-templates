@@ -101,6 +101,39 @@ a.nav-link.dropdown-toggle.text.active {
   margin-bottom: 20px;
 }
 
+a.carousel-control-next {
+  width: 20px;
+  height: 20px;
+  padding-top: 45px;
+}
+
+a.carousel-control-prev {
+  width: 20px;
+  height: 20px;
+  padding-top: 45px;
+}
+
+a.carousel-control-next:hover {
+  background-color: inherit;
+}
+
+a.carousel-control-prev:hover {
+  background-color: inherit;
+}
+
+ul.nav.centered {
+  align-content: center;
+}
+
+.centre {
+  margin: auto;
+  width: 90%;
+}
+
+.centre li {
+  display: inline-block;
+}
+
 @media (min-width: 700px) {
   .non {
     display: none;
