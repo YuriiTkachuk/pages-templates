@@ -1,9 +1,10 @@
 ---
 layout: news.html
 title: chicago-news
+title_name: The Latest News For Today
 footer: © Chicago News
 sidebar: ../../assets/images/sidebar-news.png
-text_path: Skyrise Chicago
+text_path: Sport / Skyrise Chicago
 logo_path: ../../assets/images/Chicago-header.jpg
 button: [
   {
