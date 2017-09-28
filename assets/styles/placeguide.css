@@ -14,21 +14,21 @@
     padding:0px 0px 10px 0px;
     font-size:1.80em;
     font-family:arial,helvetica;
-    color:#f13503;
+    color:#006633;
     font-weight:bold;
   }
   h2 {
     padding:0px 0px 10px 0px;
     font-size:1.40em;
     font-family:arial,helvetica;
-    color:#f13503;
+    color:#006633;
     font-weight:bold;
   }
   h3 {
     padding:0px 0px 10px 0px;
     font-size:1.40em;
     font-family:arial,helvetica;
-    color:#f13503;
+    color:#006633;
     font-weight:bold;
   }
 
@@ -40,14 +40,13 @@
     line-height:22px;
   }
   a {
-    color:#ffffff;
+    color: black;
     font-family:arial,helvetica;
   }
-  a:hover {
+  a.texted:hover {
     color: #FFFFFF;
     text-decoration: underline;
-    font-family: arial,helvetica;
-    font-size: 17px;
+    font-weight: bold !important;
   }
 
   ol {
@@ -80,6 +79,10 @@
   .navbar-brand {
     font-family: 'Lily Script One', cursive;
     font-size: 30px;
+  }
+
+  .navbar {
+    padding-top: 0px;
   }
 
   body {
@@ -124,6 +127,13 @@
 
   .texted {
     font-size: 15px;
+    white-space: nowrap;
+    color: white;
+  }
+
+  small {
+    white-space: nowrap;
+    font-size: calc(0.5em + 0.5vw);
   }
 
   .map {
@@ -131,7 +141,11 @@
   }
 
   .padd {
-    padding-left: 25px;
+    padding: 10px;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
   }
 
   #map {
@@ -147,6 +161,7 @@
     padding: 10px 20px;
     background:#f8f8f8;
     border: 1px solid #ddd;
+    text-align: center;
   }
   .menu h2 {
     margin-bottom: 6px;
@@ -200,7 +215,6 @@
   del,
   dfn,
   em,
-  img,
   ins,
   kbd,
   q,
@@ -261,8 +275,9 @@
   h4,
   h5,
   h6 {
+    font-family: 'Bookman Old Style', serif;
     margin: 0;
-    padding: 5px;
+    padding: 2px;
     border: 0;
     outline: 0;
     vertical-align: baseline;
@@ -298,8 +313,6 @@
   }
   .text-centered {
     margin-top: 15px;
-    text-align: center;
-    align-content: center;
   }
   @media only screen and (max-width: 767px) {
     .row .half,
@@ -383,7 +396,11 @@
     }
   }
 
-  .menu img {
+  td {
+    text-align: left;
+  }
+
+  img {
     max-width: 100%;
   }
 
@@ -391,24 +408,58 @@
     margin-bottom: 0rem;
   }
 
+  img {
+    padding: 5px;
+    text-align: center;
+  }
+
   #navbar {
     width: 60%;
     margin: 0 auto;
     background-color: #339999;
-    padding:5px 10px;
+    padding: 0px;
   }
   #HeaderOuter {
     width:100%;
   }
 
+  .row .centered {
+    float: none;
+    margin: 0 auto;
+}
+
+
+  img .logo {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+  div table {
+    text-align: center;
+    margin: auto;
+  }
+
+  td {
+    padding: 5px;
+  }
+
+
+  .black {
+    color: black;
+  }
+
+  a.black:hover {
+    color: black;
+  }
+
   @media(max-width: 990px) {
     #page {
-      width: 95%;
+      width: 100%;
       margin: 0 auto;
     }
     #navbar,
     #HeaderOuter {
-      width: 97%;
-      margin: 0 auto;
+      width: 100%;
     }
   }
