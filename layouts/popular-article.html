@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="../../assets/styles/popular-article.css">
   </head>
-
   <body>
     <div class="container">
 
@@ -74,7 +73,7 @@
       <div class="row">
 
         {{#if sidebar-list-left}}
-        <div class="col-sm-3 col-md-3">
+        <div class="col-md-3">
           <div class="list-group">
             {{#each sidebar-list-left}}
             {{#if this.active}}
@@ -87,7 +86,7 @@
         </div>
         {{/if}}
 
-        <div class="col-sm-6 col-md-6 col-12 py-3">
+        <div class="col-md-6 col-12 py-3">
           <div class="container">
           {{#if large-image}}
               <img class="img-fluid img-center img-rounded" src="{{ large-image }}">
@@ -114,7 +113,7 @@
           {{/if}}
 
           {{#if slider}}
-          <div id="carouselExampleIndicators" class="carousel slide d-none d-md-block" data-ride="carousel">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -124,14 +123,14 @@
               {{#each image}}
               {{#if this.active}}
               <div class="carousel-item active">
-            <!--  {{else}}
-              <div class="carousel-item">-->
+                {{else}}
+              <div class="carousel-item">
               {{/if}}
-              <img class="d-block img-fluid slide-image img-center" src="{{ this.link }}">
-                  <div class="carousel-caption d-none d-md-block">
-                    <p>{{ this.description }}</p>
-                  </div>
-              </div>
+                <img class="d-block img-fluid slide-image img-center" src="{{ this.link }}">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>{{ this.description }}</p>
+                    </div>
+                </div>
               {{/each}}
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -161,7 +160,6 @@
             </div>
           {{/if}}
 
-
           {{#if numeric-links}}
           <ol>
             {{#each numeric-links}}
@@ -182,9 +180,8 @@
         </div>
       </div>
 
-
       {{#if sidebar-list-right}}
-      <div class="col-sm-3 col-md-3">
+      <div class="col-md-3">
         <div class="list-group">
           <a href="#" class="list-group-item active-item" style="background-color: grey"><h4><strong>Popular articles</strong></h4></a>
           {{#each sidebar-list-right}}
