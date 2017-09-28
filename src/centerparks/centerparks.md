@@ -2,6 +2,9 @@
 layout: placeguide.html
 title: centerparks
 logo: "../../assets/images/centerparkslogo.png"
+map: true
+x: 54.242059
+y: -1.163136
 navs: [
   {
     text: "Home",
@@ -36,6 +39,6 @@ block: [
 ]
 ---
 
-### Accommodation 
+### Accommodation
 
 At Centre Parks we think that a relaxing break in natural surroundings makes for the perfect holiday. All of our lodges are either in the forest or next to a lake and our customers love the peaceful setting. We have a range of different lodges and all are available with either two or four bedrooms. All of our four bedroom lodges also come with a games room so you and your family can have fun all day long. Whichever of our accommodation options you choose, you will definitely have a relaxing stay. To book any of our lodges, or for more information please call us on 0800 597 88
