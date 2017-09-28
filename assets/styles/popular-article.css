@@ -43,19 +43,7 @@
   height: 25rem;
   weight: auto;
 }
-/*
-@media (max-width: 1199px) {
-  img {
-    max-width: 500px;
-  }
-}
 
-@media (max-width: 991px) {
-  img {
-    max-width: 430px;
-  }
-}
-*/
 @media (max-width: 768px) {
   h1 {
     font-size: 3.6rem;
@@ -64,9 +52,6 @@
   p {
     text-align: justify;
     font-size: 1.5rem;
-  }
-  img {
-    width: 100%;
   }
 }
 
@@ -79,22 +64,28 @@
     text-align: justify;
     font-size: 1rem;
   }
-  img {
-    width: 100%;
-  }
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0.5rem auto;
+}
+
+p {
+  text-align: justify;
+}
 
 .image-left img{
   display: block;
   float: left;
   margin-top: 0.2rem;
   margin-right: 1rem;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.15rem;
 }
 
 .navbar {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.25rem; span
 }
 
 .img-center {
@@ -110,3 +101,12 @@
 .img-large-width {
   height: auto;
 }
+
+.fairy strong {
+   float: left;
+   font-size: 3.0em;
+   line-height: 0.8em;
+   font-weight: bold;
+   font-family: "Monotype Corsiva", "Apple Chancery", fantasy;
+   margin: 5px 10px 0px 0;
+ }

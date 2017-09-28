@@ -3,69 +3,63 @@ layout: popular-article.html
 title: Eire Intarnational
 navbar-title: Eire Intarnational
 page-path: "Home  >  Articles  >  Unusual St. Patrick's Day celebrations"
+large-width-image: ../../assets/images/eireinternational-img.jpg
+article: true
 navbar-items: [
   {
-    name: About us
+    name: About us,
+    link: "#"
   },
   {
-    name: Programmes
+    name: Programmes,
+    link: "#"
   },
   {
     name: Lectures,
-    dropdown-items: [
-      {
-        name: fairytaledigest.com,
-        link: "#"
-      },
-      {
-        name: feedchat.com,
-        link: "#"
-      },
-      {
-        name: art_notes.com,
-        link: "#"
-      },
-      {
-        name: www.traditionalfestivals.com,
-        link: "#"
-      },
-      {
-        name: minibiog.com,
-        link: "#"
-      },
-      {
-        name: allaboutsports.net,
-        link: "#"
-      }
-    ]
+    link: "#"
   }
 ]
-sidebar-list: [
-    {
-      name: Home,
-      link: "#"
-    },
-    {
-      name: About,
-      link: "#"
-    },
-    {
-      name: Forum,
-      link: "#"
-    },
-    {
-      name: Articles,
-      link: "#",
-    },
-    {
-      name: News,
-      link: "#"
-    },
-    {
-      name: Contact,
-      link: "#"
-    }
-  ]
+sidebar-list-left: [
+  {
+    name: Home,
+    link: "#"
+  },
+  {
+    name: About,
+    link: "#"
+  },
+  {
+    name: Forum,
+    link: "#"
+  },
+  {
+    name: Articles,
+    link: "#",
+    active: true
+  },
+  {
+    name: News,
+    link: "#"
+  },
+  {
+    name: Contact,
+    link: "#"
+  }
+]
+sidebar-list-right: [
+  {
+    name: St Valentine Day,
+    link: "#"
+  },
+  {
+    name: Easter Day,
+    link: "#"
+  },
+  {
+    name: Thanksgiving Day,
+    link: "#"
+  }
+]
 
 ---
 
@@ -75,7 +69,9 @@ by Maureen Flanagan
 
 St. Patrick’s Day has been a cause for celebration in the US ever since the early 17th century. Every March the 17th, cities and towns across the country pay tribute to the 'Emerald Isle'. The rivers in Chicago are dyed green, while New York City's famous parade draws two million spectators. Elsewhere, communities all around the world are adding their own distinctive twists to the traditional St. Patrick’s Day festivities. Here are some examples from America and elsewhere.
 
-![](../../assets/images/eire-intarnational-img01.jpg)**New London, Wisconsin, USA** - St. Patrick’s Day in New London begins when members of the town's Shamrock Club mischievously change highway signs so that they read 'New Dublin', an idea which met with laughter and eventual council approval over 20 years ago. While the town was originally a German settlement, later waves of Irish immigrants had a huge impact on the town’s customs and traditions. St. Patrick's Day nowadays features Irish food on the menu at restaurants throughout the town, as well as visits by Irish carolers and Shamrock Club members to the senior citizens' home and the local hospitals and schools respectively.
+<center>![](../../assets/images/eire-intarnational-img01.jpg)</center>
+
+**New London, Wisconsin, USA** - St. Patrick’s Day in New London begins when members of the town's Shamrock Club mischievously change highway signs so that they read 'New Dublin', an idea which met with laughter and eventual council approval over 20 years ago. While the town was originally a German settlement, later waves of Irish immigrants had a huge impact on the town’s customs and traditions. St. Patrick's Day nowadays features Irish food on the menu at restaurants throughout the town, as well as visits by Irish carolers and Shamrock Club members to the senior citizens' home and the local hospitals and schools respectively.
 
 The town of 7,000 manages to squeeze in 30,000 for the parade, which includes the staging of an Irish play, bagpipe players and the town's high school band marching down the street, pursuing a shamrock trail painted on the pavement. It all culminates in the 'Irish Fest', which features Celtic bands such as Rising Gael and Seven Nations performing for visitors in a huge heated tent.
 
@@ -83,7 +79,9 @@ The town of 7,000 manages to squeeze in 30,000 for the parade, which includes th
 
 St. Patrick’s Day in O'Neill pays homage to its Irish forebears through a variety of festivities, including a hypnotist and the Children’s Literature Festival. 'In March, everyone just steps a little higher and smiles a little broader,' states City of Commerce member Pat Fritz. What's more, the celebrations don't end on St. Patrick’s Day - residents put on green for the 17th of every month that follows it too!
 
-![](../../assets/images/eire-intarnational-img02.jpg)**Brisbane, Australia** - Nearly 30 percent of Australians claim some degree of Irish heritage and, according to the Australian Embassy in Ireland, there are more than 50,000 Irish nationals living in Australia. One of the main celebrations is The Queensland Irish Association parade which portrays 'The Irish Historical Story'; the story of how Irish men, women, boys and girls from all walks of life helped to build Australia. The march through the main streets of Brisbane City includes residents dressed as an array of ancestors including widows and orphans, lawyers, teachers, gold miners, sugarcane cutters and farmers.
+<center>![](../../assets/images/eire-intarnational-img02.jpg)</center>
+
+**Brisbane, Australia** - Nearly 30 percent of Australians claim some degree of Irish heritage and, according to the Australian Embassy in Ireland, there are more than 50,000 Irish nationals living in Australia. One of the main celebrations is The Queensland Irish Association parade which portrays 'The Irish Historical Story'; the story of how Irish men, women, boys and girls from all walks of life helped to build Australia. The march through the main streets of Brisbane City includes residents dressed as an array of ancestors including widows and orphans, lawyers, teachers, gold miners, sugarcane cutters and farmers.
 
 **Banwen, Wales** - According to members of the Banwen & District History Club in Wales, the patron saint of Ireland was not Irish at all, but a local Welshman. Their historians claim that St. Patrick was actually born in Banwen in 385 A.D. and grew up there before being kidnapped by pirates in his teens. They state that he was then ultimately sold into slavery in Ireland. On St.Patrick’s Day, Welsh pipers join members of the organisation in a parade through Roman Road in the town and ending at a stone commemorating St. Patrick’s birthplace.
 

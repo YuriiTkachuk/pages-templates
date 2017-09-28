@@ -1,45 +1,9 @@
 ---
 layout: popular-article.html
-title: www.LetsBuyNothing.com
-navbar-title: Buy Nothing
+title: LetsBuyNothing
+navbar-title: Lets Buy Nothing
+large-width-image: ../../assets/images/buy-nothing-header.jpg
 navbar-items: [
-  {
-    name: About us
-  },
-  {
-    name: Programmes
-  },
-  {
-    name: Lectures,
-    dropdown-items: [
-      {
-        name: fairytaledigest.com,
-        link: "#"
-      },
-      {
-        name: feedchat.com,
-        link: "#"
-      },
-      {
-        name: art_notes.com,
-        link: "#"
-      },
-      {
-        name: www.traditionalfestivals.com,
-        link: "#"
-      },
-      {
-        name: minibiog.com,
-        link: "#"
-      },
-      {
-        name: allaboutsports.net,
-        link: "#"
-      }
-    ]
-  }
-]
-sidebar-list: [
   {
     name: Home,
     link: "#"
@@ -57,7 +21,47 @@ sidebar-list: [
     link: "#",
   }
 ]
-
+sidebar-list-left: [
+{
+  name: Food,
+  link: "#"
+},
+{
+  name: Health,
+  link: "#"
+},
+{
+  name: Travel ,
+  link: "#"
+},
+{
+  name: Style,
+  link: "#",
+  active: true
+},
+{
+  name: Tech,
+  link: "#"
+},
+{
+  name: Money,
+  link: "#",
+}
+]
+sidebar-list-right: [
+  {
+    name: "Keep Your Money Where It Is",
+    link: "#"
+  },
+  {
+    name: "Get Pre-Approved for Your Home Loan",
+    link: "#"
+  },
+  {
+    name: "Kitchen Appliance Buying Guide",
+    link: "#"
+  }
+]
 ---
 
 # Buy Nothing Day FAQ

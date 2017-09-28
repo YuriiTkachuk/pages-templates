@@ -2,6 +2,7 @@
 layout: popular-article.html
 title: Foreign dishes
 navbar-title: Foreign dishes
+large-image: ../../assets/images/foreigndishes.png
 navbar-items: [
   {
     name: Home
@@ -28,22 +29,46 @@ navbar-items: [
     name: More...
   }
 ]
-sidebar-list: [
+sidebar-list-left: [
   {
-    name: Soufflé,
-    link: "#"
-  },
-  {
-    name: Curry,
-    link: "#"
-  },
-  {
-    name: Trifle,
+    name: Food,
     link: "#",
+    active: true
   },
   {
-    name: Scones,
+    name: Health,
     link: "#"
+  },
+  {
+    name: Travel ,
+    link: "#"
+  },
+  {
+    name: Style,
+    link: "#"
+  },
+  {
+    name: Tech,
+    link: "#"
+  },
+  {
+    name: Money,
+    link: "#",
+  }
+]
+
+sidebar-list-right: [
+  {
+    name: "Why Soaked Almonds Are Better than Raw Almonds",
+    link: "#"
+  },
+  {
+    name: "Incredible Cashew Nut Benefits: From Heart Health to Gorgeous Hair",
+    link: "#"
+  },
+  {
+    name: "How to Eat Flaxseeds, Health Benefits, Tips and Recipes",
+    link: "#",
   }
 ]
 ---

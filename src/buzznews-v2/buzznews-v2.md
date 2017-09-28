@@ -4,49 +4,27 @@ title: www.buzznews.com
 navbar-title: BuzzNews
 navbar-items: [
   {
-    name: About us
+    name: About us,
+    link: "#"
   },
   {
-    name: Programmes
+    name: Programmes,
+    link: "#"
   },
   {
     name: Lectures,
-    dropdown-items: [
-      {
-        name: fairytaledigest.com,
-        link: "#"
-      },
-      {
-        name: feedchat.com,
-        link: "#"
-      },
-      {
-        name: art_notes.com,
-        link: "#"
-      },
-      {
-        name: www.traditionalfestivals.com,
-        link: "#"
-      },
-      {
-        name: minibiog.com,
-        link: "#"
-      },
-      {
-        name: allaboutsports.net,
-        link: "#"
-      }
-    ]
+    link: "#"
   }
 ]
-sidebar-list: [
+sidebar-list-left: [
   {
     name: Home,
     link: "#"
   },
   {
     name: News,
-    link: "#"
+    link: "#",
+    active: true
   },
   {
     name: Sport,
@@ -62,6 +40,17 @@ sidebar-list: [
   },
   {
     name: Watch,
+    link: "#"
+  }
+]
+
+sidebar-list-right: [
+  {
+    name: New Year,
+    link: "#"
+  },
+  {
+    name: Chinese New Year,
     link: "#"
   }
 ]

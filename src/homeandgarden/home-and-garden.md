@@ -2,6 +2,7 @@
 layout: popular-article.html
 title: Home and garden
 navbar-title: Home & garden
+large-width-image: ../../assets/images/homeandgarden-img.jpg
 navbar-items: [
   {
     name: ABOUT US
@@ -60,21 +61,46 @@ navbar-items: [
     name: CONTACT US
   }
 ]
-sidebar-list: [
+
+sidebar-list-left: [
   {
-    name: Budget,
+    name: Food,
     link: "#"
   },
   {
-    name: Start a file,
+    name: Health,
     link: "#"
   },
   {
-    name: Plan your time,
+    name: Travel ,
     link: "#"
   },
   {
-    name: Get organised,
+    name: Style,
+    link: "#",
+    active: true
+  },
+  {
+    name: Tech,
+    link: "#"
+  },
+  {
+    name: Money,
+    link: "#",
+  }
+]
+
+sidebar-list-right: [
+  {
+    name: "American Colonial House Styles",
+    link: "#"
+  },
+  {
+    name: "Neoclassicism After the Revolution",
+    link: "#"
+  },
+  {
+    name: "Indian Bungalow Influences",
     link: "#"
   }
 ]

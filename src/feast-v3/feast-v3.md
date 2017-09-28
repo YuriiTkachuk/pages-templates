@@ -2,6 +2,7 @@
 layout: popular-article.html
 title: Feast around the World | Food for festive occasions
 page-path: Home > Articles > Food and celebrations
+large-width-image: ../../assets/images/feast-around-world-head.jpg
 navbar-items: [
   {
     name: HOME,
@@ -24,6 +25,42 @@ navbar-items: [
     link: "#"
   }
 ]
+
+sidebar-list-left: [
+  {
+    name: Healthy food,
+    link: "#"
+  },
+  {
+    name: National dishes,
+    link: "#",
+    active: true
+  },
+  {
+    name: Vegan,
+    link: "#"
+  },
+  {
+    name: Try to avoid,
+    link: "#"
+  }
+]
+
+sidebar-list-right: [
+  {
+    name: "How a 3-Day Fast Resets Your Immune System",
+    link: "#"
+  },
+  {
+    name: "Everything You Need to Know About Ketosis",
+    link: "#"
+  },
+  {
+    name: "Bloated Stomach: What Causes Bloating?",
+    link: "#"
+  }
+]
+
 ---
 # Food for festive occasions
 
@@ -33,7 +70,7 @@ Celebrations take place in every culture and country on every continent. They br
 
 The British Empire has had a great deal of influence over the development of many Christmas customs around the world. Mistletoe and Christmas cards both originated in the British Isles and then spread to the colonies in Australia, New Zealand and South Africa. This led to many similar Christmas customs in these countries, including many types of festive food such as mince pies and fruit cake. However, probably due to the hotter weather experienced by Australians on Christmas Day, it is becoming increasingly popular to enjoy seafood, rather than roast meats and ham, there on Christmas Day.
 
-![](../../assets/images/feast-v3-5.jpg)
+<center>![](../../assets/images/feast-v3-5.jpg)</center>
 
 Traditional Christmas foods differ greatly from one location to the next. This is largely due to local availability and cultural significance. Some examples include:
 
@@ -43,7 +80,7 @@ Traditional Christmas foods differ greatly from one location to the next. This i
 *   Russia - the celebration revolves around a feast of twelve individual dishes, representing Christ’s disciples, which everyone shares.
 *   Nicaragua - the main dish consists of chicken with a tomato, onion and papaya stuffing.
 
-![](../../assets/images/feast-v3-6.jpg)
+<center>![](../../assets/images/feast-v3-6.jpg)</center>
 
 Traditional foods for New Year around the world include:
 
@@ -58,7 +95,7 @@ However, a number of countries in Asia don't celebrate the New Year on January 1
 *   Korea - the main dish is a dumpling soup.
 *   Vietnam - rice cakes filled with meat are served alongside sharkfin soup.
 
-![](../../assets/images/feast-v3-4.jpg)
+<center>![](../../assets/images/feast-v3-4.jpg)</center>
 
 Weddings around the world share a lot of common ground regardless of the religion or culture. In most countries, weddings are joint celebrations for the two families that include a wedding cake and an array of traditional food.
 
@@ -71,7 +108,7 @@ Foods that commonly feature at weddings include:
 
 The origins of the birthday party were in medieval Western Europe, when it was thought that friends, family members, festivities and presents could fight off evil spirits associated with birthdays. Traditional types of food prepared for birthdays around the world include:
 
-![](../../assets/images/feast-v3-7.jpg)
+<center>![](../../assets/images/feast-v3-7.jpg)</center>
 
 *   Australia - birthdays generally feature a decorated cake with candles. The candles are lit and the person celebrating the birthday blows them out while also making a wish.
 *   Ghana - the birthday child’s breakfast includes a fried patty made from a blend of mashed sweet potato and eggs. Later, the birthday party features a dish made from fried plantain (a type of banana).
