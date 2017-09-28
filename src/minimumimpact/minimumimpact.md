@@ -5,52 +5,58 @@ navbar-title: MinimumImpact
 navbar-logo-path: ../../assets/images/minimumimpact-logo.png
 navbar-items: [
   {
-    name: About us
+    name: About us,
+    link: "#"
   },
   {
-    name: Programmes
+    name: Programmes,
+    link: "#"
   },
   {
     name: Lectures,
-    dropdown-items: [
-      {
-        name: fairytaledigest.com,
-        link: "#"
-      },
-      {
-        name: feedchat.com,
-        link: "#"
-      },
-      {
-        name: art_notes.com,
-        link: "#"
-      },
-      {
-        name: www.traditionalfestivals.com,
-        link: "#"
-      },
-      {
-        name: minibiog.com,
-        link: "#"
-      },
-      {
-        name: allaboutsports.net,
-        link: "#"
-      }
-    ]
+    link: "#"
   }
 ]
-sidebar-list: [
+
+sidebar-list-left: [
   {
-    name: What is wild food?,
+    name: Food,
+    link: "#",
+    active: true
+  },
+  {
+    name: Health,
     link: "#"
   },
   {
-    name: What are the benefits?,
+    name: Travel ,
     link: "#"
   },
   {
-    name: What can I eat and how do I find it?,
+    name: Style,
+    link: "#"
+  },
+  {
+    name: Tech,
+    link: "#"
+  },
+  {
+    name: Money,
+    link: "#",
+  }
+]
+
+sidebar-list-right: [
+  {
+    name: "The Best Cooking Oil for Your Health",
+    link: "#"
+  },
+  {
+    name: "18 Benefits of Tulsi: Facts You Must Know About Holy Basil",
+    link: "#"
+  },
+  {
+    name: "When Bitter is Better: 8 Amazing Health Benefits of Amla Juice",
     link: "#"
   }
 ]
