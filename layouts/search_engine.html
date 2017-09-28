@@ -37,13 +37,14 @@
     <div id="MainOuter">
 
       <div id="MainInner">
-        <p style="padding:0px 30px"><strong>Showing results for: <em>{{ search }}</em></strong></p>
+        <p style="padding:0px 20px"><strong>Showing results for: <em>{{ search }}</em></strong></p>
 
         {{#each search_result}}
         <div class="Box"><p>
           {{add @index 1}}. <a href="#">{{ link }}</a><br/>
+	  <span class="Green" >{{ site }}</span>
           <div class="justify" >{{ text }}</div>
-          <br/><span class="Green" >{{ site }}</span>
+
         </div>
         {{/each}}
 
