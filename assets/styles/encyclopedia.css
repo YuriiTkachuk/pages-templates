@@ -1,10 +1,11 @@
 /* Center carousel images */
 body {
-  font-family: inherit;
   width: 80%;
   margin-bottom: 50px;
   margin-left: 10%;
+
 }
+
 
 .back {
   margin-left: auto;
@@ -13,8 +14,18 @@ body {
 }
 
 .text {
-  font-family: "Lato";
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #ebebeb;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.42;
+  text-align: justify;
+}
+
+h1.text {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 39px;
 }
 
 .list-group-item {
@@ -22,8 +33,53 @@ body {
   background-color: #485563;
 }
 
+.mob {
+  font-size: 15px;
+  padding: 6px;
+  float: none;
+}
+
+.centered {
+  margin: 28px;
+}
+
+ul.nav {
+  text-align: center;
+}
+
+.texted {
+    font-size: 15px;
+    white-space: nowrap;
+    color: white;
+    padding: 10px;
+  }
+
+a:hover {
+  background-color: #485563;
+  color: white
+}
+
+
 .nav-pills .nav-link.active {
   color: #ebebeb;
+  background-color: #485563;
+}
+
+.nav-link.text.active {
+  color: #ebebeb;
+  background-color: #D0810A;
+}
+
+.dropdown-item.active {
+  background-color: #D0810A;
+}
+
+.dropdown-item.text.back:hover {
+  background-color: #485563;
+  color: #ebebeb;
+}
+
+a.nav-link.dropdown-toggle.text.active {
   background-color: #485563;
 }
 
@@ -43,6 +99,18 @@ body {
 .left-col .thumbnail {
   margin: 0 auto;
   margin-bottom: 20px;
+}
+
+@media (min-width: 700px) {
+  .non {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .nan {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

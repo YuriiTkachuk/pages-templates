@@ -1,5 +1,19 @@
 ---
 layout: encyclopedia.html
+navs: [
+  {
+    text: "About us",
+    link: "#",
+  },
+  {
+    text: "Programmers",
+    link: "#",
+  },
+  {
+    text: "Lectures",
+    link: "#",
+  }
+]
 famous: [
   {
     last_name: "Picasso",
@@ -17,5 +31,6 @@ famous: [
     died: "11 August 1956",
     bio: "Jackson Pollock grew up in California and Arizona, but moved to New York in 1930, where he studied painting under painter Thomas Hart Benton. Pollock suffered from alcoholism and began undergoing psychiatric treatment in the late 1930s; he had a nervous breakdown in 1938 and was hospitalized briefly. He had his first one-man show in 1943. By the late 1940s he had developed a process for which he became famous - dripping or pouring paint onto canvasses that he had laid out on the floor. Pollock believed that art derived from the unconscious and that this method was an authentic method of personal expression, His style became known as abstract expressionism, and he was the main proponent of this art movement. Pollock died in a car accident near his home on Long Island, New York.",
   },
+
 ]
 ---
