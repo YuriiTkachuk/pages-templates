@@ -3,17 +3,18 @@
 
 
 body {
+  max-width: 800px;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 0.9em;
   color: #333;
   position:relative;
+  margin:0 auto;
 }
 
 h1 {
   font-weight: normal;
   line-height: 1.4em;
   font-size: 2.4em;
-  margin: 10px 0 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -94,29 +95,45 @@ img {
 #header {
   background: #02173b;
   color: #fff;
-  padding: 20px;
+  border-radius: 30px 30px 30px 30px;
 }
 
 #footer {
   clear: both;
   background: #02173b;
   color: #fff;
-  padding: 40px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 30px 30px 30px 30px;
 }
 
 #footer p {
-  max-width: 980px;
-  margin: auto;
+  margin: 0 0 0 5%;
 }
 
 blockquote {
   color: grey;
   padding: 10px;
-  padding-left: 30px;
+  padding-left: 20px;
   font-size: 0.8em;
 }
 
 blockquote h2 {
   color: grey;
   font-size: 1em;
+}
+
+.button {
+  font-size: 0.8em;
+  padding: 10px;
+  margin: 2px;
+}
+
+#title {
+  font-weight: normal;
+  line-height: 1.4em;
+  font-size: calc(1.4em+1vw);
+  margin-top: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 0 20px 0;
 }
