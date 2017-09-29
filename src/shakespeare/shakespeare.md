@@ -6,7 +6,7 @@ content-align: left
 
 ###### Essays by Sam Johnson
 
----
+***
 
 # _Shall I Compare Thee To A Summer's Day_
 ## - Sonnet XVIII by William Shakespeare
