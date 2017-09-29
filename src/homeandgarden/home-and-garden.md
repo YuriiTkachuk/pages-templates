@@ -56,13 +56,16 @@ navbar-items: [
     ]
   },
   {
-    name: GARDEN
+    name: GARDEN,
+    link: "#"
   },
   {
-    name: HOUSEKEEPING
+    name: HOUSEKEEPING,
+    link: "#"
   },
   {
-    name: CONTACT US
+    name: CONTACT US,
+    link: "#"
   }
 ]
 
