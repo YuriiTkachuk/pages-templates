@@ -15,99 +15,7 @@ navbar-items: [
   }
 ]
 sidebar-list-left: [
-  {
-    name: The Rio de Janeiro Carnival,
-    link: "#"
-  },
-  {
-    name: Chinese New Year,
-    link: "#",
-  },
-  {
-    name: Diwali,
-    link: "#",
-    active: true
-  },
-  {
-    name: Boryeong Mud Festival,
-    link: "#"
-  },
-  {
-    name: Burning Man,
-    link: "#",
-  },
-  {
-    name: Harbin Ice and Snow Festival,
-    link: "#"
-  },
-  {
-    name: White Nights Festival,
-    link: "#"
-  },
-  {
-    name: Day of the Dead,
-    link: "#"
-  },
-  {
-    name: Running of The Bulls,
-    link: "#"
-  },
-  {
-    name: Holi,
-    link: "#"
-  },
-  {
-    name: Carnival of Venice,
-    link: "#"
-  },
-  {
-    name: Pingxi Lantern Festival,
-    link: "#"
-  },
-  {
-    name: La Tomatina,
-    link: "#"
-  },
-  {
-    name: Oktoberfest,
-    link: "#"
-  },
-  {
-    name: New Year's Eve,
-    link: "#"
-  },
-  {
-    name: Songkran Water Festival,
-    link: "#"
-  },
-  {
-    name: Saint Patrick's Day,
-    link: "#"
-  },
-  {
-    name: Gay Pride Parade,
-    link: "#"
-  },
-  {
-    name: Albuquerque International Balloon Fiesta,
-    link: "#"
-  },
-  {
-    name: Full Moon Party,
-    link: "#"
-  },
-  {
-    name: Glastonbury,
-    link: "#"
-  },
-  {
-    name: Battle of the Oranges,
-    link: "#"
-  }
-]
-article: true
-sidebar-list-right: [
-  {
+    {
     name: Africa,
     link: "#"
   },
@@ -118,6 +26,7 @@ sidebar-list-right: [
   {
     name: Asia,
     link: "#",
+    active: true
   },
   {
     name: Australia,
@@ -125,6 +34,21 @@ sidebar-list-right: [
   },
   {
     name: Europe,
+    link: "#",
+  }
+]
+article: true
+sidebar-list-right: [
+  {
+    name: Glastonbury,
+    link: "#"
+  },
+  {
+    name: New Year's Eve,
+    link: "#"
+  },
+  {
+    name: Day of the Dead,
     link: "#",
   }
 ]
