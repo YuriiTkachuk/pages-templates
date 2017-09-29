@@ -164,9 +164,11 @@ img {
 	padding: 5px 10px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 375px) {
 	center {
-	margin: 30px;
-	min-width: 100%;
+	max-width: 500px;
+	margin: 40px;
+	margin-top: -5px;
+		min-width: 200px;
 	}
 }
