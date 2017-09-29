@@ -1,10 +1,11 @@
 ---
 layout: news.html
 title: ufo
+title_name: Listen to free internet radio
 footer: © Radio Chester
 sidebar: ../../assets/images/sidebar-news.png
-text_path: August 2008
-logo_path: ../../assets/images/ufo-logo.gif
+text_path: News / 2008 / August
+logo_path: ../../assets/images/ufologo.png
 button: [
   {
     type_button: "Home",
