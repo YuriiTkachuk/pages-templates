@@ -1,6 +1,8 @@
 ---
 layout: organization-website.html
 title: "Legal Help and Action > Problems at workk"
+name: "Legal Help and Action > Problems at workk"
+sidebar: true
 image-path: "../../assets/images/phobias-pic.jpg"
 nav: [ Home, Lifestyle, Conditions, A-Z index, Newsletter, Talk to an expert ]
 ---
@@ -22,9 +24,9 @@ A phobia is an irrational fear of, and compelling need to avoid, particular acti
 
 ## On the web
 
-*   [Phobias, on NHS direct](http://www.nhs.uk/conditions/phobias/Pages/Introduction.aspx)
-*   [The Royal College of Psychiatrists](http://www.rcpsych.ac.uk/mentalhealthinfoforall/problems/anxietyphobias.aspx)
-*   [Triumph over Phobias](http://www.topuk.org/)
+*   [Phobias, on NHS direct](#)
+*   [The Royal College of Psychiatrists](#)
+*   [Triumph over Phobias](#)
 
 
 * * *
@@ -80,10 +82,29 @@ Website: [www.phobics-society.org.uk](http://web.archive.org/web/20080423171906/
 _This article was last medically reviewed by Dr David Vile in March 2006._
 
 * * *
-
+<br>
 Disclaimer
 
 ###### All content within this web site is provided for general information only, and should not be treated as a substitute for the medical advice of your own doctor or any other health care professional. We are not responsible or liable for any diagnosis made by a user based on the content of this website. We are not liable for the contents of any external internet sites listed, nor does it endorse any commercial product or service mentioned or advised on any of the sites. Always consult your own doctor if you're in any way concerned about your health.
 
 ###### Healthinform, Luqa, Malta.
 
+---
+section: sidebar_section
+---
+
+29/9/2017
+
+**Browse:**
+
+Home
+
+Lifestyle
+
+Conditions
+
+A-Z index
+
+Newsletter
+
+Talk to an expert
