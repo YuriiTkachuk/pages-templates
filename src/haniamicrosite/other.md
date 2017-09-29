@@ -1,6 +1,6 @@
 ---
 layout: popular-article.html
-title: Samaria Gorge | This is Hania!
+title: This is Hania!
 navbar-title: This is Hania!
 navbar-items: [
   {
