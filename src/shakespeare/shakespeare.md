@@ -6,12 +6,12 @@ content-align: left
 
 ###### Essays by Sam Johnson
 
----
+***
 
 # _Shall I Compare Thee To A Summer's Day_
 ## - Sonnet XVIII by William Shakespeare
 
-![Summer flowers](../assets/images/shakespeare-summer.jpg)
+![Summer flowers](../../assets/images/summ.jpg)
 
 Shakespeare’s eighteenth sonnet is, perhaps, one of the best-known sonnets in English literature. In the poem, and with characteristic skill, Shakespeare uses the characteristics of the sonnet form to exalt poetry and his beloved. He adapts and extends the conventions of the sonnet form to express his ideas in a new and brilliant way.
 

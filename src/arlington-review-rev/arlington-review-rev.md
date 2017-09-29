@@ -6,6 +6,13 @@ logo-center: true
 logo-path: ../../assets/images/arlington-title.jpg
 video-path: https://www.youtube.com/embed/YOavDSErmak
 ---
+
+***
+<center><h1>Coming Soon - Films</h1></center>
+***
+
+![](../../assets/images/arlinghtoneyes.jpg)
+
 # Big Eyes, Big Hit
 
 ## Tim Burton's unsettling new film tells the story of the macabre Big Eyes paintings
