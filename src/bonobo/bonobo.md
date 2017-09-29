@@ -1,9 +1,9 @@
 ---
 layout: organization-website.html
 title: Bonobo
-image-path: "../../assets/images/bonobo-logo.jpg"
+name: "The bonobo trust"
+image-path: "../../assets/images/bonobo_logo.jpg"
 nav: [ About us, About bonobos, News, Gallery, Contact us]
-sidebar: true
 info: [
   {
     caption: "Taxonomy",
