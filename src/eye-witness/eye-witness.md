@@ -12,10 +12,10 @@ Click on the correct answer.
 
 How was he dressed?
 
-[**Dark clothes**](page2)
+[**Dark clothes**](eye-witness-p2)
 
-[**Light clothes**](page3)
+[**Light clothes**](eye-witness-p3)
 
-[**Jeans**](page3)
+[**Jeans**](eye-witness-p3)
 
-[**I'm not sure**](page3)
+[**I'm not sure**](eye-witness-p3)

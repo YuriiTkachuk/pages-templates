@@ -71,6 +71,8 @@ hr {
 	text-align: Justify;
 }
 
+p a { text-align: auto; }
+
 @media screen and (max-width: 1600px) {
     .rightcolhidden{
         display: none;
