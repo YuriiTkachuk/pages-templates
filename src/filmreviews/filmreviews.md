@@ -1,6 +1,6 @@
 ---
 layout: placeguide.html
-title: filmreviews
+title: Film Reviews
 logo: "../../assets/images/filmreviewslogo.png"
 center: "true"
 navs: [

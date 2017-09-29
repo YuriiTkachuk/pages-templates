@@ -1,6 +1,6 @@
 ---
 layout: placeguide.html
-title: placetoeat
+title: London Guide | Places to eat
 logo: "../../assets/images/placetoeatlogo.png"
 center: true
 navs: [
@@ -53,12 +53,5 @@ Saturday, February 4th, 2012, posted
 section: contents2
 ---
 
-|   |   |
-|:|:|
-|**Categories**|**Tags**|
-|[Sights](#)|[Food](#)|
-|[Museums](#)|[Seafood](#)|
-|[Music](#)|[Burgers](#)|
-|[Eating](#)|[Roast meat](#)|
-||[Carvery](#)|
-||[Vegetarian](#)|
+**Categories:** [Sights](#), [Museums](#), [Music](#), [Eating](#).<br><br>
+**Tags:** [Food](#), [Fish](#), [Seafood](#), [Burgers](#), [Roast meat](#), [Carvery](#), [Vegetarian](#).
