@@ -1,6 +1,7 @@
 ---
 layout: organization-website.html
 title: Notes From Abroad
+name: Notes From Abroad
 image-path: "../../assets/images/notesfromabroad-header.jpg"
 nav: [ HOME, ABOUT, CLICK & COLLECT, DEALS & OFFERS, CURRENT, EXCHANGE RATES ]
 ---

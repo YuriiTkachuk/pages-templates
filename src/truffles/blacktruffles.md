@@ -1,6 +1,7 @@
 ---
 layout: organization-website.html
 title: TRUFFLELOVER
+name: TRUFFLELOVER
 image-path: "../../assets/images/truffle-header.jpg"
 nav: [ Home, About truffles, Buying truffles, Recipies, Truffle-hunting holidays, Forum, Contact]
 ---

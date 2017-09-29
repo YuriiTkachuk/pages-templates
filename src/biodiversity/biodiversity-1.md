@@ -1,6 +1,7 @@
 ---
 layout: organization-website.html
 title: MNW
+name: MNW
 image-path: "../../assets/images/bio-logo.png"
 nav: [ Home, Debate on Biodiversity, Get Involved, Support Us, Success Stories, Local Events]
 ---
