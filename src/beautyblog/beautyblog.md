@@ -2,6 +2,7 @@
 layout: blog.html
 title: Araminta's beauty blog | High-end beauty treatments to be available on the high street
 rightcol_title: Product of the month
+banner_path: ../../assets/images/beauty-logo.gif
 rightcol_image_path: ../../assets/images/blog-beautyblog-scarlet.jpg
 rightcol_text: "Simply Scarlet by SSBS
   It may look traditional, but scarlet never goes out of fashion and this nail polish is as red as they come! What's more it is super-easy to apply, the colour is intense after only one coat, and it doesn't chip easily. Available from all high street chemists at a special introductory price of £4.99."
@@ -20,11 +21,12 @@ comments: [
   author: "Vicky Sanderson"
   },
 ]
-banner_text: High-end beauty treatments to be available on the high street
 title_comment: Comments
 button: [ Write a comment ]
 footer: © Aramita
 ---
+# High-end beauty treatments to be available on the high street
+
 _23.07.2017_
 
 Superdrug, the well-known high street chemist's, is branching out from selling make up, skincare products and toiletries to offering in-store beauty treatments. Among these will be anti-wrinkle injections, teeth whitening and broken vein removal.
