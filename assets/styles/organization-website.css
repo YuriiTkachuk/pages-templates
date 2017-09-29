@@ -11,6 +11,10 @@ form {
   margin-bottom: 1em;
 }
 
+.heig {
+  height: 290px;
+}
+
 p {
   font-size: 1.1em;
   text-align:Justify;
