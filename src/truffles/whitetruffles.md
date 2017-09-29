@@ -1,6 +1,6 @@
 ---
 layout: organization-website.html
-title: White Truffles
+title: TRUFFLELOVER
 image-path: "../../assets/images/truffle-header.jpg"
 nav: [ Home, About truffles, Buying truffles, Recipies, Truffle-hunting holidays, Forum, Contact]
 ---

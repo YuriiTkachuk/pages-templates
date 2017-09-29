@@ -1,7 +1,7 @@
 ---
 layout: popular-article.html
-title: Great-arch-v2
-navbar-title: Great-arch-v2
+title: Great Architecture
+navbar-title: Great Architecture
 large-width-image: ../../assets/images/great-arch-v2.jpg
 navbar-items: [
   {

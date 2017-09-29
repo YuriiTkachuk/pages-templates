@@ -1,6 +1,6 @@
 ---
 layout: organization-website.html
-title: Black Truffles
+title: TRUFFLELOVER
 image-path: "../../assets/images/truffle-header.jpg"
 nav: [ Home, About truffles, Buying truffles, Recipies, Truffle-hunting holidays, Forum, Contact]
 ---
@@ -21,4 +21,3 @@ These truffles have a thick, greyish-black skin with small diamond-shaped projec
 Harvesting truffles is a delicate and uncertain process. Because they are underground, humans cannot detect them, but animals with an acute sense of smell are able to do so. Traditionally pigs were used to locate truffles as their excellent sense of smell made them efficient truffle hunters. However, they have some drawbacks. Like humans, pigs adore the taste of truffles, so there is a high risk of them eating what they find. In addition, pigs tire rather quickly and are not easy to transport. For these reasons, dogs have replaced pigs as truffle hunters in most regions. Dogs are not keen on the taste of truffles and can be trained to show their handlers when they have located a truffle from its smell and are happy to be rewarded with a treat. In recent years, some research has gone into developing electronic "noses" to locate truffles underground, but they still require work.
 
 So far, the practice of cultivating Black Truffles has met with limited success but is being pursued in several countries, including Australia and New Zealand.
-
