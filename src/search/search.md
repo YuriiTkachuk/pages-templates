@@ -15,6 +15,11 @@ search_result: [
   site: "www.meetup.com/femalefitnessfriends/events/16587858/ "
   },
   {
+  link: "Earls Court Ski & Snowboard Show 2011 - Powder ... - Meetup.com",
+  text: "",
+  site: "www.meetup.com/Powder-Junkies/events/33513272/"
+  },
+  {
   link: "Mum in Earl's Court area looking for other mums and playgroups ...",
   text: " I live in Earl's Court and am looking for ways to entertain my 6mo DD, would be great to meet up for a play date....let me know dates / times ...",
   site: "www.mumsnet.com/Talk/...Earl...Court.../AllOnOnePage "
