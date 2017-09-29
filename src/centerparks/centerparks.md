@@ -1,6 +1,6 @@
 ---
 layout: placeguide.html
-title: centerparks
+title: Center Parks
 logo: "../../assets/images/centerparkslogo.png"
 map: true
 x: 54.242059
