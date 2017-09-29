@@ -33,3 +33,4 @@ And this is just a small idea of what we can provide you with. We are happy to d
 
 Get in touch today to get a quote, discuss your event or find out anything else about our company!
 
+![](../../assets/images/sunflower-foot.jpg)
