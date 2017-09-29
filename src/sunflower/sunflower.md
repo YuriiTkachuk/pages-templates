@@ -1,6 +1,7 @@
 ---
 layout: organization-website.html
 title: "Sunflower Cottage Catering"
+name: "Sunflower Cottage Catering"
 image-path: "../../assets/images/sunflower-head.jpg"
 nav: [ Home, Pictures, Sample Menus, Contact Us ]
 ---

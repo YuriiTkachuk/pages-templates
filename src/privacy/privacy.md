@@ -1,6 +1,7 @@
 ---
 layout: organization-website.html
 title: Privacy
+name: Privacy
 image-path: "../../assets/images/privacy-logo.png"
 nav: [ Home, Current campaigns, Subscribe to our newsletter, Donate, Contact us]
 ---
