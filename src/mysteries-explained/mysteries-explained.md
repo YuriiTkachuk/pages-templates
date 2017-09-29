@@ -63,7 +63,7 @@ In the past, before the days of digital media and television, people used to pas
 
 ## Urban Legends
 
- ![](../../assets/images/mysteries-explained-img07.jpg)
+<center>![](../../assets/images/mysteries-explained-img07.jpg)</center>
 
 Have you heard the one about the crocodiles in the sewer? The killer clown? Or what about the fried mouse in the chicken restaurant? All of these are classic types of urban legends. They are always second hand, meaning that they happened to someone else, not the story teller and they are always alleged to be true! They are different to rumours because a rumour is just a fact or piece of information that is supposed to be true, while urban legends are a whole story with a beginning, middle and an end.
 
@@ -72,7 +72,7 @@ Have you heard the one about the crocodiles in the sewer? The killer clown? Or w
 A hoax is a document or act that is supposed to deceive or trick the public. Examples of hoaxes range from amusing false news stories published on April Fool's Day in some countries, to more serious criminal fraud. With the internet it is now much easier to make and spread hoaxes. This site will help you to spot them.
 
 ## Chain Letters
- ![](../../assets/images/mysteries-explained-img02.jpg)
+ <center>![](../../assets/images/mysteries-explained-img02.jpg)</center>
 
 A chain letter (or email) is a written text which tries to persuade you to reproduce it or pass it on. It will have instructions in it like 'please copy this and send it to at least 10 people' or 'forward this to everyone in your contacts'! Often these messages promise good luck to those who pass them on, or threats of doom for those that break the chain!
 
