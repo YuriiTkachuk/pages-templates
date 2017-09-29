@@ -2,6 +2,7 @@
 layout: popular-article.html
 title: Nottinghilltips
 navbar-title: Nottinghilltips
+large-width-image: ../../assets/images/nottinghilltips.png
 article: true
 navbar-items: [
   {
