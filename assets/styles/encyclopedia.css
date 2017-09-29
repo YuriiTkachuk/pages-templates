@@ -33,9 +33,13 @@ h1.text {
   background-color: #485563;
 }
 
+.dropdown-munu.back.show {
+  background-color: white;
+}
+
 .mob {
   font-size: 15px;
-  padding: 6px;
+  padding: 2px;
   float: none;
 }
 
@@ -70,8 +74,13 @@ a:hover {
   background-color: #D0810A;
 }
 
+.nav-link.text.bt:hover {
+  color: #ebebeb;
+  background-color: #343a40;
+}
+
 .dropdown-item.active {
-  background-color: #D0810A;
+  background-color: #485563;
 }
 
 .dropdown-item.text.back:hover {
