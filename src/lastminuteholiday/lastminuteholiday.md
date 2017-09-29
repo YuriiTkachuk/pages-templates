@@ -36,12 +36,14 @@ block: [
   ]
 ---
 
-<center><h1>The best rental villas for your money!</h1></center><br>
 
 <center>![](../../assets/images/lastminuteholiday4.png)</center>
+<br>
 
-<center>**ARE YOU READY FOR THE HOLIDAY OF A LIFETIME?**</center>
-#### Last minute offers! Are you ready for the holiday of a lifetime?
+<center><h1>The best rental villas for your money!</h1></center><br>
+#### Last minute offers!
+
+#### Are you ready for the holiday of a lifetime?
 
 _Due to last minute cancellations, the following 3 villas are available for 1 week from next Saturday._
 
