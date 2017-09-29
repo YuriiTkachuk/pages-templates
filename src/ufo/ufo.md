@@ -1,6 +1,6 @@
 ---
 layout: news.html
-title: ufo
+title: One night, one sightings | News archives | Radio Chester 247
 title_name: Listen to free internet radio
 footer: © Radio Chester
 sidebar: ../../assets/images/sidebar-news.png
