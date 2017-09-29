@@ -32,10 +32,18 @@ blockquote {
 }
 
 .page img {
-  width: 300px;
+  max-width: 100%;
   display: block;
   margin: 0 auto;
   padding: 10px;
+}
+
+left {
+  float: left;
+}
+
+right {
+  float: right;
 }
 
 .page a {
@@ -82,6 +90,10 @@ blockquote {
 @media (max-width: 576px) {
   h2 {
     font-size: 1.75rem;
+  }
+
+  sub {
+    font-size: 65%;
   }
 
   p {

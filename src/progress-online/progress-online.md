@@ -5,8 +5,9 @@ logo-center: true
 content-align: left
 logo-path: ../../assets/images/progress-online-title.jpg
 ---
+
 ### Telesurgery (The Surgery of the Future)
----
+***
 
 ![image-1](../../assets/images/progress-online-1.jpg)
 

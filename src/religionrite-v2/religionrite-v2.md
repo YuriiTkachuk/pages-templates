@@ -13,7 +13,7 @@ person-info: [
 main-title: The pagan elements of Easter
 ---
 
-![image-1](../../assets/images/religionrite-v2-1.jpg)
+<left>![image-1](../../assets/images/religionrite-v2-1.jpg)</left>
 
 Easter is the oldest Christian holiday, but how many of the public and common celebrations of Easter today are Christian in origin? Far more people attend church than go the rest of the year but Easter candy isn’t Christian, the Easter bunny isn’t Christian and Easter eggs aren’t Christian, either. Most of what people commonly associate with Easter is pagan in origin; the rest is commercial. Just as American culture secularized Christmas, it’s secularizing Easter.
 
@@ -21,7 +21,7 @@ The pagan roots of Easter lie in celebrating the spring equinox, for millennia a
 
 It is believed that the Jews derived their spring equinox celebrations, the Feast of Weeks and Passover, in part from this Babylonian holiday during the period when so many Jews were held captive by the Babylonian empire. It is likely that the Babylonians were the first, or at least among the first, civilizations to use the equinoxes as important turning points in the year. Today Passover is a central feature of Judaism and Jewish faith in God.
 
-![image-2](../../assets/images/religionrite-v2-3.jpg)
+<right>![image-2](../../assets/images/religionrite-v2-3.jpg)</right>
 
 Most cultures around the Mediterranean are believed to have had their own spring festivals: whereas in the north the vernal equinox is a time for planting, around the Mediterranean it is a time when the summer crops begin to sprout. This is an important sign of why it has always been a celebration of new life and a triumph of life over death.
 
@@ -31,7 +31,7 @@ Worship of Cybele and her lover Attis started in Rome around 200 BCE, and a cult
 
 Nowadays, modern pagans celebrate 'Ostara' on the vernal equinox. Other names for this celebration include Eostre and Oestara and they are derived from the Anglo-Saxon lunar Goddess, Eostre.
 
-![image-3](../../assets/images/religionrite-v2-2.jpg)
+<left>![image-3](../../assets/images/religionrite-v2-2.jpg)</left>
 
 As you might be able to guess, the name 'Easter' was likely derived from Eostre, as was the name for the female hormone estrogen. Eostre’s feast day was held on the first full moon following the vernal equinox a similar calculation to that used today for Easter among Western Christians. On this date the goddess Eostre is believed by her followers to mate with the solar god, conceiving a child who will be born nine months later on Yule, the winter solstice which falls on December 21st.
 
