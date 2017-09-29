@@ -6,45 +6,42 @@ large-width-image: ../../assets/images/howwhatwhy-head.jpg
 large-image: ../../assets/images/howwhatwhy-logo.png
 navbar-items: [
   {
-    name: Why
+    name: Why,
+    link: "#"
   },
   {
-    name: What
+    name: What,
+    link: "#"
   },
   {
-    name: How
+    name: How,
+    link: "#"
   },
   {
-    name: News
+    name: News,
+    link: "#"
   },
   {
-    name: Help
+    name: Help,
+    link: "#"
   }
 ]
 sidebar-list-left: [
   {
-    name: Food,
+    name: Command Line,
     link: "#"
   },
   {
-    name: Health,
+    name: Unix,
     link: "#"
-  },
+  },  
   {
-    name: Travel ,
-    link: "#"
-  },
-  {
-    name: Style,
-    link: "#"
-  },
-  {
-    name: Tech,
+    name: Internet,
     link: "#",
     active: true
   },
   {
-    name: Money,
+    name: Git,
     link: "#",
   }
 ]

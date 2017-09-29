@@ -1,7 +1,7 @@
 ---
 layout: popular-article.html
 title: Feast Around the World
-page-path: Home > Articles > Wang
+page-path: Articles > Wang
 large-width-image: ../../assets/images/feast-around-world-head.jpg
 navbar-items: [
   {

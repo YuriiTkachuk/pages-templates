@@ -58,7 +58,7 @@ blockquote {
   padding-bottom: 20px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 767px) {
   .page img {
     width: 98%;
     display: block;
@@ -72,6 +72,11 @@ blockquote {
   .page a:hover {
     background-color: skyblue;
   }
+
+  p {
+    text-align: justify;
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -80,7 +85,8 @@ blockquote {
   }
 
   p {
-    font-size: 0.8rem;
+    text-align: justify;
+    font-size: 1.3rem;
   }
 }
 .img-center {

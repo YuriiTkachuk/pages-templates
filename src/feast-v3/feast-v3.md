@@ -1,7 +1,7 @@
 ---
 layout: popular-article.html
 title: Feast around the World | Food for festive occasions
-page-path: Home > Articles > Food and celebrations
+page-path: Articles > Food and celebrations
 large-width-image: ../../assets/images/feast-around-world-head.jpg
 navbar-items: [
   {
