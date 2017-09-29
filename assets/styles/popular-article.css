@@ -115,7 +115,7 @@ h1, h2, h3 {
 }
 
 .img-rounded {
-  border-radius: 1rem;
+  /*border-radius: 1rem;*/
   margin-bottom: 0.25rem;
 }
 

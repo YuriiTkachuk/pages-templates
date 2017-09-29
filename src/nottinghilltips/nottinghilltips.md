@@ -1,7 +1,7 @@
 ---
 layout: popular-article.html
 title: Nottinghilltips
-navbar-title: Nottinghilltips
+navbar-title: LONDON'S POLICE – helping you stay safe
 large-width-image: ../../assets/images/nottinghilltips.png
 article: true
 navbar-items: [
@@ -21,17 +21,21 @@ navbar-items: [
 
 sidebar-list-left: [
   {
-    name: "London sights",
+    name: Home,
     link: "#"
   },
   {
-    name: "Events in London",
-    link: "#"
-  },
-  {
-    name: "Top tips for staying safe in London",
+    name: Events in London,
     link: "#",
     active: true
+  },
+  {
+    name: Top tips for staying safe in London,
+    link: "#"
+  },
+  {
+    name: Talk to us,
+    link: "#"
   }
 ]
 
