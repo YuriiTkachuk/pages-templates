@@ -161,3 +161,10 @@ img {
 	background: black;
 	padding: 5px 10px;
 }
+
+@media screen and (max-width: 500px) {
+	center {
+	margin: 30px;
+	min-width: 100%;
+	}
+}

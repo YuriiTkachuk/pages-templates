@@ -6,26 +6,24 @@ rightcol_title: About Lindsay
 rightcol_text: I'm not an expert on the cinema, just a housewife who loves films, and always has! Since I was ten years old I've kept a diary of every film I've ever seen on TV, at the cinema or on video or DVD. Now that my children have moved away from home, I thought it would be fun to share my ideas through this blog. I hope you like it!
 rightcol_list_name: Latest posts
 rightcol_list_row: [
-	{link: romanticfilms.html,
-	text: Romantic films
-	},
-	 { text: Films set in Paris,
-	   link: romanticfilms.html
-	},
-	{ text: My top ten sci-fi films,
-	  link: "#"
-	},
-	{ text: Films about pirates,
-	  link: romanticfilms.html
-	}
+  {link: romanticfilms.html,
+  text: Romantic films
+  },
+  { text: Films set in Paris,
+   link: romanticfilms.html
+  },
+  { text: My top ten sci-fi films,
+   link: "#"
+  },
+  { text: Films about pirates,
+  link: romanticfilms.html
+  }
 ]
 ---
 _05.07.2005_
 
-![Roses](../../assets/images/blog-romanticfilmes-roses.jpg)
-
 ## Romantic films
-
+<center>![Roses](../../assets/images/blog-romanticfilmes-roses.jpg)</center>
 ###### With Valentine' s Day coming up soon, here are five of my favourite romantic movies.
 
 ### Titanic (1997)
