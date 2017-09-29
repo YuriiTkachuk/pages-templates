@@ -1,8 +1,8 @@
 ---
 layout: popular-article.html
 title: Diwali
-navbar-title: Diwali
-large-image: https://farm4.staticflickr.com/3730/8856023001_a567e226bc_b.jpg
+navbar-title: Traditional Festivals
+large-image: ../../assets/images/traditionalfestivals-diwali.jpg
 navbar-items: [
   {
     name: About us
@@ -108,15 +108,23 @@ sidebar-list-left: [
 article: true
 sidebar-list-right: [
   {
-    name: Glastonbury,
+    name: Africa,
     link: "#"
   },
   {
-    name: New Year's Eve,
+    name: Americas,
     link: "#"
   },
   {
-    name: Day of the Dead,
+    name: Asia,
+    link: "#",
+  },
+  {
+    name: Australia,
+    link: "#"
+  },
+  {
+    name: Europe,
     link: "#",
   }
 ]
@@ -130,7 +138,7 @@ Diwali is a time to make a new beginning and renew commitments to family values.
 
 ## Hindu Festival of Diwali
 
-![Diwali](../../assets/images/traditionalfestival-diwali1.jpg) 
+![Diwali](../../assets/images/traditionalfestival-diwali1.jpg)
 
 Hindus celebrate Diwali for five days. The first day of Diwali is called Dhanvantari Trayodasi. On this day Hindu families offer prayers to Lakshmi, the goddess of wealth, to remember that all wealth is a blessing from God.
 
@@ -156,6 +164,6 @@ Guru Hargobind then had someone make a cloak for him with 52 pieces of string so
 
 ## Jain Festival of Diwali
 
-![Diwali_031](../../assets/images/traditionalfestival-diwali4.jpg) 
+![Diwali_031](../../assets/images/traditionalfestival-diwali4.jpg)
 
 For the Jains, Diwali is a festival of light which represents the wisdom that Lord Mahavira gave to people regarding the peace and welfare of all living beings. It celebrates the anniversary of Mahavira and his chief disciple, Gautam Indrabhut, reaching important spiritual goals in 527 BCE.
