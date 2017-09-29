@@ -69,6 +69,11 @@ right {
   padding-bottom: 20px;
 }
 
+.img-center {
+  display: block;
+  margin: 0 auto;
+}
+
 @media only screen and (max-width: 767px) {
   .page img {
     width: 98%;
@@ -82,7 +87,11 @@ right {
 
   p {
     text-align: justify;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
+  }
+
+  h1, h2 {
+    text-align: left;
   }
 }
 
@@ -97,10 +106,6 @@ right {
 
   p {
     text-align: justify;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
-}
-.img-center {
-  display: block;
-  margin: 0 auto;
 }
