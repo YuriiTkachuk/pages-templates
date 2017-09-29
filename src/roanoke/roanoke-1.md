@@ -3,9 +3,9 @@ layout: minimalist.html
 title: The pagan elements of Easter
 content-align: left
 ---
-[ROANOKE: THE STORY](index.html)
+[ROANOKE: THE STORY](#)
 
-[ROANOKE: KEY PEOPLE](index.html)
+[ROANOKE: KEY PEOPLE](roanoke-2)
 
 ## <center>The Mystery of Roanoke:</center>
 # <center>The Story</center>

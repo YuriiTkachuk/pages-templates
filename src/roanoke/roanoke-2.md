@@ -3,9 +3,9 @@ layout: minimalist.html
 title: "Roanoke: KEY PEOPLE"
 content-align: left
 ---
-[ROANOKE: THE STORY](index.html)
+[ROANOKE: THE STORY](roanoke-1)
 
-[ROANOKE: KEY PEOPLE](index.html)
+[ROANOKE: KEY PEOPLE](#)
 
 ## <center>The Mystery of Roanoke:</center>
 # <center>Key People</center>
