@@ -2,7 +2,7 @@
 layout: popular-article.html
 title: Foreign dishes
 navbar-title: Foreign Food
-large-image: ../../assets/images/foreigndishes.png
+large-width-image: ../../assets/images/foreigndishes.png
 navbar-items: [
   {
     name: Home,
