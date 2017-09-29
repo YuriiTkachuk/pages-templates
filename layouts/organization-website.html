@@ -53,11 +53,37 @@
 
 	{{#if sidebar}}
 		</div>
-		<div class="col-md full sidebar">
-<div style="margin-top: 3.5vw">
-			{{{ sidebar_section }}}
-		</div>
-		</div>
+  		<div class="col-md full sidebar">
+         <div style="margin-top: 3.5vw">
+
+           <center>
+           {{#if button}}
+            {{#each button}}
+              <input type="submit" class="btn btn-full btn-drd" value="{{ this }}"><br>
+            {{/each}}
+           {{/if}}
+
+            {{#if input}}
+              <div class="side-form">
+              <h4>{{ input_title }}</h4>
+                  <form method="post" action="" class="forms">
+
+                    {{#each input}}
+
+                      <input placeholder="{{ this }}" /><br>
+
+                    {{/each}}
+                    <input type="submit" name="send" class="btn" value="{{ input_button }}" />
+
+                  </form>
+          	  </div>
+            {{/if}}
+          </center>
+
+  			{{{ sidebar_section }}}
+        
+  		  </div>
+  		</div>
 		</div>
 
 	{{/if}}
