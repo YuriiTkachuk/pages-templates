@@ -1,6 +1,6 @@
 ---
 layout: placeguide.html
-title: holiday-rentals
+title: Holiday Rentals
 logo: "../../assets/images/holidayrentalslogo.png"
 navs: [
   {
