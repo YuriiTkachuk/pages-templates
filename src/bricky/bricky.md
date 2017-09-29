@@ -5,12 +5,15 @@ logo-center: true
 content-align: left
 logo-path: ../../assets/images/bricky-logo.png
 ---
-# <big>Irish Council of Enterprise Excellence</big>
-# Fostering Enterprise....
+## Irish Council of Enterprise Excellence
 
-**School of Business, University College, Killarney – May 15 at 14.30**
+### Fostering Enterprise....
 
-**SPEAKER PROFILES**
+#### School of Business, University College, Killarney – May 15 at 14.30
+
+&nbsp;
+
+### SPEAKER PROFILES
 
 ## Noel Marshall
 
