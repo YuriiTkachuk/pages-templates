@@ -133,6 +133,9 @@ h1, h2, h3 {
    margin: 5px 10px 0px 0;
  }
 
+ol {
+  padding-left: 1rem;
+}
 
 blockquote {
   color: grey;
