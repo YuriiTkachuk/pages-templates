@@ -1,6 +1,6 @@
 ---
 layout: placeguide.html
-title: lastminuteholiday
+title: Holiday Homes
 logo: "../../assets/images/lastminute.png"
 navs: [
   {
@@ -37,20 +37,20 @@ block: [
 ---
 
 <center><h1>The best rental villas for your money!</h1></center><br>
-<center>**ARE YOU READY FOR THE HOLIDAY OF A LIFETIME?**</center>
 
 <center>![](../../assets/images/lastminuteholiday4.png)</center>
 
+<center>**ARE YOU READY FOR THE HOLIDAY OF A LIFETIME?**</center>
 #### Last minute offers! Are you ready for the holiday of a lifetime?
 
 _Due to last minute cancellations, the following 3 villas are available for 1 week from next Saturday._
 
-### Lastest Deals
 
 ---
 section: contents2
 ---
 
+<center><h3>Lastest Deals</h3></center>
 
 Seaside escapes at 34 parks<br>
 [https://holidayhomes.com/deal-1](#)<br>
