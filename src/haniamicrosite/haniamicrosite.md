@@ -1,17 +1,20 @@
 ---
 layout: popular-article.html
-title: Samaria Gorge | This is Hania!
+title: This is Hania!
 navbar-title: This is Hania!
 large-image: ../../assets/images/haniamicrosite-Main.jpg
 navbar-items: [
   {
-    name: Home
+    name: Home,
+    link: "#"
   },
   {
-    name: Samaria Gorge
+    name: Samaria Gorge,
+    link: "#"
   },
   {
-    name: Other places to visit
+    name: Other places to visit,
+    link: "#"
   }
 ]
 sidebar-list-left: [
@@ -43,15 +46,15 @@ sidebar-list-left: [
 ]
 sidebar-list-right: [
   {
-    name: "Athens",
+    name: "10 most popular national parks in Greece",
     link: "#"
   },
   {
-    name: "Hania",
+    name: "Everything You Need to Know About Hiking Samaria Gorge",
     link: "#"
   },
   {
-    name: "Macedonia",
+    name: "Visit Greece",
     link: "#"
   }
 ]
