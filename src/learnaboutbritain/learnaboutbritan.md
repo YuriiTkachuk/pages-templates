@@ -2,7 +2,7 @@
 layout: popular-article.html
 title: Learn about Britain
 navbar-title: Learn about Britain
-large-width-image: ../../assets/images/learnaboutbritain-unionjack.jpg
+large-width-image: ../../assets/images/learnaboutbritain-unionjack.png
 navbar-items: [
   {
     name: About us,
