@@ -42,15 +42,15 @@ sidebar-list-left: [
 ]
 sidebar-list-right: [
   {
-    name: "Athens",
+    name: "10 most popular national parks in Greece",
     link: "#"
   },
   {
-    name: "Hania",
+    name: "Everything You Need to Know About Hiking Samaria Gorge",
     link: "#"
   },
   {
-    name: "Macedonia",
+    name: "Visit Greece",
     link: "#"
   }
 ]

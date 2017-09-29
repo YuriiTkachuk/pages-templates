@@ -166,9 +166,10 @@ td {
   border: 0;
   font-size: calc(0.5em + 0.5vw);
   vertical-align: baseline;
-  background: #708090;
+  background: #ccc;
   border: 4px double white;
   font-style: normal;
+  font-size: 0.8rem;
 }
 th {
   font-family: 'Bookman Old Style', serif;
@@ -177,7 +178,15 @@ th {
   border: 0;
   font-size: calc(0.5em + 0.5vw);
   vertical-align: baseline;
-  background: #697790;
+  background: #ccc;
   border: 4px double white;
   font-style: normal;
+  font-size: 0.8rem;
+}
+
+.image-map {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
 }
