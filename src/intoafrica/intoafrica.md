@@ -8,7 +8,7 @@ banner_path: ../../assets/images/banner-IntoAfrica.jpg
 
 _15 February_
 
----
+***
 When I sat down at my computer to write this week's post, I found myself staring at the screen and wondering which topic to cover. Nothing pressing came to mind, so I went back to the kitchen, filled my kettle from the tap, boiled it up and made myself a strong cup of tea to improve my concentration.
 
 As I did so, I realised what today's topic had to be. Those simple actions that I performed are taken for granted by most people who read this blog, but for more than 12 per cent of the world's population the idea of opening a tap and getting a flow of clean, potable water is nothing but a dream.

@@ -59,12 +59,12 @@ sidebar-list-right: [
 
 The high mountain range of the Lefka Ori (White Mountains) runs from west to east across Hania prefecture. For this reason, transport along the flat north coast is easy and fast, but there are only four major routes from the north coast to the south coast. Travelling along the south coast can only be done on foot or by boat. You can put your car on a small ferry, but this is an expensive and impractical way to see the south coast villages, especially since two of them - Agia Roumeli and Loutro – have no roads at all.
 
----
+***
 <center>[![](../../assets/images/haniamicrosite-Map-thumb.jpg)](images/Map.jpg)</center>
 
 <center>[Click to open map of Crete](../../assets/images/haniamicrosite-Map.jpg)</center>
 
----
+***
 
 ### Nearby beaches
 

@@ -32,5 +32,3 @@ Food served until 2.30 & 9.30PM
 
 **Sunday:** Noon – 4PM
 Food served until 3PM
-
-

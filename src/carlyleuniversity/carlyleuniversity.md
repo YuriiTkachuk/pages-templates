@@ -28,4 +28,3 @@ Waiting times vary depending on the time of year and the demand on the Service, 
 ##### **How many sessions can I have?**
 
 You may be offered up to six sessions. However, it might be that you need to carry on seeing your counsellor for a longer period. This will be something your counsellor will discuss with you.
-

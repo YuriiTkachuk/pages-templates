@@ -17,4 +17,3 @@ From the web to the iPad, technologies have transformed American society and alt
 Our knowledge base includes lawyers, activists, public policy analysts and technologists. By combining their talents we have waged and won several successful campaigns on behalf of the general public. Much of our work is carried out in the law courts, and we are not afraid to confront powerful organizations such as large corporations or the US government.
 
 Lawsuits are particularly expensive and, as DRD is a nonprofit organization, we depend entirely on donations to keep our work going. Over sixty per cent of our budget is funded by individual donors. Explore the site and if you like what we are doing to protect you, your family and your business, click on Donate to help us keep up the work we're doing on your behalf.
-
