@@ -109,3 +109,7 @@ right {
     font-size: 1.2rem;
   }
 }
+
+a:active {
+  pointer-events: none;
+}

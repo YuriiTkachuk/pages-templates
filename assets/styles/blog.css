@@ -76,6 +76,10 @@ hr {
 	text-align: left;
 }
 
+a:active {
+	pointer-events: none;
+}
+
 @media screen and (max-width: 1600px) {
     .rightcolhidden{
         display: none;
@@ -85,6 +89,7 @@ hr {
 @media screen and (min-width: 1600px) {
 	.rightcoltrue{
         display: none;
+	padding:10px 10px;
     }
 }
 

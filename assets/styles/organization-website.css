@@ -82,3 +82,7 @@ hr {
   display: inline-block;
   width: 100%;
 }
+
+a:active {
+  pointer-events: none;
+}

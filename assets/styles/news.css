@@ -135,3 +135,7 @@ left {
   float: left;
   margin: 5px;
 }
+
+a:active {
+  pointer-events: none;
+}

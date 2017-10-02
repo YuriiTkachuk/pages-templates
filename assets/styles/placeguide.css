@@ -496,3 +496,7 @@
       width: 100%;
     }
   }
+
+a:active {
+  pointer-events: none;
+}

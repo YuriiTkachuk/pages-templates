@@ -157,6 +157,6 @@ li {
   color:#089605;
 }
 
-.cursor_pointer {
-	cursor: pointer;
+a:active {
+  pointer-events: none;
 }
