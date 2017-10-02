@@ -23,7 +23,9 @@ rightcol_list_row: [
 _05.07.2005_
 
 ## Romantic films
-<center>![Roses](../../assets/images/blog-romanticfilmes-roses.jpg)</center>
+
+<right>![Roses](../../assets/images/blog-romanticfilmes-roses.jpg)</right>
+
 ###### With Valentine' s Day coming up soon, here are five of my favourite romantic movies.
 
 ### Titanic (1997)
