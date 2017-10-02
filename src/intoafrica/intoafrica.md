@@ -4,7 +4,7 @@ title: The Into Africa Blog posts about environmental and development issues in 
 banner_path: ../../assets/images/banner-IntoAfrica.jpg
 ---
 
-![](../../assets/images/blog-IntoAfrica-share.jpg)
+<right_fix>![](../../assets/images/blog-IntoAfrica-share.jpg)</right_fix>
 
 _15 February_
 
