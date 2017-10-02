@@ -1,11 +1,10 @@
 ---
 layout: organization-website.html
-title: "Legal Help and Action > Problems at workk"
-image-path: "../../assets/images/digitalrightsdefense-logo.png"
+title: "Legal Help and Action > Problems at work"
+name: Legal Help and Action
+image-path: ../../assets/images/Legal_Advice_Banner.gif
 nav: [ Employment law, Family law, Accident and Injury, Debt and Bancrupcy, Consumer law, Other law]
 sidebar: true
-sideimage: [../../assets/images/legaladvice-sidebar.gif]
-
 ---
 
 # Do you want justice but don't know where to start?
@@ -26,7 +25,7 @@ Our extensive experience has taught us that obtaining a positive outcome is not 
 
 If you are looking for an efficient and affordable solution to obtaining your employment rights, then order any of our four packages **now**. Don't wait until it's too late. **Act Now!**
 
-* * *
+***
 
 ## Why use Legal Help And Action?
 
@@ -40,10 +39,13 @@ If you are looking for an efficient and affordable solution to obtaining your em
 
 * Based on period 1st January 2011 - 31st June 2011 during which there were 4029 ET transactions. We have records of successful tribunal action held at our offices. 350k figure comes from national press.
 
-* * *
+***
 
-###### Legal Help and Action is the trading name of Willoughby & Willoughby LLC.
-###### Company Registration number AD9856412.
-###### Registered in Malta.
+<small> Legal Help and Action is the trading name of Willoughby & Willoughby LLC.</small><br>
+<small> Company Registration number AD9856412.</small><br>
+<small> Registered in Malta.</small>
 
-
+---
+section: sidebar_section
+---
+![](../../assets/images/legaladvice-sidebar.gif)
