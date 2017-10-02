@@ -1,7 +1,7 @@
 ---
 layout: organization-website.html
 title: "Legal Help and Action > Problems at workk"
-name: "Legal Help and Action > Problems at workk"
+name: "Healthinform, Luqa, Malta."
 sidebar: true
 image-path: "../../assets/images/phobias-pic.jpg"
 nav: [ Home, Lifestyle, Conditions, A-Z index, Newsletter, Talk to an expert ]
@@ -30,7 +30,7 @@ A phobia is an irrational fear of, and compelling need to avoid, particular acti
 
 
 * * *
-
+<a name="symptoms"></a>
 ## What are the symptoms?
 
 Mild symptoms of anxiety may include a dry mouth, a lump in the throat, 'butterflies' in the stomach or the need to go to the toilet more often.
@@ -43,7 +43,7 @@ The phobia interferes with everyday life because a person may go to extraordinar
 
 
 * * *
-
+<a name="affected"></a>
 ## Who's affected?
 
 About one in ten of us has a phobia and women are affected more than men. Phobias most often develop in late childhood and early adulthood.
@@ -56,7 +56,7 @@ Other common phobias include claustrophobia (a fear of enclosed areas), social p
 
 
 * * *
-
+<a name="treatment"></a>
 ## What's the treatment?
 
 It isn't possible to prevent phobias from developing. However, behaviour therapy can successfully help people to overcome many of their fears. Sometimes medication, such as antidepressant drugs, is recommended.
@@ -65,15 +65,15 @@ It isn't possible to prevent phobias from developing. However, behaviour therapy
 
 
 * * *
-
+<a name="advice"></a>
 ## Advice and support
 
 ### National Phobics Society
 
 Helpline: 0870 122 2325
-Email: [info@phobics-society.org.uk](mailto:info@phobics-society.org.uk)
+Email: [info@phobics-society.org.uk](#)
 
-Website: [www.phobics-society.org.uk](http://web.archive.org/web/20080423171906/http://www.phobics-society.org.uk/)
+Website: [www.phobics-society.org.uk](#)
 
 [Back to top](#top)
 
@@ -82,12 +82,13 @@ Website: [www.phobics-society.org.uk](http://web.archive.org/web/20080423171906/
 _This article was last medically reviewed by Dr David Vile in March 2006._
 
 * * *
-<br>
-Disclaimer
+<div class="declaimer">
+  Disclaimer<br />
 
-###### All content within this web site is provided for general information only, and should not be treated as a substitute for the medical advice of your own doctor or any other health care professional. We are not responsible or liable for any diagnosis made by a user based on the content of this website. We are not liable for the contents of any external internet sites listed, nor does it endorse any commercial product or service mentioned or advised on any of the sites. Always consult your own doctor if you're in any way concerned about your health.
+  All content within this web site is provided for general information only, and should not be treated as a substitute for the medical advice of your own doctor or any other health care professional. We are not responsible or liable for any diagnosis made by a user based on the content of this website. We are not liable for the contents of any external internet sites listed, nor does it endorse any commercial product or service mentioned or advised on any of the sites. Always consult your own doctor if you're in any way concerned about your health.<br /><br />
 
-###### Healthinform, Luqa, Malta.
+Healthinform, Luqa, Malta.
+</div>
 
 ---
 section: sidebar_section
@@ -95,16 +96,12 @@ section: sidebar_section
 
 29/9/2017
 
-**Browse:**
+**Advice and support**
 
-Home
+National Phobics Society
 
-Lifestyle
+Helpline: 0870 122 2325
 
-Conditions
+Email:<br />[info@phobics-society.org.uk](#)
 
-A-Z index
-
-Newsletter
-
-Talk to an expert
+Website:<br /> [www.phobics-society.org.uk](#)
