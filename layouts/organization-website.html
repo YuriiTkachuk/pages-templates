@@ -45,14 +45,17 @@
     {{#if sidebar}}
       </div>
       <div class="col-md-3 sidebar">
-        <div style="margin-top: 3.5vw">
+        <div>
           <center>
-          {{#if button}}
+          {{#each butt}}
+          <p>{{ text }}</p>
+          {{#if butt}}
+          <input type="submit" class="btn btn-full btn-drd" value="{{ butt }}"><br>
+          {{/if}}
+          {{/each}}
           {{#each button}}
           <input type="submit" class="btn btn-full btn-drd" value="{{ this }}"><br>
           {{/each}}
-          {{/if}}
-
             {{#if input}}
             <div class="side-form">
               <h4>{{ input_title }}</h4>
