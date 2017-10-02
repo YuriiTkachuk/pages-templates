@@ -1,23 +1,23 @@
 ---
 layout: organization-website.html
 title: EUPHORIUM
-image-path:
 nav: [ About us, Events&Tickets, Contact us]
 sidebar: true
-sidetable: true
-label: "TICKETS:"
 input: [ "Buy tickets in advance and save 20%.", "Individual (standard):	£10", "Couples:	£16",
 "Individual (student):	£6",  "Student group of 4:	£20" ]
-info: "Get tickets for upcoming gigs:"
-button: [{
-  text: "CopyPasteUndoDelete - £20 (£25 on the door)",
-  btn: "buy"
-},
-{
-  text: "Paranoid Mandroid - £16 (£20 on the door)",
-  btn: "buy"
-}]
-
+butt: [
+  {
+    text: "Get tickets for upcoming gigs:",
+  },
+  {
+    text: "CopyPasteUndoDelete - £20 (£25 on the door)",
+    butt: "Buy",
+  },
+  {
+    text: "Paranoid Mandroid - £16 (£20 on the door)",
+    butt: "Buy",
+  },
+]
 ---
 # EUPHORIUM
 
