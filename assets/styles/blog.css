@@ -68,10 +68,13 @@ hr {
 }
 
 .maincol p {
-	text-align: Justify;
+	text-align: justify;
 }
 
-p a { text-align: auto; }
+.maincol p a strong {
+	display: block;
+	text-align: left;
+}
 
 @media screen and (max-width: 1600px) {
     .rightcolhidden{
@@ -120,10 +123,10 @@ p.button {
 }
 
 img {
-	float: right;
-	max-width: 45%;
-	margin: 0 0 25px 25px;
-	margin-bottom: 15px;
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .size {
@@ -164,11 +167,15 @@ img {
 	padding: 5px 10px;
 }
 
-@media screen and (max-width: 375px) {
-	center {
-	max-width: 500px;
-	margin: 40px;
-	margin-top: -5px;
-		min-width: 200px;
+@media screen and (min-width: 600px) {
+	right {
+	margin: 10px;
+	float:right;
 	}
+}
+
+right_fix {
+  float:right;
+	max-width: 100%;
+	margin-bottom: 20px;
 }
