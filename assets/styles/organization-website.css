@@ -74,3 +74,8 @@ input {
   font-size: 0.75rem;
   line-height: 1.1rem;
 }
+
+hr {
+  display: inline-block;
+  width: 100%;
+}
