@@ -8,7 +8,7 @@ footer: All rights reserved
 
 _13.05.2017_
 
-![](../../assets/images/blog-image-baltimore.jpg)
+<right>![](../../assets/images/blog-image-baltimore.jpg)</right>
 
 My father, who grew up during the emergence of radio, was (like many at the time) utterly fascinated by the new technology, which opened horizons for many Americans. Radio could send free music, entertainment, and informative programming directly into the living room – and this was as revolutionary in its time as the Internet seems to us today.
 

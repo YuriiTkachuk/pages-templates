@@ -43,7 +43,7 @@ _In Crete snails are eaten as a main meal, so a normal serving is about 15-20 sn
 
 ### Preparing snails
 
-![](../../assets/images/blog-image-snailstew.png)
+<right>![](../../assets/images/blog-image-snailstew.png)</right>
 
 Here in Crete we find snails in the wild (see my April 2011 post). Make sure the snails are alive before you cook them – put them in cold water and wait for signs of movement. Take each live snail out of the cold water and throw it immediately into a pot of boiling water. This kills it.
 

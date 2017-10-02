@@ -13,37 +13,37 @@ Was it one of these?
 
 ***
 
-[![](../../assets/images/eye-witness-car01.jpg)](eye-witness-p6)
+<right_fix>[![](../../assets/images/eye-witness-car01.jpg)](eye-witness-p6)</right_fix>
 
 [](page6)[**Ford Mondeo**](eye-witness-p6)
 
 ***
 
-[![](../../assets/images/eye-witness-car02.jpg)](eye-witness-p5)
+<right_fix>[![](../../assets/images/eye-witness-car02.jpg)](eye-witness-p5)</right_fix>
 
 [](page5)[**Renault Scenic**](eye-witness-p5)
 
 ***
 
-[![](../../assets/images/eye-witness-car03.jpg)](eye-witness-p6)
+<right_fix>[![](../../assets/images/eye-witness-car03.jpg)](eye-witness-p6)</right_fix>
 
 [](page6)[**TVR Chimaera**](eye-witness-p6)
 
 ***
 
-[![](../../assets/images/eye-witness-car04.jpg)](eye-witness-p6)
+<right_fix>[![](../../assets/images/eye-witness-car04.jpg)](eye-witness-p6)</right_fix>
 
 [](page6)[**Volkswagen Golf**](eye-witness-p6)
 
 ***
 
-[![](../../assets/images/eye-witness-car05.jpg)](eye-witness-p6)
+<right_fix>[![](../../assets/images/eye-witness-car05.jpg)](eye-witness-p6)</right_fix>
 
 [](page6)[**Volvo Estate**](eye-witness-p6)
 
 ***
 
-[![](../../assets/images/eye-witness-car06.jpg)](eye-witness-p6)
+<right_fix>[![](../../assets/images/eye-witness-car06.jpg)](eye-witness-p6)</right_fix>
 
 [](page6)[**Land Rover Freelander**](eye-witness-p6)
 
