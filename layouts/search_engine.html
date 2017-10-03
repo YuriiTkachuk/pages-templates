@@ -10,35 +10,24 @@
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
-
     <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="../../assets/styles/search_engine.css">
   </head>
-
   <body>
-
-
-
-
-
     <div id="NavOuter">
-
       <div id="NavInner">
-	 <nav class="navbar " role="navigation">
-		<img  src="{{ search_logo }}" style="max-width:150px;">
-		<form  role="search" style="max-width:200px;">
-		<input type="text" class="form-control" placeholder="Search">
-		</form>
-	</nav>
+        <nav class="navbar " role="navigation">
+          <img  src="{{ search_logo }}" style="max-width:150px;">
+          <form  role="search" style="max-width:200px;">
+            <input type="text" class="form-control" placeholder="Search">
+          </form>
+        </nav>
       </div>
     </div>
 
-
     <div id="MainOuter">
-
       <div id="MainInner">
         <p style="padding:0px 20px"><strong>Showing results for: <em>{{ search }}</em></strong></p>
-
         {{#each search_result}}
         <div class="Box"><p>
           <a href="#">{{add @index 1}}. {{ link }}</a><br/>
@@ -46,20 +35,12 @@
             {{ text }}
         </div>
         {{/each}}
-
-
-
-
       </div>
     </div>
-
 
     <div id="FooterOuter">
       <div id="FooterInner">
-
       </div>
     </div>
-
   </body>
-
 </html>

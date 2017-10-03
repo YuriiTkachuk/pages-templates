@@ -16,34 +16,28 @@
   </head>
   <body>
     <div class="container">
-
       <div class="row">
         <div class="col-12">
           <nav class="navbar navbar-expand-lg navbar-dark navbar-background">
             <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbar-collapse">
               <span class="navbar-toggler-icon"></span>
             </button>
-
             {{#if navbar-logo-path}}
             <a href="#" class="navbar-brand">
               <img src="{{ navbar-logo-path }}">
             </a>
             {{/if}}
-
             {{#if navbar-title}}
             <a href="#" class="navbar-brand"><h4>{{ navbar-title }}</h4></a>
             {{/if}}
-
             <div class="collapse navbar-collapse" id="navbar-collapse">
               <ul class="navbar-nav">
-
                 {{#each navbar-items}}
                 {{#if this.dropdown-items}}
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
                     {{ this.name }}
                   </a>
-
                   <div class="dropdown-menu" role="menu">
                     {{#each this.dropdown-items}}
                     <a class="dropdown-item" href="{{ this.link }}">{{ this.name }}</a>
@@ -71,7 +65,6 @@
       {{/if}}
 
       <div class="row">
-
         {{#if sidebar-list-left}}
         <div class="col-md-3">
           <div class="list-group">
@@ -88,78 +81,70 @@
 
         <div class="col-md-6 col-12 py-3">
           <div class="container">
-          {{#if large-image}}
-              <img class="img-fluid img-center img-rounded" src="{{ large-image }}">
-          {{/if}}
-
-          {{#if page-path}}
-          <p class="py-2 breadcrumb">{{ page-path }}</p>
-          {{/if}}
-
-          {{#if box-text}}
-          <div class="jumbotron">
-            {{#if box-title}}
-            <h2>{{ box-title }}</h2>
+            {{#if large-image}}
+            <img class="img-fluid img-center img-rounded" src="{{ large-image }}">
             {{/if}}
-            <p>{{ box-text }}</p>
-            {{#if box-image-path}}
-            <img class="img-fluid img-center" src="{{ box-image-path }}">
+            {{#if page-path}}
+            <p class="py-2 breadcrumb">{{ page-path }}</p>
             {{/if}}
-          </div>
-          {{/if}}
-
-          {{#if main-title}}
-          <h1>{{ main-title }}</h1>
-          {{/if}}
-
-          {{#if slider}}
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner slide-image" role="listbox">
-              {{#each image}}
-              {{#if this.active}}
-              <div class="carousel-item active">
-                {{else}}
-              <div class="carousel-item">
+            {{#if box-text}}
+            <div class="jumbotron">
+              {{#if box-title}}
+              <h2>{{ box-title }}</h2>
               {{/if}}
-                <img class="d-block img-fluid slide-image img-center" src="{{ this.link }}">
-                    <div class="carousel-caption">
-                      <p>{{ this.description }}</p>
-                    </div>
-                </div>
-              {{/each}}
+              <p>{{ box-text }}</p>
+              {{#if box-image-path}}
+              <img class="img-fluid img-center" src="{{ box-image-path }}">
+              {{/if}}
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-          {{/if}}
-
-          {{#if fairy}}
-          <div class="fairy">
-          {{/if}}
-
-          {{#if article}}
+            {{/if}}
+            {{#if main-title}}
+            <h1>{{ main-title }}</h1>
+            {{/if}}
+            {{#if slider}}
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner slide-image" role="listbox">
+                {{#each image}}
+                {{#if this.active}}
+                <div class="carousel-item active">
+                {{else}}
+                <div class="carousel-item">
+                {{/if}}
+                  <img class="d-block img-fluid slide-image img-center" src="{{ this.link }}">
+                      <div class="carousel-caption">
+                        <p>{{ this.description }}</p>
+                      </div>
+                </div>
+                {{/each}}
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            {{/if}}
+            {{#if fairy}}
+            <div class="fairy">
+            {{/if}}
+            {{#if article}}
             <div class="image-left">
               {{{ contents }}}
             </div>
-          {{else}}
+            {{else}}
             {{{ contents }}}
-          {{/if}}
-
-          {{#if fairy}}
+            {{/if}}
+            {{#if fairy}}
             </div>
-          {{/if}}
-
+            {{/if}}
         </div>
       </div>
 
@@ -173,7 +158,6 @@
         </div>
       </div>
       {{/if}}
-
     </div>
   </body>
 </html>
