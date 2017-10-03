@@ -20,16 +20,16 @@ navbar-items: [
 sidebar-list-left: [
   {
     name: Fallingwater,
-    link: "fallingwater.html"
+    link: "fallingwater"
   },
   {
     name: Rietveld Schroder House,
-    link: "rietveld.html",
+    link: "rietveld",
     active: true
   },
   {
     name: Whale Beach House 2,
-    link: "whalebeachhouse.html"
+    link: "whalebeachhouse"
   }
 ]
 sidebar-list-right: [
