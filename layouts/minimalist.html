@@ -1,90 +1,87 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>{{ title }}</title>
+	<head>
+		<title>{{ title }}</title>
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
-  <link rel="stylesheet" href="../../assets/styles/minimalist.css">
+	  <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+	  <link rel="stylesheet" href="../../assets/styles/minimalist.css">
 
-</head>
-<body>
-  {{#if logo-path}}
-  <div class="page-header">
-    <div class="container">
-      <div class="logo">
-			{{#if logo-center}}
-        <img class="img-fluid logo-center img-center" src="{{ logo-path }}">
-			{{else}}
-				<img class="img-fluid logo-center"  src="{{ logo-path }}">
-			{{/if}}
-      </div>
-    </div>
-  </div>
-  {{/if}}
+	</head>
+	<body>
+	  {{#if logo-path}}
+	  <div class="page-header">
+	    <div class="container">
+	      <div class="logo">
+				{{#if logo-center}}
+	        <img class="img-fluid logo-center img-center" src="{{ logo-path }}">
+				{{else}}
+					<img class="img-fluid logo-center"  src="{{ logo-path }}">
+				{{/if}}
+	      </div>
+	    </div>
+	  </div>
+	  {{/if}}
 
-  <div class="container">
-    {{#if contents}}
-    <div class="page" style="text-align: {{ content-align }};">
-      {{#if person-photo-path}}
-      <img class="img-fluid" src="{{ person-photo-path }}">
-      {{/if}}
+	  <div class="container">
+	    {{#if contents}}
+	    <div class="page" style="text-align: {{ content-align }};">
+	      {{#if person-photo-path}}
+	      <img class="img-fluid" src="{{ person-photo-path }}">
+	      {{/if}}
 
-			{{#if main-title}}
-				<h1>{{ main-title }}</h1>
-			{{/if}}
-
-			{{#if person-about}}
-			<div class="person-about">
-				{{#if person-about-header}}
-				<p class="person-info"><i>{{ person-about-header }}</i></p>
+				{{#if main-title}}
+					<h1>{{ main-title }}</h1>
 				{{/if}}
 
-				{{#each person-info}}
-        <p class="person-info"><i>{{ this.info }}</i></p>
-        {{/each}}
+				{{#if person-about}}
+				<div class="person-about">
+					{{#if person-about-header}}
+					<p class="person-info"><i>{{ person-about-header }}</i></p>
+					{{/if}}
 
-				{{#if person-about-footer}}
-				<p class="person-info"><i>{{ person-about-footer }}</i></p>
+					{{#each person-info}}
+	        <p class="person-info"><i>{{ this.info }}</i></p>
+	        {{/each}}
+
+					{{#if person-about-footer}}
+					<p class="person-info"><i>{{ person-about-footer }}</i></p>
+					{{/if}}
+				</div>
 				{{/if}}
 
-			</div>
-			{{/if}}
+	      {{{ contents }}}
 
-      {{{ contents }}}
-
-			{{#if subtext}}
+				{{#if subtext}}
 				<sub>{{ subtext-content }}</sub>
-			{{/if}}
+				{{/if}}
 
-      {{#if video-path}}
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="{{ video-path }}" allowfullscreen>
-        </iframe>
-      </div>
-      {{/if}}
+	      {{#if video-path}}
+	      <div class="embed-responsive embed-responsive-16by9">
+	        <iframe class="embed-responsive-item" src="{{ video-path }}" allowfullscreen></iframe>
+	      </div>
+	      {{/if}}
 
-    </div>
-    {{/if}}
+	    </div>
+	    {{/if}}
 
-    {{#if comments}}
-    <div class="page" style="text-align: {{ content-align }};">
-			{{#each comments}}
-			<div class="card bg-light mb-3">
-			  <div class="card-header text-danger">{{this.person}}</div>
-			  <div class="card-body">
-			    <div class="card-text text-dark">{{this.content}}</div>
-			  </div>
-				<div class="card-footer text-muted">{{this.time}}</div>
+	    {{#if comments}}
+	    <div class="page" style="text-align: {{ content-align }};">
+				{{#each comments}}
+				<div class="card bg-light mb-3">
+				  <div class="card-header text-danger">{{this.person}}</div>
+				  <div class="card-body">
+				    <div class="card-text text-dark">{{this.content}}</div>
+				  </div>
+					<div class="card-footer text-muted">{{this.time}}</div>
+				</div>
+				{{/each}}
 			</div>
-			{{/each}}
-		</div>
-		{{/if}}
-  </div>
-
-</body>
+			{{/if}}
+	  </div>
+	</body>
 </html>

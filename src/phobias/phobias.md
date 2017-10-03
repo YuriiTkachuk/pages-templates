@@ -18,7 +18,6 @@ A phobia is an irrational fear of, and compelling need to avoid, particular acti
 *   [What are the symptoms?](#symptoms)
 *   [Who's affected?](#affected)
 *   [What's the treatment?](#treatment)
-*   [Advice and support](#advice)
 
 * * *
 
@@ -28,8 +27,8 @@ A phobia is an irrational fear of, and compelling need to avoid, particular acti
 *   [The Royal College of Psychiatrists](#)
 *   [Triumph over Phobias](#)
 
-
 * * *
+
 <a name="symptoms"></a>
 ## What are the symptoms?
 
@@ -56,24 +55,11 @@ Other common phobias include claustrophobia (a fear of enclosed areas), social p
 
 
 * * *
+
 <a name="treatment"></a>
 ## What's the treatment?
 
 It isn't possible to prevent phobias from developing. However, behaviour therapy can successfully help people to overcome many of their fears. Sometimes medication, such as antidepressant drugs, is recommended.
-
-[Back to top](#top)
-
-
-* * *
-<a name="advice"></a>
-## Advice and support
-
-### National Phobics Society
-
-Helpline: 0870 122 2325
-Email: [info@phobics-society.org.uk](#)
-
-Website: [www.phobics-society.org.uk](#)
 
 [Back to top](#top)
 

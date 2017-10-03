@@ -20,9 +20,7 @@
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-dark" role="navigation">
-
       <div id="HeaderOuter">
-
         <div id="navbar">
           <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
             <span class="navbar-toggler-icon"></span>
@@ -40,7 +38,7 @@
             </form>
           </div>
         </div>
-
+      </div>
     </nav>
 
     <div id="page">
@@ -48,7 +46,7 @@
       <div style="text-align: center">
       {{else}}
       <div>
-        {{/if}}
+      {{/if}}
         {{{ contents }}}
       </div>
       {{#each block}}
@@ -60,9 +58,11 @@
         {{/if}}
           <div class="menu">
             <h2>{{ title1 }}</h2>
+
             {{#if img1}}
               <img src="{{ img1 }}" alt="">
             {{/if}}
+
             <p class="small" style="text-align: center">
             {{#each her1}}
             {{ this }}<br>
@@ -82,9 +82,11 @@
         <div class="text-centered half">
           <div class="menu">
             <h2>{{ title2 }}</h2>
+
             {{#if img2}}
               <img src="{{ img2 }}" alt="">
             {{/if}}
+
             <p class="small" style="text-align:center">
             {{#each her2}}
             {{ this }}<br>
@@ -103,16 +105,19 @@
         {{/if}}
       </div>
       {{/each}}
+
       {{#if contents2}}
       <div class="foot">
         {{{ contents2 }}}
       </div>
       {{/if}}
+
       {{#if map}}
       <div class="map">
         <div id="map"></div>
       </div>
       {{/if}}
+
     </div>
   </body>
   <script>
