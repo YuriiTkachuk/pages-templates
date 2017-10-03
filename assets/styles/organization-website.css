@@ -85,3 +85,7 @@ hr {
   display: inline-block;
   width: 100%;
 }
+
+a:active a:not(nav-item) {
+￼  pointer-events: none;
+}
