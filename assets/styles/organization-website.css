@@ -10,6 +10,13 @@ form {
   margin-bottom: 1em;
 }
 
+.adress {
+  font-size: calc(12px + 0.3vw);
+}
+
+.heig {
+  height: 290px;
+}
 
 p {
   font-size: 1.1em;
@@ -58,6 +65,10 @@ img {
 	margin: 10px 20px 10px 20px;
 	float:right;
 	}
+}
+
+.non p {
+  text-align: left ! important;
 }
 
 @media screen and (max-width: 1000px) {
