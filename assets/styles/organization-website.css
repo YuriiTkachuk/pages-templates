@@ -43,6 +43,9 @@ img {
   background-color: #f5f5f5;
 }
 
+.cont {
+  margin-left: 1.4rem;
+}
 
 .sidebar {
   text-align: left;
@@ -91,5 +94,5 @@ hr {
 }
 
 a:active a:not(nav-item) {
-  pointer-events: none;
+￼  pointer-events: none;
 }
