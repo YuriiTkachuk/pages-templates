@@ -58,10 +58,6 @@ img {
 	margin: 10px 20px 10px 20px;
 	float:right;
 	}
-  left {
-    margin: 10px 20px 10px 20px;
-  	float:left;
-  }
 }
 
 @media screen and (max-width: 1000px) {
