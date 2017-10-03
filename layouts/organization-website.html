@@ -1,130 +1,135 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{{ title }}</title>
+<head>
+  <title>{{ title }}</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="../../node_modules/bootstrap/dist/css/bootstrap.css"/>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="../../assets/styles/organization-website.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans' rel='stylesheet' type='text/css'>
 
-    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="../../node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  </head>
-  <body>
+  <link rel="stylesheet" type="text/css" href="../../node_modules/bootstrap/dist/css/bootstrap.css"/>
+  <link rel="stylesheet" type="text/css" href="../../assets/styles/organization-website.css"/>
+  <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../../node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
   <div class="container">
-      <center><img src="{{ image-path }}"></center>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse nv" id="navbarNav">
-          <ul class="navbar-nav">
-            {{#each nav}}
-            <li class="nav-item">
-              <a class="nav-link" href="#">{{ this }}</a>
-            </li>
-            {{/each}}
-          </ul>
-        </div>
-      </nav>
+    <center><img src="{{ image-path }}"></center>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse nv" id="navbarNav">
+        <ul class="navbar-nav">
+          {{#each nav}}
+          <li class="nav-item">
+            <a class="nav-link" href="#">{{ this }}</a>
+          </li>
+          {{/each}}
+        </ul>
+      </div>
+    </nav>
 
     <div class="row">
       {{#if sidebar}}
       <div class="col-md-9 main">
       {{/if}}
 
+          {{{ contents }}}
 
-      <div style="margin: 1.4rem">
-              {{{ contents }}}
-      </div>
 
-    {{#if sidebar}}
+      {{#if sidebar}}
       </div>
       <div class="col-md-3 sidebar">
         <div>
           <center>
-          {{#each butt}}
-          <p>{{ text }}</p>
-          {{#if butt}}
-          <input type="submit" class="btn btn-full btn-drd" value="{{ butt }}"><br>
-          {{/if}}
-          {{/each}}
-          {{#each button}}
-          <input type="submit" class="btn btn-full btn-drd" value="{{ this }}"><br>
-          {{/each}}
+            {{#each butt}}
+            <p>{{ text }}</p>
+            {{#if butt}}
+            <input type="submit" class="btn btn-full btn-drd" value="{{ butt }}"><br>
+            {{/if}}
+            {{/each}}
+            {{#each button}}
+            <input type="submit" class="btn btn-full btn-drd" value="{{ this }}"><br>
+            {{/each}}
             {{#if input}}
             <div class="side-form">
               <h4>{{ input_title }}</h4>
               <form method="post" action="" class="forms">
 
-              {{#each input}}
-              <input placeholder="{{ this }}" /><br>
-              {{/each}}
+                {{#each input}}
+                <input placeholder="{{ this }}" /><br>
+                {{/each}}
+                {{/if}}
 
-              <input type="submit" name="send" class="btn" value="{{ input_button }}" />
-              </form>
+                {{#if input}}
+                <div class="side-form">
+                  <h4>{{ input_title }}</h4>
+                  <form method="post" action="" class="forms">
+                    {{#each input}}
+                    <input placeholder="{{ this }}" /><br>
+                    {{/each}}
+                    <input type="submit" name="send" class="btn" value="{{ input_button }}" />
+                  </form>
+                </div>
+                {{/if}}
+              </center>
+
+              {{{ sidebar_section }}}
+
             </div>
-            {{/if}}
-          </center>
-
-          {{{ sidebar_section }}}
-
-        </div>
-      </div>
-    </div>
-    {{/if}}
-    <br>
-
-    <ul id="clothing-nav" class="nav nav-pills" role="tablist">
-      {{#each info}}
-      <li class="nav-item">
-        {{#if @first}}
-        <a class="nav-link active" href="#{{ @index }}" role="tab" data-toggle="tab" aria-expanded="true">
-        {{else}}
-        <a class="nav-link" href="#{{ @index }}" role="tab" data-toggle="tab">
-        {{/if}}
-        <div class="text">{{ caption }}</div></a>
-      </li>
-      {{/each}}
-    </ul>
-
-    <div id="clothing-nav-content" class="tab-content">
-      {{#each info}}
-      {{#if @first}}
-      <div role="tabpanel" class="tab-pane fade show active" id="{{ @index }}">
-      {{else}}
-      <div role="tabpanel" class="tab-pane fade" id="{{ @index }}">
-      {{/if}}
-        <div class="row" style="margin: 20px">
-          <div class="col-12">
-            <h2>{{ caption }}</h2>
-            <ul class="list-group col">
-              {{#each row}}
-              {{#if text}}
-              <li>{{ text }}</li>
-              {{/if}}
-              {{#if site}}
-              <li><a href="{{ site }}">{{ site }}</a></li>
-              {{/if}}
-              {{/each}}
-            </ul>
           </div>
         </div>
-      </div>
-      {{/each}}
-    </div><br>
+        {{/if}}
+        <br>
 
+        <ul id="clothing-nav" class="nav nav-pills" role="tablist">
+          {{#each info}}
+          <li class="nav-item">
+            {{#if @first}}
+            <a class="nav-link active" href="#{{ @index }}" role="tab" data-toggle="tab" aria-expanded="true">
+            {{else}}
+            <a class="nav-link" href="#{{ @index }}" role="tab" data-toggle="tab">
+            {{/if}}
+            <div class="text">{{ caption }}</div></a>
+          </li>
+          {{/each}}
+        </ul>
 
-    <footer class="footer">
-      <div class="container">
-        <span class="text-muted"> {{ name }} &copy;All rights reserved.</span>
-      </div>
-    </footer>
+        <div id="clothing-nav-content" class="tab-content">
+          {{#each info}}
+          {{#if @first}}
+          <div role="tabpanel" class="tab-pane fade show active" id="{{ @index }}">
+          {{else}}
+          <div role="tabpanel" class="tab-pane fade" id="{{ @index }}">
+          {{/if}}
+          <div class="row" style="margin: 20px">
+            <div class="col-12">
+              <h2>{{ caption }}</h2>
+              <ul class="list-group col">
+                {{#each row}}
+                {{#if text}}
+                <li>{{ text }}</li>
+                {{/if}}
+                {{#if site}}
+                <li><a href="{{ site }}">{{ site }}</a></li>
+                {{/if}}
+                {{/each}}
+              </ul>
+            </div>
+          </div>
+        </div>
+        {{/each}}
+      </div><br>
 
-  </div>
+      <footer class="footer">
+        <div class="container">
+          <span class="text-muted"> {{ name }} &copy;All rights reserved.</span>
+        </div>
+      </footer>
+
+    </div>
   </body>
 </html>
