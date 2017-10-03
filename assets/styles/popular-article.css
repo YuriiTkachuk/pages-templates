@@ -191,6 +191,6 @@ th {
   width: 100%;
 }
 
-a:active {
+a:active a:not(carousel-control-next){
   pointer-events: none;
 }

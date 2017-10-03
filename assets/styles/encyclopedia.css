@@ -160,7 +160,3 @@ ul.nav.centered {
     width: 170px;
   }
 }
-
-a:active {
-  pointer-events: none;
-}
