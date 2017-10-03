@@ -1,14 +1,13 @@
 ---
 layout: organization-website.html
 title: EUPHORIUM
-image-path:
+name: EUPHORIUM
 nav: [ About us, Events&Tickets, Contact us]
 sidebar: true
 label: "Where to find us"
 title_inform: Where to find us
 inform: [ "Tel: 020 7460 4459", "Email: davidmanso@nottinghillartsclub.com", "Address:
 Euphorium Arts Club, 21 Clissold Avenue, London, N16 9AR", "Tube: Arsenal (10 min)", "Bus: 28, 52, 9 4, 148, 328, 390" ]
-
 ---
 # EUPHORIUM
 

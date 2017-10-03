@@ -1,6 +1,7 @@
 ---
 layout: organization-website.html
 title: Carlyle University
+name: Carlyle University
 image-path: "../../assets/images/carlyleuniversity-logo.png"
 nav: [ Home, FAQ, Subscribe to our newsletter, Contact us]
 ---

@@ -1,6 +1,7 @@
 ---
 layout: organization-website.html
 title: EUPHORIUM
+name: EUPHORIUM
 nav: [ About us, Events&Tickets, Contact us]
 sidebar: true
 input: [ "Buy tickets in advance and save 20%.", "Individual (standard):	£10", "Couples:	£16",
