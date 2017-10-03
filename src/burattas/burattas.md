@@ -1,6 +1,7 @@
 ---
 layout: organization-website.html
 title: "Burattas Pub"
+name: "Burattas Pub"
 image-path: "../../assets/images/burattas-logo.png"
 nav: [ Home, History, Eating, Drinking ]
 sidebar: true
