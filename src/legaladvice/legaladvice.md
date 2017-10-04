@@ -2,10 +2,15 @@
 layout: organization-website.html
 title: "Legal Help and Action > Problems at work"
 name: Legal Help and Action
-image-path: ../../assets/images/Legal_Advice_Banner.gif
+image-path: ../../assets/images/legal-advice-banner.png
 nav: [ Employment law, Family law, Accident and Injury, Debt and Bancrupcy, Consumer law, Other law]
 sidebar: true
 ---
+![](../../assets/images/legal-advice-image.png)
+
+**Call us now**
+
+**0800 19 986 34 56**
 
 # Do you want justice but don't know where to start?
 
@@ -36,7 +41,8 @@ If you are looking for an efficient and affordable solution to obtaining your em
 *   Stability: we operate from our own established commercial offices.
 *   Customer satisfaction: last year we invested over £150,000 in infrastructure systems because our aim is always to improve cuistomer satisfaction and service.
 *   24/7 case tracking: only we have a 24/7 case management tracking system.
-*   Based on period 1st January 2011 - 31st June 2011 during which there were 4029 ET transactions. We have records of successful tribunal action held at our offices. 350k figure comes from national press.
+
+<small> * Based on period 1st January 2011 - 31st June 2011 during which there were 4029 ET transactions. We have records of successful tribunal action held at our offices. 350k figure comes from national press.</small>
 
 ***
 

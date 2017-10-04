@@ -112,3 +112,7 @@ hr {
 a:active a:not(nav-item) {
 ￼  pointer-events: none;
 }
+
+.text {
+  white-space: pre;
+}
