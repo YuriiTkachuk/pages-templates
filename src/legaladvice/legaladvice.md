@@ -36,8 +36,7 @@ If you are looking for an efficient and affordable solution to obtaining your em
 *   Stability: we operate from our own established commercial offices.
 *   Customer satisfaction: last year we invested over £150,000 in infrastructure systems because our aim is always to improve cuistomer satisfaction and service.
 *   24/7 case tracking: only we have a 24/7 case management tracking system.
-
-* Based on period 1st January 2011 - 31st June 2011 during which there were 4029 ET transactions. We have records of successful tribunal action held at our offices. 350k figure comes from national press.
+*   Based on period 1st January 2011 - 31st June 2011 during which there were 4029 ET transactions. We have records of successful tribunal action held at our offices. 350k figure comes from national press.
 
 ***
 
