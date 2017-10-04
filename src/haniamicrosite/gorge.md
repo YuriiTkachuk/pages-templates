@@ -4,12 +4,15 @@ title: This is Hania!
 navbar-title: This is Hania!
 navbar-items: [
   {
+    link: haniamicrosite,
     name: Home
   },
   {
+    link: gorge,
     name: Samaria Gorge
   },
   {
+    link: other,
     name: Other places to visit
   }
 ]

@@ -5,16 +5,16 @@ navbar-title: This is Hania!
 large-image: ../../assets/images/haniamicrosite-Main.jpg
 navbar-items: [
   {
-    name: Home,
-    link: "#"
+    link: haniamicrosite,
+    name: Home
   },
   {
-    name: Samaria Gorge,
-    link: "#"
+    link: gorge,
+    name: Samaria Gorge
   },
   {
-    name: Other places to visit,
-    link: "#"
+    link: other,
+    name: Other places to visit
   }
 ]
 sidebar-list-left: [
