@@ -11,9 +11,9 @@ nav: [ Home, Debate on Biodiversity, Get Involved, Support Us, Success Stories, 
 
 We are biodiversity. Most of the oxygen we breathe comes from plankton in the oceans of the world and lush forests around the globe. The fruit and vegetables we eat were likely to have been pollinated by bees, and the water we drink is part of a huge global cycle involving us, clouds, rainfall, glaciers, rivers and oceans. Our diet depends almost entirely on the plants and animals around us, from the grasses that give us rice and wheat, to the fish and meat from both wild and farmed landscapes.
 
-Our bodies contain up to 100 trillion cells and are connected with everything around us and the wider world in a wonderfully complex and timeless system. We share our atoms with every being and object in the natural world.
-
 <right>![](../../assets/images/biodiversity3.jpg)</right>
+
+Our bodies contain up to 100 trillion cells and are connected with everything around us and the wider world in a wonderfully complex and timeless system. We share our atoms with every being and object in the natural world.
 
 Biodiversity is life, our life is biodiversity and biodiversity is us.
 
