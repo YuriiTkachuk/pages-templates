@@ -4,6 +4,21 @@ title: Mysteries Explained
 navbar-title:  Mysteries Explained FAQ
 large-width-image: ../../assets/images/mysteriesexplaines.jpg
 navbar-items: [
+  dropdown-items:  [
+      name_button: Urban Legends,
+    {
+        name: Modern mysteries explained,
+        link: "mysteries-explained-faq"
+    },
+    {
+      name: Urban Legends FAQs,
+      link: "mysteries-explained-faq"
+    },
+    {
+      name: Urban Legends Examples,
+      link: "mysteries-explained-examples"
+    }
+    ],
   {
     name: About us,
     link: "#"

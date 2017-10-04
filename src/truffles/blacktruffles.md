@@ -3,7 +3,19 @@ layout: organization-website.html
 title: TRUFFLELOVER
 name: TRUFFLELOVER
 image-path: "../../assets/images/truffle-header.jpg"
-nav: [ Home, About truffles, Buying truffles, Recipies, Truffle-hunting holidays, Forum, Contact]
+nav: [ Home,
+dropdown-items:  [
+    name_button: About truffles,
+  {
+      name: Blacktruffels,
+      link: "blacktruffels"
+  },
+  {
+    name: Whitetruffels,
+    link: "Whitetruffels"
+  },
+  ],
+Buying truffles, Recipies, Truffle-hunting holidays, Forum, Contact]
 ---
 # Black Truffles
 

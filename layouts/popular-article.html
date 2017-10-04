@@ -33,18 +33,25 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
               <ul class="navbar-nav">
                 {{#each navbar-items}}
+
                 {{#if this.dropdown-items}}
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-                    {{ this.name }}
+                  {{#each this.dropdown-items}}
+                  {{#if name_button}}
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                      {{ name_button }}
+                  {{/if}}
+                  {{/each}}
                   </a>
                   <div class="dropdown-menu" role="menu">
-                    {{#each this.dropdown-items}}
+                  {{#each this.dropdown-items}}
                     <a class="dropdown-item" href="{{ this.link }}">{{ this.name }}</a>
-                    {{/each}}
+                  {{/each}}
                   </div>
                 </li>
+
                 {{else}}
+
                 <li class="nav-item">
                   <a class="nav-link" href={{ this.link }}>{{ this.name }}</a>
                 </li>
