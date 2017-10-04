@@ -24,12 +24,11 @@ section: sidebar_section
 
 ## Opening hours
 
-
-**Monday:** Noon - 3PM
+**Monday:** Noon - 3PM<br>
 Food served until 2.30PM
 
-**Tuesday to Saturday:** Noon - 3PM & 6PM – 11PM
+**Tuesday to Saturday:**<br>Noon - 3PM &<br>6PM – 11PM<br>
 Food served until 2.30 & 9.30PM
 
-**Sunday:** Noon – 4PM
+**Sunday:** Noon – 4PM<br>
 Food served until 3PM
