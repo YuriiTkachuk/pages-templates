@@ -62,6 +62,9 @@ img {
     font-size: 1.1rem;
     margin-bottom: 0rem;
   }
+  .navbar-brand {
+    white-space: normal;
+  }
   img {
     width: 100%;
   }
@@ -183,6 +186,7 @@ th {
   font-style: normal;
   font-size: 0.8rem;
 }
+
 
 .image-map {
   display: block;
