@@ -1,7 +1,7 @@
 ---
 layout: blog.html
 title: Lindsay's Film Plots Blog
-banner_text: Lindsay's Film Plots Blog
+banner_path:  ../../assets/images/romanticfilms-logo.png
 rightcol_title: About Lindsay
 rightcol_text: I'm not an expert on the cinema, just a housewife who loves films, and always has! Since I was ten years old I've kept a diary of every film I've ever seen on TV, at the cinema or on video or DVD. Now that my children have moved away from home, I thought it would be fun to share my ideas through this blog. I hope you like it!
 rightcol_list_name: Latest posts
