@@ -9,9 +9,9 @@ logo-path: ../../assets/images/burns-thistle.png
 
 ![Robert Burns](../../assets/images/burns-robert-burns.png)
 
-## To A Haggis
+<center><h2>To A Haggis</h2></center>
 
-### by Robert Burns (translation)
+<center><h3>by Robert Burns (translation)</h3></center>
 
 &nbsp;
 

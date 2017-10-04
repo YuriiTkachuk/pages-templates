@@ -110,12 +110,12 @@ right {
   }
 }
 
-a:active {
-  pointer-events: none;
-}
-
 center  h1{
   font-size: calc(20px + 1vw);
   text-align: center ! important;
   white-space: nowrap;
+}
+
+center  h2{
+  text-align: center ! important;
 }

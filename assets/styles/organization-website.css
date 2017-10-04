@@ -85,6 +85,9 @@ img {
 
 @media (max-width: 767px)
 {
+  .heig {
+    height: 620px;
+  }
   .col-md-9 {
     padding-right: 5px;
   }

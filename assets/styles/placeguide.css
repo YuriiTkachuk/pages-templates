@@ -500,3 +500,7 @@
 a:active {
   pointer-events: none;
 }
+
+li a:active {
+  pointer-events: all ! important;
+}

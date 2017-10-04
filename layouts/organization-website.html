@@ -25,7 +25,7 @@
         <ul class="navbar-nav">
           {{#each nav}}
           <li class="nav-item">
-            <a class="nav-link" href="#">{{ this }}</a>
+            <a class="nav-link" href="{{ link }}">{{ this }}</a>
           </li>
           {{/each}}
         </ul>
@@ -109,7 +109,7 @@
           {{else}}
           <div role="tabpanel" class="tab-pane fade" id="{{ @index }}">
           {{/if}}
-          <div class="row" style="margin: 20px">
+          <div class="row" style="margin: 10px">
             <div class="col-12">
               <h2>{{ caption }}</h2>
               <ul class="list-group col">
