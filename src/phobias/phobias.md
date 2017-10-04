@@ -1,11 +1,12 @@
 ---
 layout: organization-website.html
-title: "Legal Help and Action > Problems at workk"
+title: "Phobias | healthinform.net "
 name: "Healthinform, Luqa, Malta."
 sidebar: true
-image-path: "../../assets/images/phobias-pic.jpg"
+image-path: "../../assets/images/phobias-logo.png"
 nav: [ Home, Lifestyle, Conditions, A-Z index, Newsletter, Talk to an expert ]
 ---
+<right>![](../../assets/images/phobias-pic.jpg)</right>
 
 _By Dr Susan Vile_
 
@@ -79,8 +80,6 @@ Healthinform, Luqa, Malta.
 ---
 section: sidebar_section
 ---
-
-29/9/2017
 
 **Advice and support**
 
