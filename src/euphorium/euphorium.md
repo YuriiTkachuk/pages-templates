@@ -2,10 +2,9 @@
 layout: organization-website.html
 title: "EUPHORIUM"
 name: EUPHORIUM
+image-path: ../../assets/images/euphorium-logo.png
 nav: [ About us, Event & Tickets, Contact us]
 ---
-# EUPHORIUM
-
 # About us
 
 The Euphorium is a music and arts venue in north London composed of a daytime café, small art gallery, outdoor terrace and highly-rated gigs venue.

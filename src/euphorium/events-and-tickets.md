@@ -2,6 +2,7 @@
 layout: organization-website.html
 title: EUPHORIUM
 name: EUPHORIUM
+image-path: ../../assets/images/euphorium-logo.png
 nav: [ About us, Events&Tickets, Contact us]
 sidebar: true
 title_inform: "Buy tickets in advance and save 20%."
@@ -21,8 +22,6 @@ butt: [
   },
 ]
 ---
-# EUPHORIUM
-
 ![](../../assets/images/euphorium-2.jpg)
 
 ## REGULAR EVENTS:
