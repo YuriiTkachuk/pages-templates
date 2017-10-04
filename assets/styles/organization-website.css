@@ -94,6 +94,10 @@ input {
   margin-bottom: 10px;
 }
 
+.col-md-9 {
+  padding-right: 5px;
+}
+
 .declaimer {
   font-size: 0.75rem;
   line-height: 1.1rem;

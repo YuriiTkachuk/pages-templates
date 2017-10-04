@@ -4,8 +4,9 @@ title: EUPHORIUM
 name: EUPHORIUM
 nav: [ About us, Events&Tickets, Contact us]
 sidebar: true
-input: [ "Buy tickets in advance and save 20%.", "Individual (standard):	£10", "Couples:	£16",
-"Individual (student):	£6",  "Student group of 4:	£20" ]
+title_inform: "Buy tickets in advance and save 20%."
+inform: ["Individual (standard):	£10", "Couples:	£16",
+"Individual (student):	£6",  "Student group of 4:	£20"]
 butt: [
   {
     text: "Get tickets for upcoming gigs:",
