@@ -25,7 +25,12 @@
         <ul class="navbar-nav">
           {{#each nav}}
           <li class="nav-item">
-            <a class="nav-link" href="{{ link }}">{{ this }}</a>
+            <a class="nav-link" href="#">{{ this }}</a>
+          </li>
+          {{/each}}
+          {{#each nav_with_links}}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ link }}">{{ text }}</a>
           </li>
           {{/each}}
         </ul>

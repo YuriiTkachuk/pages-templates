@@ -3,7 +3,26 @@ layout: organization-website.html
 title: Notes From Abroad
 name: Notes From Abroad
 image-path: "../../assets/images/notesfromabroad-header.jpg"
-nav: [ HOME, ABOUT, CLICK & COLLECT, DEALS & OFFERS, CURRENT, EXCHANGE RATES ]
+nav_with_links: [
+  { link: "#",
+    text: HOME
+  },
+  { link: "notesfromabroad",
+    text: ABOUT
+  },
+  { link: "#",
+    text: CLICK & COLLECT
+  },
+  { link: "#",
+    text: DEALS & OFFERS
+  },
+  { link: "#",
+    text: CURRENT
+  },
+  { link: "#",
+    text: EXCHANGE RATES
+  }
+]
 ---
 # Exchange Rates
 
