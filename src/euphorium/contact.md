@@ -13,9 +13,6 @@ Euphorium Arts Club, 21 Clissold Avenue, London, N16 9AR", "Tube: Arsenal (10 mi
 
 ![](../../assets/images/euphorium-1.jpg)
 
----
-section: sidebar_section
----
 
 If you are a  promoter  or are looking to do a  showcase  (of music or art) at the club please contact – [jim@euphori.um](mailto:jim@euphori.um)
 
