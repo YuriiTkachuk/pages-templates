@@ -84,6 +84,9 @@ img {
 
 @media (max-width: 767px)
 {
+  .col-md-9 {
+    padding-right: 5px;
+  }
   .sidebar {
     margin: 1.3rem;
   }
@@ -94,9 +97,6 @@ input {
   margin-bottom: 10px;
 }
 
-.col-md-9 {
-  padding-right: 5px;
-}
 
 .declaimer {
   font-size: 0.75rem;
