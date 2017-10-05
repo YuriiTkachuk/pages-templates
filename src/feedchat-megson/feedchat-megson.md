@@ -2,6 +2,7 @@
 layout: news.html
 title: FeedChat
 footer: © FeedChat
+logo_path: ../../assets/images/feedchat-megson-head.png
 title_name: Inspired by real life
 text_path: News / Eyewitness Testimony
 button: [
@@ -36,7 +37,7 @@ button: [
 ]
 ---
 
-![image-1](../../assets/images/feedchat-megson-head.png)
+![image-1]()
 
 # Eyewitness Testimony: The Case of Gary B Megson
 
