@@ -119,3 +119,15 @@ a:active a:not(nav-item) {
 .text {
   white-space: pre;
 }
+
+@media (max-width: 767px) {
+  p strong {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  p strong {
+    font-size: 0.8rem;
+  }
+}
