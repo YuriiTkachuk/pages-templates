@@ -9,7 +9,7 @@ Eliot’s poetry was first heavily criticized as not being poetry at all: its se
 
 Two examples will suffice: the prominent critic F. W. Bateson published an essay called aggressively _T. S. Eliot: The Poetry of Pseudo-Learning_ <sup>1</sup> while the poet himself replied in _The Sacred Wood:_
 
->Immature poets imitate; mature poets steal; bad poets deface what they take, and good poets make it into something better, or at least something different.<sup>2</sup>
+> _Immature poets imitate; mature poets steal; bad poets deface what they take, and good poets make it into something better, or at least something different._ <sup>2</sup>
 
 Many famous fellow writers and critics have paid tribute to Eliot. According to the contemporary poet Ted Hughes,
 
