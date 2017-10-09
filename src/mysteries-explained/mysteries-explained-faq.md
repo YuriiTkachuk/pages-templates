@@ -77,7 +77,7 @@ numeric-links: [
 
 ## Here we deal with some of the most common questions about urban legends.
 
-![](../../assets/images/mysteries-explained-img03.jpg)
+<center>![](../../assets/images/mysteries-explained-img03.jpg)</center>
 
 **Q: Why the name urban legends?**
 

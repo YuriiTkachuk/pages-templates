@@ -62,7 +62,7 @@ Read our five favourite theories and decide for yourself the real identity of th
 
 ## 1\. The Blood-Stained Shawl
 
-![](../../assets/images/jack-the-ripper-1.png)
+<center>![](../../assets/images/jack-the-ripper-1.png)</center>
 
 **Who?** Aaron Kosminski - Polish barber and psychiatric patient
 
@@ -72,7 +72,7 @@ Read our five favourite theories and decide for yourself the real identity of th
 
 ## 2\. A Tale of Two Cities
 
-![](../../assets/images/jack-the-ripper-2.png)
+<center>![](../../assets/images/jack-the-ripper-2.png)</center>
 
 **Who?** H.H. Holmes – American doctor, hotel owner and infamous mass murderer
 
@@ -82,7 +82,7 @@ Read our five favourite theories and decide for yourself the real identity of th
 
 ## 3\. Friends in High Places
 
-![](../../assets/images/jack-the-ripper-3.png)
+<center>![](../../assets/images/jack-the-ripper-3.png)</center>
 
 **Who?** Sir William Withey Gull - Physician to Queen Victoria
 
@@ -92,7 +92,7 @@ Read our five favourite theories and decide for yourself the real identity of th
 
 ## 4\. A Study in Scarlet
 
-![](../../assets/images/jack-the-ripper-4.png)
+<center>![](../../assets/images/jack-the-ripper-4.png)</center>
 
 **Who?** Walter Sickert - British painter
 
@@ -102,7 +102,7 @@ Read our five favourite theories and decide for yourself the real identity of th
 
 ## 5\. Femme Fatale
 
-![](../../assets/images/jack-the-ripper-5.png)
+<center>![](../../assets/images/jack-the-ripper-5.png)</center>
 
 **Who?** Lizzie Williams - Wife of the royal physician
 

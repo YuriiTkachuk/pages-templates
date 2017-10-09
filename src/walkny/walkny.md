@@ -16,20 +16,20 @@ navbar-items: [
 ]
 sidebar-list-left: [
   {
-    name: THINGS TO DO,
+    name: Thinks to do,
     link: "#",
     active: true
   },
   {
-    name: ARTS + CULTURE,
+    name: Arts + Culture,
     link: "#"
   },
   {
-    name: MUSIC + NIGHTLIFE,
+    name: Music + Nightlife,
     link: "#"
   },
   {
-    name: RESTAURANTS + BARS,
+    name: Restaurants + Bars,
     link: "#",
   }
 ]

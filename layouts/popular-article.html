@@ -74,7 +74,7 @@
 
       <div class="row">
         {{#if sidebar-list-left}}
-        <div class="col-md-2">
+        <div class="col-lg-2">
           <div class="list-group">
             {{#each sidebar-list-left}}
             {{#if this.active}}
@@ -89,13 +89,13 @@
 
         {{#if sidebar-list-left}}
             {{#if sidebar-list-right}}
-              <div class="col-md-7 col-12 py-3">
+              <div class="col-lg-7 col-12 py-3">
             {{else}}
-              <div class="col-md-10 col-12 py-3">
+              <div class="col-lg-10 col-12 py-3">
             {{/if}}
         {{else}}
             {{#if sidebar-list-right}}
-              <div class="col-md-9 col-12 py-3">
+              <div class="col-lg-9 col-12 py-3">
             {{/if}}
         {{/if}}
 
@@ -116,7 +116,7 @@
               <img class="img-fluid img-center" src="{{ box-image-path }}">
               {{/if}}
             </div>
-v>
+
             {{/if}}
             {{#if main-title}}
             <h1>{{ main-title }}</h1>
@@ -169,7 +169,7 @@ v>
       </div>
 
       {{#if sidebar-list-right}}
-      <div class="col-md-3">
+      <div class="col-lg-3">
         <div class="list-group">
           <a href="#" class="list-group-item active-item" style="background-color: grey">
             <h4><strong>Popular articles</strong></h4></a>

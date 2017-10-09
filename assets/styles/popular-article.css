@@ -203,3 +203,8 @@ th {
 a:active a:not(carousel-control-next){
   pointer-events: none;
 }
+
+hr {
+  display: inline-block;
+  width: 100%;
+}
