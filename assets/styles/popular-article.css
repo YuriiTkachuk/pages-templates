@@ -152,6 +152,10 @@ blockquote h2 {
   color: grey;
   font-size: 1em;
 }
+blockquote h3 {
+  color: grey;
+  font-size: 1.5em;
+}
 blockquote {
   color: grey;
   padding: 10px;

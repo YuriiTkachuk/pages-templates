@@ -3,23 +3,7 @@ layout: popular-article.html
 title: "TOP TIPS: Notting Hill Carnival | LONDON'S POLICE – helping you stay safe"
 navbar-title: "LONDON'S POLICE – helping you stay safe"
 large-width-image: ../../assets/images/nottinghilltips.png
-article: true
 navbar-items: [
-  {
-    name: About us,
-    link: "#"
-  },
-  {
-    name: Programmes,
-    link: "#"
-  },
-  {
-    name: Lectures,
-    link: "#"
-  }
-]
-
-sidebar-list-left: [
   {
     name: Departments,
     link: "#"
@@ -30,26 +14,6 @@ sidebar-list-left: [
   },
   {
     name: Our Pride,
-    link: "#",
-    active: true
-  }
-]
-
-sidebar-list-right: [
-  {
-    name: "Articles",
-    link: "#"
-  },
-  {
-    name: "Events in London",
-    link: "#"
-  },
-  {
-    name: "Top tips for staying safe in London",
-    link: "#"
-  },
-  {
-    name: "Talk to us if you are scared",
     link: "#"
   }
 ]

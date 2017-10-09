@@ -7,20 +7,6 @@ large-width-image: ../../assets/images/eireinternational-img.jpg
 article: true
 navbar-items: [
   {
-    name: About us,
-    link: "#"
-  },
-  {
-    name: Programmes,
-    link: "#"
-  },
-  {
-    name: Lectures,
-    link: "#"
-  }
-]
-sidebar-list-left: [
-  {
     name: Home,
     link: "#"
   },
@@ -34,8 +20,7 @@ sidebar-list-left: [
   },
   {
     name: Articles,
-    link: "#",
-    active: true
+    link: "#"
   },
   {
     name: News,

@@ -39,29 +39,29 @@ navbar-items: [
 ]
 sidebar-list-left: [
   {
-    name: French Сuisine,
+    name: French,
     link: "#"
   },
   {
-    name: Mixed Сuisine,
+    name: Mixed,
     link: "#",
     active: true
   },
   {
-    name: Ukrainian Сuisine,
+    name: Ukrainian,
     link: "#"
   },
   {
-    name: German Сuisine,
+    name: German,
     link: "#"
   },
   {
-    name: Italian Cuisine
+    name: Italian
 ,
     link: "#"
   },
   {
-    name: Japanese Cuisine,
+    name: Japanese,
     link: "#"
   }
 ]

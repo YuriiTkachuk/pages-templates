@@ -68,27 +68,6 @@ navbar-items: [
     link: "#"
   }
 ]
-
-sidebar-list-left: [
-  {
-    name: Building,
-    link: "#"
-  },
-  {
-    name: Repairs,
-    link: "#",
-    active: true
-  },
-  {
-    name: Construction Materials,
-    link: "#"
-  },
-  {
-    name: Home design,
-    link: "#",
-  }
-]
-
 sidebar-list-right: [
   {
     name: "American Colonial House Styles",

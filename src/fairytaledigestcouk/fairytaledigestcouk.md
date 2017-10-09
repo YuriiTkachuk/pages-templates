@@ -18,22 +18,6 @@ navbar-items: [
     link: "#"
   }
 ]
-sidebar-list-left: [
-  {
-    name: Hans Christian Andersen,
-    link: "#"
-  },
-  {
-    name: Charles Perrault,
-    link: "#",
-    active: true
-  },
-  {
-    name: Brothers Grimm,
-    link: "#"
-  }
-]
-
 sidebar-list-right: [
   {
     name: Three Little Pigs,

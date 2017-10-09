@@ -5,44 +5,25 @@ navbar-title: FeedChat.com
 large-width-image: ../../assets/images/jack-the-ripper-head.png
 navbar-items: [
   {
-    name: About us
+    name: Food
   },
   {
-    name: Programmes
+    name: Stories
   },
   {
-    name: Lectures
-  }
-]
-sidebar-list-left: [
-  {
-    name: Food,
-    link: "#"
+    name: Health
   },
   {
-    name: Stories,
-    link: "#",
-    active: true
+    name: Travel
   },
   {
-    name: Health,
-    link: "#"
-  },
-  {
-    name: Travel,
-    link: "#"
-  },
-  {
-    name: Style,
-    link: "#",
+    name: Style
   },
   {
     name: Technology,
-    link: "#"
   },
   {
-    name: Money,
-    link: "#"
+    name: Money
   }
 ]
 

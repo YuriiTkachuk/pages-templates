@@ -21,21 +21,6 @@ navbar-items: [
     link: "#",
   }
 ]
-sidebar-list-left: [
-  {
-    name: Strategy,
-    link: "#"
-  },
-  {
-    name: Development,
-    link: "#"
-  },
-  {
-    name: Business,
-    link: "#",
-    active: true
-  }
-]
 sidebar-list-right: [
   {
     name: "Keep Your Money Where It Is",

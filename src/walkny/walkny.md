@@ -31,25 +31,6 @@ sidebar-list-left: [
   {
     name: RESTAURANTS + BARS,
     link: "#",
-  },
-  {
-    name: LONDON,
-    link: "#"
-  }
-]
-sidebar-list-right: [
-  {
-    name: "Walking Tour of Manhattan",
-    link: "#",
-    active: true
-  },
-  {
-    name: "Walking Tour of Paris",
-    link: "#"
-  },
-  {
-    name: "Walking Tour of London",
-    link: "#"
   }
 ]
 ---

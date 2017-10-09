@@ -40,24 +40,6 @@ sidebar-list-left: [
     link: "#"
   }
 ]
-sidebar-list-right: [
-  {
-    name: "How to Read a Painting",
-    link: "#"
-  },
-  {
-    name: "How to Be Mindful When Making Art",
-    link: "#"
-  },
-  {
-    name: "A Brief History of Color in Art",
-    link: "#"
-  },
-  {
-    name: "101 Greatest Painters",
-    link: "#"
-  }
-]
 main-title: An Introduction to Picasso’s Blue Period
 slider: true
 image: [

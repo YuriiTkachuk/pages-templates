@@ -16,7 +16,7 @@ navbar-items: [
     link: "#"
   }
 ]
-sidebar-list-left: [
+sidebar-list-right: [
   {
     name: Herbal medicine,
     link: "#"
@@ -35,11 +35,8 @@ sidebar-list-left: [
   },
   {
     name: Upcoming events,
-    link: "#",
-    active: true
-  }
-]
-sidebar-list-right: [
+    link: "#"
+  },
   {
     name: "Forest Ecosystems",
     link: "#"

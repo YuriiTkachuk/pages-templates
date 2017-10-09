@@ -4,6 +4,10 @@ title: Mysteries Explained
 navbar-title:  Mysteries Explained
 large-width-image: ../../assets/images/mysteriesexplaines.jpg
 navbar-items: [
+  {
+    name: Home,
+    link: "mysteries-explained"
+  },
   dropdown-items:  [
       name_button: Urban Legends,
     {
@@ -20,42 +24,18 @@ navbar-items: [
     }
     ],
   {
-    name: About us,
-    link: "#"
-  },
-  {
-    name: Programmes,
-    link: "#"
-  },
-  {
-    name: Lectures,
-    link: "#"
-  }
-]
-sidebar-list-left: [
-  {
-    name: Home,
-    link: "#",
-    active: true
-  },
-  {
-    name: Urban Legends,
-    link: "#"
-  },
-  {
     name: Hoaxes,
     link: "#"
   },
   {
-    name: Chain Letters,
-    link: "#",
+    name: Chain Latters,
+    link: "#"
   },
   {
     name: Viral Photos,
     link: "#"
   }
 ]
-
 sidebar-list-right: [
   {
     name: "American Folk Culture in the Nineteenth Century",

@@ -4,27 +4,12 @@ title: www.buzznews.com
 navbar-title: BuzzNews
 navbar-items: [
   {
-    name: About us,
-    link: "#"
-  },
-  {
-    name: Programmes,
-    link: "#"
-  },
-  {
-    name: Lectures,
-    link: "#"
-  }
-]
-sidebar-list-left: [
-  {
     name: Home,
     link: "#"
   },
   {
     name: News,
-    link: "#",
-    active: true
+    link: "#"
   },
   {
     name: Sport,
@@ -32,7 +17,7 @@ sidebar-list-left: [
   },
   {
     name: Food,
-    link: "#",
+    link: "#"
   },
   {
     name: Travel,
@@ -43,7 +28,6 @@ sidebar-list-left: [
     link: "#"
   }
 ]
-
 sidebar-list-right: [
   {
     name: "Top 10 Christmas Recipes",
@@ -66,10 +50,7 @@ sidebar-list-right: [
     link: "#"
   }
 ]
-
 ---
-<center>![logo](../../assets/images/buzznews-logo.png "logo")</center>
-
 ## Christmas around the world
 
 **by Alvin Derski**

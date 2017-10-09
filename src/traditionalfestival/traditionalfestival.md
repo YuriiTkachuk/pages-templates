@@ -4,17 +4,6 @@ title: Diwali
 navbar-title: Traditional Festivals
 large-image: ../../assets/images/traditionalfestivals-diwali.jpg
 navbar-items: [
-  {
-    name: About us
-  },
-  {
-    name: Programmes
-  },
-  {
-    name: Lectures
-  }
-]
-sidebar-list-left: [
     {
     name: Africa,
     link: "#"

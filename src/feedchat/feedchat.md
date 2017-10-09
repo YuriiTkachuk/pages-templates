@@ -5,20 +5,6 @@ navbar-title: FeedChat
 article: true
 navbar-items: [
   {
-    name: About us,
-    link: "#"
-  },
-  {
-    name: Programmes,
-    link: "#"
-  },
-  {
-    name: Lectures,
-    link: "#"
-  }
-]
-sidebar-list-left: [
-  {
     name: Food,
     link: "#"
   },

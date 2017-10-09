@@ -17,21 +17,6 @@ navbar-items: [
     link: "#"
   }
 ]
-sidebar-list-left: [
-  {
-    name: "Traditional Food of Britain",
-    link: "#",
-    active: true
-  },
-  {
-    name: "Traditional Festivals of Britain",
-    link: "#"
-  },
-  {
-    name: "Traditional Events of Britain",
-    link: "#"
-  }
-]
 sidebar-list-right: [
   {
     name: "Sightseeing in Britain",

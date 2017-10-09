@@ -25,27 +25,6 @@ navbar-items: [
     link: "#"
   }
 ]
-
-sidebar-list-left: [
-  {
-    name: Healthy food,
-    link: "#"
-  },
-  {
-    name: National dishes,
-    link: "#",
-    active: true
-  },
-  {
-    name: Vegan,
-    link: "#"
-  },
-  {
-    name: Try to avoid,
-    link: "#"
-  }
-]
-
 sidebar-list-right: [
   {
     name: "How a 3-Day Fast Resets Your Immune System",

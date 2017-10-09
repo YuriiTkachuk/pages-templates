@@ -41,21 +41,6 @@ sidebar-list-left: [
     active: true
   }
 ]
-
-sidebar-list-right: [
-  {
-    name: Football,
-    link: "#"
-  },
-  {
-    name: Soccer,
-    link: "#"
-  },
-  {
-    name: Basketball,
-    link: "#"
-  }
-]
 ---
 ## THE CHAMPIONSHIP AND THE COURTS
 Dating back to 1877, Wimbledon is the oldest international tennis event in the world. Of course, it is also one of the four _Grand Slams_ - the most important tennis championships in the world. The other three are the US Open (which dates back to 1881), the French open (1891) and the Australian Open, first held in 1905\. Of the four Grand Slams, however, only Wimbledon had any international significance prior to 1924\. Wimbledon is also the only one of the Grand Slams which is still played on a natural surface – grass. The US and Australian championships moved to artificial (hard) courts in 1975 and 1988 respectively, whilst the French have always played on clay.

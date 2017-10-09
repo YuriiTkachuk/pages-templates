@@ -6,47 +6,27 @@ navbar-logo-path: ../../assets/images/minimumimpact-logo.png
 article: true
 navbar-items: [
   {
-    name: About us,
-    link: "#"
+    name: Food
   },
   {
-    name: Programmes,
-    link: "#"
+    name: Stories
   },
   {
-    name: Lectures,
-    link: "#"
+    name: Health
+  },
+  {
+    name: Travel
+  },
+  {
+    name: Style
+  },
+  {
+    name: Technology
+  },
+  {
+    name: Money
   }
 ]
-
-sidebar-list-left: [
-  {
-    name: Food,
-    link: "#",
-    active: true
-  },
-  {
-    name: Health,
-    link: "#"
-  },
-  {
-    name: Travel ,
-    link: "#"
-  },
-  {
-    name: Style,
-    link: "#"
-  },
-  {
-    name: Tech,
-    link: "#"
-  },
-  {
-    name: Money,
-    link: "#",
-  }
-]
-
 sidebar-list-right: [
   {
     name: "The Best Cooking Oil for Your Health",

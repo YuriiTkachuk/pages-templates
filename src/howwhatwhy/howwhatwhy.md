@@ -3,7 +3,6 @@ layout: popular-article.html
 title: HowWhatWhy
 navbar-title: HowWhatWhy
 large-width-image: ../../assets/images/howwhatwhy-head.jpg
-large-image: ../../assets/images/howwhatwhy-logo.png
 navbar-items: [
   {
     name: Why,
@@ -26,26 +25,6 @@ navbar-items: [
     link: "#"
   }
 ]
-sidebar-list-left: [
-  {
-    name: Command Line,
-    link: "#"
-  },
-  {
-    name: Unix,
-    link: "#"
-  },  
-  {
-    name: Internet,
-    link: "#",
-    active: true
-  },
-  {
-    name: Git,
-    link: "#",
-  }
-]
-
 sidebar-list-right: [
   {
     name: "Edward Snowden: the whistleblower behind the NSA surveillance revelations",
@@ -68,17 +47,21 @@ To use search engines effectively, it is essential to apply techniques that give
 ### Identify keywords
 
 When you conduct a search, first break down your topic into its key concepts. For example, to find information about Chelsea football club, you could search for the keywords
-##### "Chelsea football club"
+> ### _Chelsea football club_
+
 The search will give you pages which contain all three words.
 
 But we can improve this: to find information on what the UN has said about the global warming, the keywords might be:
-##### "UN 'global warming'"
+
+> ### _UN 'global warming'_
+
 Notice that global warming is between quotation marks. The effect of this is to treat global warming as if it were one word. The search will give you pages which contain global warming and UN.
 
 ### Omitting keywords from the search
 
 Suppose you want to find pages which talk about American cars, but not about Ford. You would write your search terms like this:
-#### "'American cars' -chrysler"
+> ###  _'American cars' -chrysler_
+
 The minus sign (-) means BUT NOT. A very useful operator!
 
 ### Capital letters? Plurals?
