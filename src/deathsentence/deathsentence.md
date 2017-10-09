@@ -2,7 +2,6 @@
 layout: news.html
 title: The Weekly | Capital Punishment
 footer: © theweekly
-title_name: Explore theweekly's board
 title_comment: Popular this week
 text_path: Opinion / Deathsentence
 logo_path: ../../assets/images/Deathsentence-Logo.gif

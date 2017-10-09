@@ -37,7 +37,7 @@ button: [
 ]
 ---
 
-![image-1]()
+![](../../assets/images/feedchat-megson-murders-news.png)
 
 # Eyewitness Testimony: The Case of Gary B Megson
 
@@ -66,5 +66,3 @@ Following his imprisonment, Megson's parents sold their house, hired a private i
 By 2010, the two real perpetrators had been tracked down and had confessed to the crime. In addition, Jackson Filch, who had claimed to be innocent at his trial, admitted that he had organized the robbery but not taken part in it, and that Megson had not been involved at all.
 
 Megson, who has managed to complete his high school degree while in prison, is still waiting for a decision on whether he will receive a new trial.
-
-![](../../assets/images/feedchat-megson-murders-news.png)
