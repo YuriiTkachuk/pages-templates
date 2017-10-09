@@ -29,10 +29,12 @@
 
 	  <div class="container">
 	    {{#if contents}}
-	    <div class="page" style="text-align: {{ content-align }};">
+	    <div class="page" style="text-align: {{ content-align }}">
 	      {{#if person-photo-path}}
-	      <img class="img-fluid" src="{{ person-photo-path }}">
-	      {{/if}}
+				<div>
+	      	<img style="margin-left: 0px" class="img-fluid" src="{{ person-photo-path }}">
+				<div>
+				{{/if}}
 
 				{{#if main-title}}
 					<h1>{{ main-title }}</h1>
