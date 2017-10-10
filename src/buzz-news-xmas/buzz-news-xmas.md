@@ -13,7 +13,7 @@ _28.01.2017_
 
 Wales is one of the four countries that make up the United Kingdom of Great Britain and Northern Ireland and the Christmas celebrations here are similar to those in the rest of the UK. Christmas is celebrated on December 25.
 
-<right>![](../../assets/images/buzz-news-xmas-img4.jpg)</right>
+<left>![](../../assets/images/buzz-news-xmas-img4.jpg)</leftt>
 
 In the days leading up to Christmas, a small tree is beautifully decorated with colourful lights and trinkets and set up inside the house. Paper decorations of various colours and sprigs of mistletoe and holly are used to adorn the interiors of houses. Mistletoe is believed to protect the home from evil and holly stands as a symbol of eternal life.
 
@@ -25,7 +25,7 @@ On Christmas Day, people in many parts of Wales wake up very early to attend a s
 
 Nowadays, Scottish people celebrate Christmas on 25th December, but it wasn't always like that. The tradition of celebrating Christmas was banned here for nearly 400 years until the 1950's. In the 1580's, this magical festival was removed from the list of Scottish festivals since it was considered to be supporting Romanism. Prior to 1958, when Christmas Day was declared a public holiday, it was a normal working day although the children did get presents. The Christmas traditions in Scotland are similar to that of the US, although Scottish people do have some interesting customs of their own.
 
-<right>![](../../assets/images/buzz-news-xmas-img5.jpg)</right>
+<left>![](../../assets/images/buzz-news-xmas-img5.jpg)</left>
 
 During November and December, shops here display a variety of gifts for Christmas. As the days pass, multicoloured lights are put up on the trees in towns and cities. The department stores and buildings are decorated with strings of brilliant Christmas lights. Children join in the countdown by making Advent calendars, which mark the days before Christmas Day. These calendars have 24 little doors and one is opened each day to reveal the picture behind, the last one being for Christmas Eve. Young children write a letter to Santa Claus mentioning all the presents they want for Christmas. Families decorate their homes with Christmas trees, colourful Christmas lights, tinsel and other decorations.
 

@@ -178,6 +178,11 @@ img {
 	margin: 10px;
 	float:right;
 	}
+
+left {
+margin: 10px;
+float: left;
+}
 }
 
 right_fix {
