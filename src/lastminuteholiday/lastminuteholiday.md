@@ -52,17 +52,23 @@ _Due to last minute cancellations, the following 3 villas are available for 1 we
 section: contents2
 ---
 
-<center><h3>Lastest Deals</h3></center>
+<center><h3>Latest Deals</h3></center>
 
 Seaside escapes at 34 parks<br>
 [https://holidayhomes.com/deal-1](#)<br>
+***
 Affordable dream from £11,995<br>
 [https://holidayhomes.com/deal-2](#)<br>
+***
 A UK holiday home is the perfect seaside escape: hassle-free holidays right on your doorstep<br>
 [https://holidayhomes.com/deal-3](#)<br>
+***
 We know we have one that suits you to a tee.<br>
 [https://holidayhomes.com/deal-4](#)<br>
+***
 Fishing enthusiast? Here's one you're just going to snap at!<br>
 [https://holidayhomes.com/deal-5](#)<br>
+***
 Sherwood Forest just a few minutes away: great deals in Nottingham.<br>
 [https://holidayhomes.com/deal-6](#)<br>
+***
