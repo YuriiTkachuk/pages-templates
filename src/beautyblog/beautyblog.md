@@ -2,7 +2,7 @@
 layout: blog.html
 title: Araminta's beauty blog | High-end beauty treatments to be available on the high street
 rightcol_title: Product of the month
-banner_path: ../../assets/images/beauty-logo.gif
+banner_path: ../../assets/images/aramintas_logo.png
 rightcol_image_path: ../../assets/images/blog-beautyblog-scarlet.jpg
 rightcol_text: "Simply Scarlet by SSBS
   It may look traditional, but scarlet never goes out of fashion and this nail polish is as red as they come! What's more it is super-easy to apply, the colour is intense after only one coat, and it doesn't chip easily. Available from all high street chemists at a special introductory price of £4.99."

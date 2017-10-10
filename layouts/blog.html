@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="../../assets/styles/blog.css">
   </head>
-  <body>
+  <body  {{#if background}}  style="background: url({{ background }})" {{/if}}>
 
     {{#if rightcol_title}}
   	<div class="rightcolhidden">

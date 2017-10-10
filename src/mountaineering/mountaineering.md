@@ -3,9 +3,9 @@ layout: blog.html
 title: Mountaneering
 banner_text: Life is an adventure
 button: [ Previous, Next ]
+background: ../../assets/images/blog_mountanering_back.jpeg
 ---
-
-# Why climb mountains?
+<minus_line><h1> Why climb mountains? </h1></minus_line>
 
 It always comes back to one question: "Why climb mountains?"
 
