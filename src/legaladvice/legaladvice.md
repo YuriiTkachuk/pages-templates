@@ -8,10 +8,6 @@ sidebar: true
 ---
 ![](../../assets/images/legal-advice-image.png)
 
-**Call us now**
-
-**0800 19 986 34 56**
-
 # Do you want justice but don't know where to start?
 
 If you think that you have been **wrongly dismissed**, **discriminated against**, or **unfairly treated** at work in any way, then **we can help you**!
