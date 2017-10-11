@@ -1,10 +1,9 @@
 ---
 layout: news.html
 title: DNA Fingerprints
-title_name: Daily News and Analysis
 footer: © DNA
 text_path: Science / True crime stories
-logo_path: ../../assets/images/DNA-logos.png
+logo_path: ../../assets/images/dna-logo.png
 button: [
   {
     type_button: "Sport",
@@ -46,7 +45,6 @@ _The first time DNA profiling was used, it proved innocence - not guilt!_
 
 
 ![image-1](../../assets/images/dna-fingerprints-jail.png)
-***
 
 <left>![](../../assets/images/fingerprints-alex.png)</left>
 
