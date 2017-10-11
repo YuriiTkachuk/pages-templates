@@ -4,14 +4,7 @@ title: EUPHORIUM
 name: EUPHORIUM
 image-path: ../../assets/images/euphorium-logo.png
 nav: [ About us, Events&Tickets, Contact us]
-sidebar: true
-title_inform: "Buy tickets in advance and save 20%."
-inform: ["Individual (standard):	£10", "Couples:	£16",
-"Individual (student):	£6",  "Student group of 4:	£20"]
-butt: [
-  {
-    text: "Get tickets for upcoming gigs:",
-  },
+butt1: [
   {
     text: "CopyPasteUndoDelete - £20 (£25 on the door)",
     butt: "Buy",
@@ -25,6 +18,7 @@ butt: [
 ![](../../assets/images/euphorium-2.jpg)
 
 ## REGULAR EVENTS:
+<br>
 
 **Every Wednesday** we showcase the best upcoming local bands and DJs from 8pm – 11pm.  
 **Every Thursday** is jazz night.  
@@ -38,3 +32,14 @@ butt: [
 **Saturday – Drum'n'bass special – live performances from resident DJs Y? And Cozy Sofa - 10pm till 4am.**
 
 **Sunday – Costume Party – this week's theme: 1920s.**
+
+## TICKETS:
+
+Buy tickets in advance and save 20%.
+
+Individual (standard): £10<br>
+Couples: £16<br>
+Individual (student): £6<br>
+Student group of 4: £20
+
+Get tickets for upcoming gigs:

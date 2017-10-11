@@ -66,6 +66,18 @@
               {{{ contents }}}
       </div>
 
+      {{#if butt1}}
+      <ol>
+        {{#each butt1}}
+        <li style="list-style-type: none">
+          <p>{{ text }}</p>
+          {{#if butt}}
+          <input type="submit" class="btn btn-full btn-drd" value="{{ butt }}"><br>
+          {{/if}}
+        </li>
+        {{/each}}
+      </ol>
+      {{/if}}
 
       {{#if sidebar}}
       </div>
