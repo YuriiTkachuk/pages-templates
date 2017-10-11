@@ -6,13 +6,13 @@
 
 body {
   background-color:#ffffff;
-  font-family:arial,helvetica;
+  font-family: 'Lora', serif;
 }
 
 h1 {
   padding:0px 0px 10px 0px;
   font-size:1.80em;
-  font-family:arial,helvetica;
+  font-family: 'Lora', serif;
   color:#3f2845;
   font-weight:bold;
 }
@@ -28,7 +28,7 @@ h2 {
 h3 {
   padding:0px 0px 10px 0px;
   font-size:1.40em;
-  font-family:arial,helvetica;
+  font-family: 'Lora', serif;
   color:#3f2845;
   font-weight:bold;
 }
@@ -36,7 +36,7 @@ h3 {
 .justify {
   text-align: justify;
   font-size:1.1em;
-  font-family:arial,helvetica;
+  font-family: 'Lora', serif;
   color:#333333;
   line-height:22px;
 }
@@ -44,7 +44,7 @@ h3 {
 p {
   padding:0px 0px 10px 0px;
   font-size:1.1em;
-  font-family:arial,helvetica;
+  font-family: 'Lora', serif;
   color:#333333;
   line-height:22px;
 }
@@ -52,19 +52,19 @@ p {
 a {
   color:#2405c6;
   text-decoration:underline;
-  font-family:arial,helvetica;
+  font-family: 'Lora', serif;
 }
 
 a:hover {
   color:#c60569;
   text-decoration:underline;
-  font-family:arial,helvetica;
+  font-family: 'Lora', serif;
 }
 
 #NavInner p {
   padding:20px 0px 0px 2px;
   font-size:1.1em;
-  font-family:arial,helvetica;
+  font-family: 'Lora', serif;
   color:#111111;
   line-height:22px;
   text-align:center;
@@ -73,30 +73,30 @@ a:hover {
 #NavInner a {
   color:#ffffff;
   text-decoration:none;
-  font-family:arial,helvetica;
+  font-family: 'Lora', serif;
 }
 
 #NavInner a:hover {
   color:#111111;
   text-decoration:underline;
-  font-family:arial,helvetica;
+  font-family: 'Lora', serif;
 }
 
 ol {
   margin:0 0 15px 25px;
-  font-family:arial,helvetica;
+  font-family: 'Lora', serif;
 }
 
 ul {
   margin:0 0 15px 25px;
-  font-family:arial,helvetica;
+  font-family: 'Lora', serif;
 }
 
 li {
   font-size:0.80em;
   margin-bottom:8px;
   color:#ffffff;
-  font-family:arial,helvetica;
+  font-family: 'Lora', serif;
   line-height:20px;
 }
 

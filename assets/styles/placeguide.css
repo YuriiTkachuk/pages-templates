@@ -7,27 +7,27 @@
   body
   {
     background-color:#ffffff;
-    font-family:arial,helvetica;
+    font-family: 'Lora', serif;
   }
 
   h1 {
     padding:0px 0px 10px 0px;
     font-size:1.80em;
-    font-family:arial,helvetica;
+    font-family: 'Lora', serif;
     color:#006633;
     font-weight:bold;
   }
   h2 {
     padding:0px 0px 10px 0px;
     font-size:1.40em;
-    font-family:arial,helvetica;
+    font-family: 'Lora', serif;
     color:#006633;
     font-weight:bold;
   }
   h3 {
     padding:0px 0px 10px 0px;
     font-size:1.40em;
-    font-family:arial,helvetica;
+    font-family: 'Lora', serif;
     color:#006633;
     font-weight:bold;
   }
@@ -35,13 +35,13 @@
   p {
     padding:0px 0px 10px 0px;
     font-size: 15px;
-    font-family:arial,helvetica;
+    font-family: 'Lora', serif;
     color:#462706;
     line-height:22px;
   }
   a {
     color: black;
-    font-family:arial,helvetica;
+    font-family: 'Lora', serif;
   }
 
   a.texted {
@@ -56,17 +56,17 @@
 
   ol {
     margin:0 0 15px 25px;
-    font-family:arial,helvetica;
+    font-family: 'Lora', serif;
   }
   ul {
     margin:0 0 15px 25px;
-    font-family:arial,helvetica;
+    font-family: 'Lora', serif;
   }
   li {
     font-size:0.80em;
     margin-bottom:8px;
     color:#ffffff;
-    font-family:arial,helvetica;
+    font-family: 'Lora', serif;
     line-height:20px;
   }
 

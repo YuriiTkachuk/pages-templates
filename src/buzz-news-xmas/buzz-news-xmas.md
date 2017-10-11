@@ -13,7 +13,7 @@ _28.01.2017_
 
 Wales is one of the four countries that make up the United Kingdom of Great Britain and Northern Ireland and the Christmas celebrations here are similar to those in the rest of the UK. Christmas is celebrated on December 25.
 
-<left>![](../../assets/images/buzz-news-xmas-img4.jpg)</leftt>
+<left>![](../../assets/images/buzz-news-xmas-img4.jpg)</left>
 
 In the days leading up to Christmas, a small tree is beautifully decorated with colourful lights and trinkets and set up inside the house. Paper decorations of various colours and sprigs of mistletoe and holly are used to adorn the interiors of houses. Mistletoe is believed to protect the home from evil and holly stands as a symbol of eternal life.
 
