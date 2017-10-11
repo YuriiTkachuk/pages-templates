@@ -2,7 +2,7 @@ var glob    = require("glob");
 var path    = require("path");
 var express = require("express");
 var app     = express();
-var port    = process.env.PORT || 4000;
+var port    = process.env.PORT || 3741;
 
 app.use("/assets", express.static(__dirname + "/assets"));
 app.use("/node_modules", express.static(__dirname + "/node_modules"));
