@@ -2,26 +2,8 @@
 layout: news.html
 title: The Weekly | Capital Punishment
 footer: © theweekly
-title_comment: Popular this week
 text_path: Opinion / Deathsentence
 logo_path: ../../assets/images/Deathsentence-Logo.gif
-comments: [
-  {
-     comment: "How free speech can get you fired"
-  },
-  {
-     comment: "This week at the movies"
-  },
-  {
-     comment: "Need to know: The official Google tablet"
-  },
-  {
-     comment: "Animated guide to hurricanes"
-  },
-  {
-    comment: "Jobseeking before you graduate"
-  },
-]
 button: [
   {
     type_button: "News",
