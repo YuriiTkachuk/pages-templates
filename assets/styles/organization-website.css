@@ -3,6 +3,7 @@
 }
 
 body {
+  max-width: 100%;
   margin:0 auto;
   font-family: 'Lora', serif;
 }
@@ -37,7 +38,7 @@ img {
 }
 
 .nav {
-  padding-left: 25px;
+  padding-left: 3.2rem;
 }
 
 .img-container {
@@ -100,13 +101,15 @@ img {
   .sidebar {
     margin: 1.3rem;
   }
+  p strong {
+    font-size: 1rem;
+  }
 }
 
 input {
   width: 200px;
   margin-bottom: 10px;
 }
-
 
 .declaimer {
   font-size: 0.75rem;
@@ -124,12 +127,6 @@ a:active a:not(nav-item) {
 
 .text {
   white-space: pre;
-}
-
-@media (max-width: 767px) {
-  p strong {
-    font-size: 1rem;
-  }
 }
 
 @media (max-width: 576px) {

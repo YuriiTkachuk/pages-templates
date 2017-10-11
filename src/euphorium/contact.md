@@ -4,11 +4,9 @@ title: EUPHORIUM
 name: EUPHORIUM
 image-path: ../../assets/images/euphorium-logo.png
 nav: [ About us, Events&Tickets, Contact us]
-sidebar: true
+sidebar: false
 label: "Where to find us"
-title_inform: Where to find us
-inform: [ "Tel: 020 7460 4459", "Email: davidmanso@nottinghillartsclub.com", "Address:
-Euphorium Arts Club, 21 Clissold Avenue, London, N16 9AR", "Tube: Arsenal (10 min)", "Bus: 28, 52, 9 4, 148, 328, 390" ]
+title_inform:
 ---
 ![](../../assets/images/euphorium-1.jpg)
 
@@ -20,3 +18,15 @@ If it’s your  birthday  or any other  special occasion  and you want to book o
 For any  lost property  please get in touch with us at – [lostandfound@euphori.um](mailto:lostandfound@euphori.um)
 
 We also want to hear  your music  at – [sendusyertunes@euphori.um](mailto:sendusyertunes@euphori.um)
+
+##### **Where to find us**
+
+Tel: 020 7460 4459
+
+Email: davidmanso@nottinghillartsclub.com
+
+Address: Euphorium Arts Club, 21 Clissold Avenue, London, N16 9AR
+
+Tube: Arsenal (10 min)
+
+Bus: 28, 52, 9 4, 148, 328, 390
